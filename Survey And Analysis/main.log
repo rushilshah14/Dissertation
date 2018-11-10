@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  10 NOV 2018 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  10 NOV 2018 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -93,6 +93,10 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen107
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
+)
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
 )
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
@@ -247,19 +251,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 {/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
-images/TuosLogo.png>] (./declaration/declaration.tex)
+images/TuosLogo.png>] [1] (./declaration/declaration.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-(./abstract/abstract.tex)
+[2] (./abstract/abstract.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-(./abstract/acknowledgements.tex)
+[3] (./abstract/acknowledgements.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-(./main.toc)
+[4] (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -268,6 +272,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [6
 
 ]
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2016/03/15
+)
 Chapter 1.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -277,24 +284,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] (./main.aux) ) 
+] [2
+
+]
+Chapter 2.
+[3] [4
+
+]
+Chapter 3.
+
+Overfull \hbox (3.71643pt too wide) in paragraph at lines 58--58
+|\OT1/cmr/bx/n/24.88 Chapter 3. Re-quire-ment And Anal-
+ []
+
+[5] [6
+
+]
+Chapter 4.
+[7] [8
+
+]
+Chapter 5.
+
+Overfull \hbox (3.25278pt too wide) in paragraph at lines 62--62
+|\OT1/cmr/bx/n/24.88 Chapter 5. Con-clu-sion And Project
+ []
+
+[9] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2507 strings out of 494091
- 36322 string characters out of 6163523
- 102675 words of memory out of 5000000
- 6145 multiletter control sequences out of 15000+600000
+ 2524 strings out of 494091
+ 36796 string characters out of 6163523
+ 102793 words of memory out of 5000000
+ 6154 multiletter control sequences out of 15000+600000
  6713 words of font info for 24 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  41i,10n,43p,550b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsl12.pfb>
-Output written on main.pdf (7 pages, 87104 bytes).
+</usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsl12.pfb>
+Output written on main.pdf (19 pages, 94926 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
