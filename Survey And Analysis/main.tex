@@ -1,13 +1,55 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,12pt]{book}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx,subfiles,url}
+\usepackage{graphicx,subfiles,url,fancyhdr,setspace,titlesec}
+\usepackage[margin=1.2in]{geometry}
+
+
 
 \begin{document}
 
-\subfile{title/title}
-\pagebreak
-\subfile{declaration/declaration}
-\pagebreak
+
+ 
+\pagestyle{plain}
+% -------- Roman Pages ---------
+\frontmatter
+
+\newcommand{\firstpage}{Title Page}
+\addcontentsline{toc}{chapter}{\firstpage}
+\subfile{title/title}\pagebreak
+
+\newcommand{\declaration}{Declaration}
+\addcontentsline{toc}{chapter}{\declaration}
+\subfile{declaration/declaration}\pagebreak
+	
+
+\newcommand{\abstract}{Abstract}
+\addcontentsline{toc}{chapter}{\abstract}
+\subfile{abstract/abstract}\pagebreak
+	
+	
+\newcommand{\acknowledgements}{Acknowledgements}
+\addcontentsline{toc}{chapter}{\acknowledgements}
+\subfile{abstract/acknowledgements}\pagebreak
+
+	
+%-------- Table of contents ---------
+
+\tableofcontents
+
+%-------- Chapter Settings ---------
+
+\mainmatter
+\fancypagestyle{plain}{\fancyfoot[C]{\thepage}}
+\pagestyle{plain}
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+% this alters "before" spacing (the second length argument) to 0
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+%-------- Chapters begin ---------
+\chapter{Introduction}
+
 %\bibliographystyle{ieeetr}
 %\bibliography{references}
 
