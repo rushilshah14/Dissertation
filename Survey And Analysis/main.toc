@@ -3,7 +3,12 @@
 \contentsline {chapter}{Abstract}{iii}
 \contentsline {chapter}{Acknowledgements}{iv}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Literature Survey}{3}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {section}{\numberline {1.2}Problem}{1}
+\contentsline {section}{\numberline {1.3}Aims And Objectives}{1}
+\contentsline {section}{\numberline {1.4}Report Summary}{2}
+\contentsline {chapter}{\numberline {2}Literature Review}{3}
+\contentsline {section}{\numberline {2.1}Introduction}{3}
 \contentsline {chapter}{\numberline {3}Requirement And Analysis}{5}
 \contentsline {chapter}{\numberline {4}Progress}{7}
 \contentsline {chapter}{\numberline {5}Conclusion And Project Plan}{9}

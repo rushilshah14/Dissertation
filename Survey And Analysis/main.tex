@@ -52,8 +52,18 @@
 
 %-------- Chapters begin ---------
 \chapter{Introduction}
+	\section{Background}
+		\subfile{chapter1/background}
+	\section{Problem}
+		\subfile{chapter1/problem}
+	\section{Aims And Objectives}
+		\subfile{chapter1/technique}
+	\section{Report Summary}
+		\subfile{chapter1/summary}
 
-\chapter{Literature Survey}
+\chapter{Literature Review}
+	\section{Introduction}
+	\subfile{chapter2/introduction}
 
 \chapter{Requirement And Analysis}
 
@@ -61,8 +71,10 @@
 
 \chapter{Conclusion And Project Plan}
 
-%\bibliographystyle{ieeetr}
-%\bibliography{references}
+\bibliographystyle{ieeetr}
+\renewcommand{\bibname}{References}
+\bibliography{references/references}
+
 
 \end{document}
 
