@@ -16,28 +16,29 @@
 \newcommand{\firstpage}{Title Page}
 \addcontentsline{toc}{chapter}{\firstpage}
 \subfile{title/title}\pagebreak
-\NewPage
+%\NewPage
 
 
 
 \newcommand{\declaration}{Declaration}
 \addcontentsline{toc}{chapter}{\declaration}
 \subfile{declaration/declaration}\pagebreak
-\NewPage
+%\NewPage
 
 \newcommand{\abstract}{Abstract}
 \addcontentsline{toc}{chapter}{\abstract}
 \subfile{abstract/abstract}\pagebreak
-\NewPage
+%\NewPage
 	
 \newcommand{\acknowledgements}{Acknowledgements}
 \addcontentsline{toc}{chapter}{\acknowledgements}
 \subfile{abstract/acknowledgements}\pagebreak
-\NewPage
+%\NewPage
 	
 %-------- Table of contents ---------
 
 \tableofcontents
+\listoffigures
 
 %-------- Chapter Settings ---------
 
@@ -63,13 +64,21 @@
 
 \chapter{Literature Review}
 	\section{Introduction}
-	\subfile{chapter2/introduction}
+		\subfile{chapter2/introduction}
+	\section{Web-Based, Smart Application Or Blockchain?}
+		\subfile{chapter2/webvsapp}
+	\section{Web Based System}
+		\subfile{chapter2/websystem}
+	\section{Django}
+			\subfile{chapter2/django}
+		
+	
 
-\chapter{Requirement And Analysis}
-
-\chapter{Progress}
-
-\chapter{Conclusion And Project Plan}
+%\chapter{Requirement And Analysis}
+%
+%\chapter{Progress}
+%
+%\chapter{Conclusion And Project Plan}
 
 \bibliographystyle{ieeetr}
 \renewcommand{\bibname}{References}

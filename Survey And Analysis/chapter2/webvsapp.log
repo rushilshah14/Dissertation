@@ -1,12 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  11 NOV 2018 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  11 NOV 2018 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**webvsapp.tex
+(./webvsapp.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 22 language(s) loaded.
-(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/book.cls
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
+Preamble taken from file `../main.tex'
+(../main.tex (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -123,27 +126,24 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen116
 \Gm@layoutvoffset=\dimen117
 \Gm@dimlist=\toks20
-)
-(./main.aux
+)))
+(./webvsapp.aux)
+\openout1 = `webvsapp.aux'.
 
-LaTeX Warning: Label `fig:my-label' multiply defined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
-)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
- (/usr/local/texlive/2018basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2018basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen118
@@ -211,7 +211,7 @@ e
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
@@ -241,233 +241,38 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./title/title.tex
-<images/TuosLogo.png, id=1, 74.9199pt x 72.0291pt>
-File: images/TuosLogo.png Graphic file (type png)
-<use images/TuosLogo.png>
-Package pdftex.def Info: images/TuosLogo.png  used on input line 17.
-(pdftex.def)             Requested size: 149.83942pt x 144.0578pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1
+LaTeX Warning: Citation `vergeblockchain' on page 1 undefined on input line 7.
 
 
-{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
-images/TuosLogo.png>] (./declaration/declaration.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `morephones' on page 1 undefined on input line 9.
 
- [2]
-(./abstract/abstract.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-(./abstract/acknowledgements.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `morewebsites' on page 1 undefined on input line 11.
 
- [4]
-(./main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-)
-\tf@toc=\write3
-\openout3 = `main.toc'.
-
- [5
-
-] [6
-
-] (./main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
-
- [7] [8
+[1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(/usr/local/texlive/2018basic/texmf-dist/tex/latex/titlesec/block.tss
-File: block.tss 2016/03/15
-)
-Chapter 1.
-(./chapter1/background.tex) (./chapter1/problem.tex) (./chapter1/technique.tex)
+(./webvsapp.aux)
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1
-
-] (./chapter1/summary.tex) [2]
-Chapter 2.
-(./chapter2/introduction.tex)
-Overfull \hbox (12.71942pt too wide) in paragraph at lines 68--68
-|[]\OT1/cmr/bx/n/17.28 Web-Based, Smart Ap-pli-ca-tion Or Blockchain?| 
- []
-
-(./chapter2/webvsapp.tex) (./chapter2/websystem.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3
-
-]
-<images/mostLanguagesUsed.png, id=44, 437.13312pt x 257.46187pt>
-File: images/mostLanguagesUsed.png Graphic file (type png)
-<use images/mostLanguagesUsed.png>
-Package pdftex.def Info: images/mostLanguagesUsed.png  used on input line 12.
-(pdftex.def)             Requested size: 262.28189pt x 154.4783pt.
-<images/languageAttacks.png, id=45, 327.2225pt x 390.45876pt>
-File: images/languageAttacks.png Graphic file (type png)
-<use images/languageAttacks.png>
-Package pdftex.def Info: images/languageAttacks.png  used on input line 21.
-(pdftex.def)             Requested size: 229.05418pt x 273.31926pt.
-
-[4 <./images/mostLanguagesUsed.png> <./images/languageAttacks.png>])
-(./chapter2/django.tex) (./main.bbl [5] [6
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-[]\OT1/cmr/m/n/12 W. Se-cu-rity, ``2014 web-site se-cu-rity statis-tics re-port
-.''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/cmtt/m/n/12 http : / / info . whitehatsec . com / rs / whitehatsecurity / 
-images /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-[]\OT1/cmr/m/n/12 Django, ``The web frame-work for per-fec-tion-ists.'' $\OT1/c
-mtt/m/n/12 https : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
-[]\OT1/cmr/m/n/12 F. J. De-Mers, ``7 tech-nol-ogy trends that will dom-i-nate 2
-018.''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
-\OT1/cmtt/m/n/12 https : / / www . forbes . com / sites / jaysondemers / 2017 /
- 12 / 30 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--25
-\OT1/cmtt/m/n/12 7-[]technology-[]trends-[]that-[]will-[]dominate-[]2018 / #7e4
-e30157d76$\OT1/cmr/m/n/12 , 2017.
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 27--30
-[]\OT1/cmr/m/n/12 J. Ronzio, ``7 tech-nol-ogy trends that will dom-i-nate 2018.
-'' $\OT1/cmtt/m/n/12 https : / /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
-\OT1/cmtt/m/n/12 3 / 7 / 17091766 / blockchain-[]bitcoin-[]ethereum-[]cryptocur
-rency-[]meaning$\OT1/cmr/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
-[]\OT1/cmr/m/n/12 Z. D. Boren, ``There are of-fi-cially more mo-bile de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
-\OT1/cmr/m/n/12 vices than peo-ple in the world.'' $\OT1/cmtt/m/n/12 https : / 
-/ www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
-\OT1/cmtt/m/n/12 independent . co . uk / life-[]style / gadgets-[]and-[]tech / 
-news /
- []
-
-
-Overfull \hbox (62.54242pt too wide) in paragraph at lines 38--43
-\OT1/cmtt/m/n/12 there-[]are-[]officially-[]more-[]mobile-[]devices-[]than-[]pe
-ople-[]in-[]the-[]world-[]9780518 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
-[]\OT1/cmr/m/n/12 A. Lar-son, ``How many web-sites are there?.'' $\OT1/cmtt/m/n
-/12 https : / /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
-\OT1/cmtt/m/n/12 www . independent . co . uk / life-[]style / gadgets-[]and-[]t
-ech / news /
- []
-
-
-Overfull \hbox (62.54242pt too wide) in paragraph at lines 45--49
-\OT1/cmtt/m/n/12 there-[]are-[]officially-[]more-[]mobile-[]devices-[]than-[]pe
-ople-[]in-[]the-[]world-[]9780518 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
-[]\OT1/cmr/m/n/12 Upguard, ``Which web pro-gram-ming lan-guage is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
-\OT1/cmr/m/n/12 the most se-cure?.'' $\OT1/cmtt/m/n/12 https : / / www . upguar
-d . com / blog /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
-[]\OT1/cmr/m/n/12 Cabotsolutions, ``Django vs lar-avel: A com-par-i-son of web
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
-\OT1/cmr/m/n/12 ap-pli-ca-tion frame-works.'' $\OT1/cmtt/m/n/12 https : / / www
- . cabotsolutions . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--62
-\OT1/cmtt/m/n/12 django-[]vs-[]laravel-[]a-[]comparison-[]of-[]web-[]applicatio
-n-[]frameworks$\OT1/cmr/m/n/12 ,
- []
-
-) [7] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2602 strings out of 494091
- 37995 string characters out of 6163523
- 107873 words of memory out of 5000000
- 6190 multiletter control sequences out of 15000+600000
- 9627 words of font info for 34 fonts, out of 8000000 for 9000
+ 2491 strings out of 494091
+ 36345 string characters out of 6163523
+ 103973 words of memory out of 5000000
+ 6137 multiletter control sequences out of 15000+600000
+ 4597 words of font info for 17 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,10n,43p,911b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,4n,45p,791b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on main.pdf (15 pages, 226586 bytes).
+mr12.pfb>
+Output written on webvsapp.pdf (1 page, 25533 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

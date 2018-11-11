@@ -5,42 +5,54 @@ The style file: ieeetr.bst
 Database file #1: references/references.bib
 Warning--entry type for "ecfuni" isn't style-file defined
 --line 2 of file references/references.bib
+Warning--entry type for "djangovslaravel" isn't style-file defined
+--line 11 of file references/references.bib
+Warning--entry type for "securelanguage" isn't style-file defined
+--line 20 of file references/references.bib
 Warning--entry type for "django" isn't style-file defined
 --line 29 of file references/references.bib
 Warning--entry type for "forbestop7" isn't style-file defined
 --line 38 of file references/references.bib
 Warning--entry type for "arvr" isn't style-file defined
 --line 46 of file references/references.bib
-You've used 4 entries,
+Warning--entry type for "vergeblockchain" isn't style-file defined
+--line 54 of file references/references.bib
+Warning--entry type for "morephones" isn't style-file defined
+--line 62 of file references/references.bib
+Warning--entry type for "morewebsites" isn't style-file defined
+--line 71 of file references/references.bib
+Warning--entry type for "WhiteHatSec" isn't style-file defined
+--line 80 of file references/references.bib
+You've used 10 entries,
             1876 wiz_defined-function locations,
-            497 strings with 4072 characters,
-and the built_in function-call counts, 566 in all, are:
-= -- 56
-> -- 16
+            525 strings with 5077 characters,
+and the built_in function-call counts, 1384 in all, are:
+= -- 140
+> -- 40
 < -- 0
-+ -- 8
-- -- 4
-* -- 22
-:= -- 91
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 4
++ -- 20
+- -- 10
+* -- 52
+:= -- 213
+add.period$ -- 20
+call.type$ -- 10
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 16
-empty$ -- 73
-format.name$ -- 4
-if$ -- 141
+cite$ -- 10
+duplicate$ -- 40
+empty$ -- 181
+format.name$ -- 10
+if$ -- 351
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 10
 missing$ -- 0
-newline$ -- 19
-num.names$ -- 4
-pop$ -- 24
+newline$ -- 43
+num.names$ -- 10
+pop$ -- 60
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 12
+skip$ -- 29
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -49,7 +61,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 5
-write$ -- 42
-(There were 4 warnings)
+while$ -- 10
+width$ -- 12
+write$ -- 102
+(There were 10 warnings)
