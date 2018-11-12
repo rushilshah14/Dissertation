@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,12pt,oneside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx,subfiles,url,fancyhdr,setspace,titlesec,emptypage,}
 \usepackage{tabularx,ragged2e,booktabs,caption}
@@ -16,39 +16,40 @@
 
 \begin{document}
 
-
-
-\pagestyle{plain}
 % -------- Roman Pages ---------
 \frontmatter
+\pagestyle{plain}
+
 
 \newcommand{\firstpage}{Title Page}
+\subfile{title/title}
 \addcontentsline{toc}{chapter}{\firstpage}
-\subfile{title/title}\pagebreak
 %\NewPage
 
+\chapter*{Declaration}
+	\subfile{declaration/declaration}
+	\addcontentsline{toc}{chapter}{Declaration}
 
-
-\newcommand{\declaration}{Declaration}
-\addcontentsline{toc}{chapter}{\declaration}
-\subfile{declaration/declaration}\pagebreak
-%\NewPage
-
-\newcommand{\abstract}{Abstract}
-\addcontentsline{toc}{chapter}{\abstract}
-\subfile{abstract/abstract}\pagebreak
-%\NewPage
+\chapter*{Abstract}
+	\subfile{abstract/abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
 	
-\newcommand{\acknowledgements}{Acknowledgements}
-\addcontentsline{toc}{chapter}{\acknowledgements}
-\subfile{abstract/acknowledgements}\pagebreak
-%\NewPage
+\chapter*{Acknowledgements}
+	\subfile{abstract/acknowledgements}
+	\addcontentsline{toc}{chapter}{Acknowledgements}
+
 	
 %-------- Table of contents ---------
 
 \tableofcontents
+
 \listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+
 \listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
 
 %-------- Chapter Settings ---------
 

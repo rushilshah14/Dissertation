@@ -16,39 +16,39 @@
 
 \begin{document}
 
-
-
-\pagestyle{plain}
 % -------- Roman Pages ---------
 \frontmatter
 
+
 \newcommand{\firstpage}{Title Page}
+\subfile{title/title}
 \addcontentsline{toc}{chapter}{\firstpage}
-\subfile{title/title}\pagebreak
 %\NewPage
 
+\chapter*{Declaration}
+	\subfile{declaration/declaration}
+	\addcontentsline{toc}{chapter}{Declaration}
 
-
-\newcommand{\declaration}{Declaration}
-\addcontentsline{toc}{chapter}{\declaration}
-\subfile{declaration/declaration}\pagebreak
-%\NewPage
-
-\newcommand{\abstract}{Abstract}
-\addcontentsline{toc}{chapter}{\abstract}
-\subfile{abstract/abstract}\pagebreak
-%\NewPage
+\chapter*{Abstract}
+	\subfile{abstract/abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
 	
-\newcommand{\acknowledgements}{Acknowledgements}
-\addcontentsline{toc}{chapter}{\acknowledgements}
-\subfile{abstract/acknowledgements}\pagebreak
-%\NewPage
+\chapter*{Acknowledgements}
+	\subfile{abstract/acknowledgements}
+	\addcontentsline{toc}{chapter}{Acknowledgements}
+
 	
 %-------- Table of contents ---------
 
 \tableofcontents
+
 \listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+
 \listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
 
 %-------- Chapter Settings ---------
 
@@ -77,7 +77,7 @@
 		\subfile{chapter2/introduction}
 	\section{Web-Based, Smart Application Or Blockchain?}
 		\subfile{chapter2/webvsapp}
-	\section{Web Based System}
+	\section{Web-Based System}
 		\subfile{chapter2/websystem}
 	\section{Django}
 			\subfile{chapter2/django}
