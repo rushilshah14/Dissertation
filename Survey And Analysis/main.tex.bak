@@ -77,7 +77,7 @@
 		\subfile{chapter2/introduction}
 	\section{Web-Based, Smart Application Or Blockchain?}
 		\subfile{chapter2/webvsapp}
-	\section{Web-Based System}
+	\section{Web Based System}
 		\subfile{chapter2/websystem}
 	\section{Django}
 			\subfile{chapter2/django}

@@ -1,14 +1,17 @@
-\contentsline {chapter}{Title Page}{i}
-\contentsline {chapter}{Declaration}{ii}
-\contentsline {chapter}{Abstract}{iii}
-\contentsline {chapter}{Acknowledgements}{iv}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Background}{1}
-\contentsline {section}{\numberline {1.2}Problem}{1}
-\contentsline {section}{\numberline {1.3}Aims And Objectives}{1}
-\contentsline {section}{\numberline {1.4}Report Summary}{2}
-\contentsline {chapter}{\numberline {2}Literature Review}{3}
-\contentsline {section}{\numberline {2.1}Introduction}{3}
-\contentsline {section}{\numberline {2.2}Web-Based, Smart Application Or Blockchain?}{3}
-\contentsline {section}{\numberline {2.3}Web Based System}{4}
-\contentsline {section}{\numberline {2.4}Django}{5}
+\contentsline {chapter}{Title Page}{i}{Doc-Start}
+\contentsline {chapter}{Declaration}{ii}{Doc-Start}
+\contentsline {chapter}{Abstract}{iii}{Doc-Start}
+\contentsline {chapter}{Acknowledgements}{iv}{Doc-Start}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problem}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Aims And Objectives}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Report Summary}{2}{section.1.4}
+\contentsline {chapter}{\numberline {2}Literature Review}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Web-Based, Smart Application Or Blockchain?}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Web-Based System}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Django}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Django vs Laravel}{5}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Django vs Ruby on Rails}{6}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Summary}{6}{subsection.2.4.3}

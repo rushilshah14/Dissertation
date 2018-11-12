@@ -4,7 +4,7 @@
 \begin{document}
 \raggedright
 
-Web-Based systems are spread into various different languages with both positives and negatives. Java, .NET, PHP, ASP, Python, Ruby, ColdFusion are just a few of the most used language examples for web systems\cite{securelanguage}.
+Web based systems are spread into various different languages with both positives and negatives. Java, .NET, PHP, ASP, Python, Ruby, ColdFusion are just a few of the most used language examples for web systems\cite{securelanguage}.
 
 
 \begin{figure}[!htb]
@@ -17,7 +17,7 @@ Web-Based systems are spread into various different languages with both positive
 With all these languages, the highest priority would be to find a language which has Cyber Security as one of its strong points. .NET, Java, ASP, PHP all come with a high number of vulnerabilities as they are highly used\cite{securelanguage}. 
 
 \begin{figure}[!htb]
-        \center{\includegraphics[scale=0.75]
+        \center{\includegraphics[scale=0.7]
         {images/languageAttacks.png}}
         \caption{\label{fig:my-label} Security Vulnerabilites in ASP, PHP, Perl, Java, .NET and ColdFusion - WhiteHatSec\cite{WhiteHatSec}}
       \end{figure}
