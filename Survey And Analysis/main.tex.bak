@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,12pt,oneside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx,subfiles,url,fancyhdr,setspace,titlesec,emptypage,}
 \usepackage{tabularx,ragged2e,booktabs,caption}
@@ -18,6 +18,7 @@
 
 % -------- Roman Pages ---------
 \frontmatter
+\pagestyle{plain}
 
 
 \newcommand{\firstpage}{Title Page}
@@ -41,6 +42,7 @@
 %-------- Table of contents ---------
 
 \tableofcontents
+\addcontentsline{toc}{chapter}{Table of Contents}
 
 \listoffigures
 \addcontentsline{toc}{chapter}{List of Figures}
