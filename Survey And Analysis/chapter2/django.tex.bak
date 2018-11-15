@@ -22,11 +22,11 @@ Both are popular web frameworks, Django more than Ruby on Rails for professional
 Based on JetBrains research\cite{pythonresearch2018}\cite{rubyresearch2018} we know that Python is a really popular language compared to Ruby and it is highly used for Data Analysis and Web Development among various other things while developers use a mixture Ruby Versions which makes future updates to the code harder.  \\[4mm]
 
 
-\textbf{The table below shows the differences between Django and Ruby on Rails}
+\textbf{The table \ref{tab:djangovsruby} shows the differences between Django and Ruby on Rails}
 
 \bgroup
 \def\arraystretch{1.2}%  1 is the default, change whatever you need
-\begin{table}[ht!]
+\begin{table}[H]
 \begin{tabular}{|l|l|l|}
 \hline
 & Django                                                                                                                                           & Ruby on Rails                                                                                                     \\ \hline
@@ -39,11 +39,11 @@ Started By
 & \begin{tabular}[l]{@{}l@{}}- Django-Started in 2003 by Adrian \\ Holovaty and Simon Willison\end{tabular}                                           
 & \begin{tabular}[l]{@{}l@{}}- Ruby on Rails-Started in 2005 \\ by David Heinemeier Hansson\end{tabular}              \\ \hline
 \end{tabular}
-\captionof{table}{Django vs Ruby on Rails Pros and Cons \cite{djangovsrails}}\label{tab:title} 
+\captionof{table}{Django vs Ruby on Rails Pros and Cons \cite{djangovsrails}}\label{tab:djangovsruby} 
 \end{table}
 \egroup
 
 \subsection{Summary}
-Django, compared to various other web frameworks has 
+Django, compared to various other web frameworks, is a good environment to use for the Extenuating Circumstance Forms because it provides security we are looking for, avoids vulnerabilities and is really fast when accessing and using with SQLite. Even with small or large numbers of data, it will be able to process it really quickly. Upgrading the system at a later stage will also be simple as Python is a highly developed language. 
 
 \end{document}
