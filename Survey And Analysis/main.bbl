@@ -81,4 +81,9 @@ JetBrains, ``Jetbrains - ruby.''
   \url{https://www.jetbrains.com/research/devecosystem-2018/ruby/}, 2018.
 \newblock Accessed: 11.11.2018.
 
+\bibitem{djangoTesting}
+Django, ``Documentation - writing and running tests.''
+  \url{https://docs.djangoproject.com/en/2.1/topics/testing/overview/}, 2018.
+\newblock Accessed: 20.11.2018.
+
 \end{thebibliography}

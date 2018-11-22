@@ -1,0 +1,9 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+\raggedright
+
+Being able to have all research in hand i now plan to start working on the Django web portal prototype. This will require learing of Django and building a website from scratch. Running tests is an important task and will be completed along with the building of the prototype.
+
+\end{document}

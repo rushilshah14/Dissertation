@@ -123,6 +123,16 @@ howpublished={\url{http://info.whitehatsec.com/rs/whitehatsecurity/images/statsr
 
 }
 
+@online{djangoTesting,
+    author = "Django",
+    title = "Documentation - Writing and running tests",
+    year = "2018",
+    note = "Accessed: 20.11.2018",
+    howpublished={\url{https://docs.djangoproject.com/en/2.1/topics/testing/overview/}},
+
+}
+
+
 
 
 

@@ -2,9 +2,9 @@
 \contentsline {chapter}{Declaration}{ii}{chapter*.1}
 \contentsline {chapter}{Abstract}{iii}{chapter*.2}
 \contentsline {chapter}{Acknowledgements}{iv}{chapter*.3}
-\contentsline {chapter}{Table of Contents}{v}{chapter*.4}
-\contentsline {chapter}{List of Figures}{vi}{chapter*.5}
-\contentsline {chapter}{List of Tables}{vii}{chapter*.6}
+\contentsline {chapter}{Table of Contents}{vi}{chapter*.4}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.5}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem}{1}{section.1.2}
@@ -20,3 +20,14 @@
 \contentsline {subsection}{\numberline {2.4.1}Django vs Laravel}{5}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Django vs Ruby on Rails}{6}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Summary}{7}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Requirement \& Analysis}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Process}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Testing}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}SQL Queries}{9}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Cross Site Scripting}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Automated Testing}{9}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Progress, Conclusion \& Project Plan}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{10}{section.4.1}
+\contentsline {section}{\numberline {4.2}Achievements}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}Plan Of Work}{10}{section.4.3}

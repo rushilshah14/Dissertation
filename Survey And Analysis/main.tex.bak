@@ -86,13 +86,22 @@
 	\section{Django}
 			\subfile{chapter2/django}
 		
-	
-
-%\chapter{Requirement And Analysis}
-%
-%\chapter{Progress}
-%
-%\chapter{Conclusion And Project Plan}
+\chapter{Requirement \& Analysis}
+	\section{Introduction}
+		\subfile{chapter3/introduction}
+	\section{Process}
+		\subfile{chapter3/process}
+	\section{Testing}
+		\subfile{chapter3/testing}
+		
+\chapter{Progress, Conclusion \& Project Plan}
+	\section{Introduction}
+		\subfile{chapter4/Introduction}
+	\section{Achievements}
+		\subfile{chapter4/achievements}
+	\section{Plan Of Work}
+		\subfile{chapter4/planofwork}
+		
 
 \bibliographystyle{ieeetr}
 \renewcommand{\bibname}{References}

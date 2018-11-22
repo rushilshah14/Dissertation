@@ -1,0 +1,18 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+\raggedright
+
+Testing is an important aspect of knowing the functionality is as required. In this system we can carry out testing in various different elements to be sure that the system is how we expect it. 
+
+\subsection{SQL Queries}
+Since data will be stored into the database, we can use RAW SQL Queries to test if a certain field in the software is giving access to the database without checking the entry first. For example, if a student fills a RAW SQL Query instead of his details then the resulting should be an error and should not display the data being retrieved from the database. 
+
+\subsection{Cross Site Scripting}
+Cross Site Scripting (XSS) is a malicious method of injecting scripts into the system which then target other users. These scripts can be used with JavaScript which will be used when designing the portal. Testing this will make sure that the portal is secure from outside attacks. 
+
+\subsection{Automated Testing}
+Django allows writing of test code (unittest)\cite{djangoTesting} which then runs as a normal user( in our case) and checks if the response is exactly how we need it to be. For example if a student clicks on "Submit Form" then it should store the form in the database. The unittest will be able to test if the data is actually being stored in the database. 
+
+\end{document}
