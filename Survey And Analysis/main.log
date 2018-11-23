@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  22 NOV 2018 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  23 NOV 2018 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,7 +434,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 \openout3 = `main.out'.
 
  (./title/title.tex
-<images/TuosLogo.png, id=136, 74.9199pt x 72.0291pt>
+<images/TuosLogo.png, id=144, 74.9199pt x 72.0291pt>
 File: images/TuosLogo.png Graphic file (type png)
 <use images/TuosLogo.png>
 Package pdftex.def Info: images/TuosLogo.png  used on input line 17.
@@ -500,7 +500,7 @@ Overfull \hbox (12.71942pt too wide) in paragraph at lines 82--82
  []
 
 (./chapter2/webvsapp.tex) (./chapter2/websystem.tex
-<images/webserverdesign.png, id=250, 1003.75pt x 501.875pt>
+<images/webserverdesign.png, id=260, 1003.75pt x 501.875pt>
 File: images/webserverdesign.png Graphic file (type png)
 <use images/webserverdesign.png>
 Package pdftex.def Info: images/webserverdesign.png  used on input line 11.
@@ -508,19 +508,19 @@ Package pdftex.def Info: images/webserverdesign.png  used on input line 11.
  [3
 
 ]
-<images/mostLanguagesUsed.png, id=262, 437.13312pt x 257.46187pt>
+<images/mostLanguagesUsed.png, id=272, 437.13312pt x 257.46187pt>
 File: images/mostLanguagesUsed.png Graphic file (type png)
 <use images/mostLanguagesUsed.png>
 Package pdftex.def Info: images/mostLanguagesUsed.png  used on input line 24.
 (pdftex.def)             Requested size: 262.28189pt x 154.4783pt.
-<images/languageAttacks.png, id=266, 327.2225pt x 390.45876pt>
+<images/languageAttacks.png, id=276, 327.2225pt x 390.45876pt>
 File: images/languageAttacks.png Graphic file (type png)
 <use images/languageAttacks.png>
 Package pdftex.def Info: images/languageAttacks.png  used on input line 33.
 (pdftex.def)             Requested size: 245.41626pt x 292.84334pt.
  [4 <./images/webserverdesign.png> <./images/mostLanguagesUsed.png>]) (./chapte
 r2/django.tex [5 <./images/languageAttacks.png>]
-<images/djangovslaravelspeeds.png, id=287, 397.485pt x 275.52937pt>
+<images/djangovslaravelspeeds.png, id=297, 397.485pt x 275.52937pt>
 File: images/djangovslaravelspeeds.png Graphic file (type png)
 <use images/djangovslaravelspeeds.png>
 Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
@@ -534,7 +534,7 @@ Overfull \hbox (17.33139pt too wide) in paragraph at lines 30--42
 [6 <./images/djangovslaravelspeeds.png>]) [7]
 Chapter 3.
 (./chapter3/introduction.tex) (./chapter3/process.tex
-<images/portal1.png, id=310, 1003.75pt x 702.625pt>
+<images/portal1.png, id=320, 1003.75pt x 702.625pt>
 File: images/portal1.png Graphic file (type png)
 <use images/portal1.png>
 Package pdftex.def Info: images/portal1.png  used on input line 13.
@@ -545,7 +545,7 @@ Package pdftex.def Info: images/portal1.png  used on input line 13.
 Chapter 4.
 (./chapter4/Introduction.tex) (./chapter4/achievements.tex)
 (./chapter4/planofwork.tex
-<images/Gantt.png, id=324, 673.51625pt x 160.6pt>
+<images/Gantt.png, id=334, 673.51625pt x 160.6pt>
 File: images/Gantt.png Graphic file (type png)
 <use images/Gantt.png>
 Package pdftex.def Info: images/Gantt.png  used on input line 12.
@@ -689,21 +689,21 @@ Underfull \hbox (badness 1565) in paragraph at lines 85--88
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1301CBC9B380B3C03E03529BB2FA3EF8;1969.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+(rerunfilecheck)             Checksum: 10175526E54FBDAE71D0EF96357BA4B8;2085.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 7540 strings out of 494091
- 116360 string characters out of 6163523
+ 7543 strings out of 494091
+ 116407 string characters out of 6163523
  210501 words of memory out of 5000000
- 10980 multiletter control sequences out of 15000+600000
+ 10982 multiletter control sequences out of 15000+600000
  9627 words of font info for 34 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  36i,14n,43p,917b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -713,10 +713,10 @@ mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb>
-Output written on main.pdf (20 pages, 492013 bytes).
+Output written on main.pdf (20 pages, 492390 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 

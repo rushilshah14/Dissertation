@@ -104,8 +104,10 @@
 		
 
 \bibliographystyle{ieeetr}
-\renewcommand{\bibname}{References}
+\renewcommand{\bibname}{Bibliography}
 \bibliography{references/references}
+	\addcontentsline{toc}{chapter}{Bibliography}
+
 
 
 \end{document}
