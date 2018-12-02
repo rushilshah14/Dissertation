@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  23 NOV 2018 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  2 DEC 2018 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,7 +434,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 \openout3 = `main.out'.
 
  (./title/title.tex
-<images/TuosLogo.png, id=144, 74.9199pt x 72.0291pt>
+<images/TuosLogo.png, id=160, 74.9199pt x 72.0291pt>
 File: images/TuosLogo.png Graphic file (type png)
 <use images/TuosLogo.png>
 Package pdftex.def Info: images/TuosLogo.png  used on input line 17.
@@ -499,63 +499,74 @@ Overfull \hbox (12.71942pt too wide) in paragraph at lines 82--82
 |[]\OT1/cmr/bx/n/17.28 Web-Based, Smart Ap-pli-ca-tion Or Blockchain?| 
  []
 
-(./chapter2/webvsapp.tex) (./chapter2/websystem.tex
-<images/webserverdesign.png, id=260, 1003.75pt x 501.875pt>
+(./chapter2/webvsapp.tex) [3
+
+] (./chapter2/websystem.tex
+<images/webserverdesign.png, id=292, 1003.75pt x 501.875pt>
 File: images/webserverdesign.png Graphic file (type png)
 <use images/webserverdesign.png>
 Package pdftex.def Info: images/webserverdesign.png  used on input line 11.
 (pdftex.def)             Requested size: 250.93689pt x 125.46843pt.
- [3
-
-]
-<images/mostLanguagesUsed.png, id=272, 437.13312pt x 257.46187pt>
+<images/mostLanguagesUsed.png, id=297, 437.13312pt x 257.46187pt>
 File: images/mostLanguagesUsed.png Graphic file (type png)
 <use images/mostLanguagesUsed.png>
 Package pdftex.def Info: images/mostLanguagesUsed.png  used on input line 24.
 (pdftex.def)             Requested size: 262.28189pt x 154.4783pt.
-<images/languageAttacks.png, id=276, 327.2225pt x 390.45876pt>
+ [4 <./images/webserverdesign.png>]
+<images/languageAttacks.png, id=308, 327.2225pt x 390.45876pt>
 File: images/languageAttacks.png Graphic file (type png)
 <use images/languageAttacks.png>
 Package pdftex.def Info: images/languageAttacks.png  used on input line 33.
 (pdftex.def)             Requested size: 245.41626pt x 292.84334pt.
- [4 <./images/webserverdesign.png> <./images/mostLanguagesUsed.png>]) (./chapte
-r2/django.tex [5 <./images/languageAttacks.png>]
-<images/djangovslaravelspeeds.png, id=297, 397.485pt x 275.52937pt>
+) (./chapter2/django.tex [5 <./images/mostLanguagesUsed.png> <./images/language
+Attacks.png>]
+<images/djangovslaravelspeeds.png, id=324, 397.485pt x 275.52937pt>
 File: images/djangovslaravelspeeds.png Graphic file (type png)
 <use images/djangovslaravelspeeds.png>
 Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
 4.
 (pdftex.def)             Requested size: 278.2376pt x 192.86923pt.
-
-Overfull \hbox (17.33139pt too wide) in paragraph at lines 30--42
-[][] 
- []
-
-[6 <./images/djangovslaravelspeeds.png>]) [7]
+ [6 <./images/djangovslaravelspeeds.png>]) [7]
 Chapter 3.
 (./chapter3/introduction.tex) (./chapter3/process.tex
-<images/portal1.png, id=320, 1003.75pt x 702.625pt>
+<images/portal1.png, id=347, 1003.75pt x 702.625pt>
 File: images/portal1.png Graphic file (type png)
 <use images/portal1.png>
-Package pdftex.def Info: images/portal1.png  used on input line 13.
-(pdftex.def)             Requested size: 250.93689pt x 175.6558pt.
+Package pdftex.def Info: images/portal1.png  used on input line 14.
+(pdftex.def)             Requested size: 301.12732pt x 210.78912pt.
  [8
 
- <./images/portal1.png>]) (./chapter3/testing.tex) [9]
+])
+(./chapter3/interface.tex [9 <./images/portal1.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+<images/portalandfeedback.png, id=358, 501.875pt x 501.875pt>
+File: images/portalandfeedback.png Graphic file (type png)
+<use images/portalandfeedback.png>
+Package pdftex.def Info: images/portalandfeedback.png  used on input line 22.
+(pdftex.def)             Requested size: 200.74643pt x 200.74643pt.
+)
+(./chapter3/testing.tex [10 <./images/portalandfeedback.png>])
+(./chapter3/summary.tex) [11]
 Chapter 4.
 (./chapter4/Introduction.tex) (./chapter4/achievements.tex)
 (./chapter4/planofwork.tex
-<images/Gantt.png, id=334, 673.51625pt x 160.6pt>
+<images/Gantt.png, id=374, 632.86438pt x 100.375pt>
 File: images/Gantt.png Graphic file (type png)
 <use images/Gantt.png>
-Package pdftex.def Info: images/Gantt.png  used on input line 12.
-(pdftex.def)             Requested size: 471.45816pt x 112.41922pt.
+Package pdftex.def Info: images/Gantt.png  used on input line 11.
+(pdftex.def)             Requested size: 426.79807pt x 85.36356pt.
 
-Overfull \hbox (47.39783pt too wide) in paragraph at lines 11--13
+Overfull \hbox (2.73773pt too wide) in paragraph at lines 10--12
  [] 
  []
 
-) (./main.bbl [10
+) (./main.bbl [12
 
  <./images/Gantt.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
@@ -664,59 +675,60 @@ ople-[]in-[]the-[]world-[]9780518 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 []\OT1/cmr/m/n/12 Upguard, ``Which web pro-gram-ming lan-guage is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 \OT1/cmr/m/n/12 the most se-cure?.'' [][]$\OT1/cmtt/m/n/12 https : / / www . up
 guard . com / blog /
  []
 
-[11
+[13
 
 ]
-Underfull \hbox (badness 3471) in paragraph at lines 80--83
+Underfull \hbox (badness 3471) in paragraph at lines 85--88
 []\OT1/cmr/m/n/12 JetBrains, ``Jet-brains - ruby.'' [][]$\OT1/cmtt/m/n/12 https
  : / / www . jetbrains . com / research /
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 85--88
+Underfull \hbox (badness 1565) in paragraph at lines 90--93
 []\OT1/cmr/m/n/12 Django, ``Doc-u-men-ta-tion - writ-ing and run-ning tests.'' 
 [][]$\OT1/cmtt/m/n/12 https : / / docs .
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 10175526E54FBDAE71D0EF96357BA4B8;2085.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+(rerunfilecheck)             Checksum: C9C9C2C38BD0C14ED4999AFCABCA08DC;2340.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 7543 strings out of 494091
- 116407 string characters out of 6163523
- 210501 words of memory out of 5000000
- 10982 multiletter control sequences out of 15000+600000
+ 7585 strings out of 494091
+ 117170 string characters out of 6163523
+ 210591 words of memory out of 5000000
+ 11007 multiletter control sequences out of 15000+600000
  9627 words of font info for 34 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 36i,14n,43p,917b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,43p,1072b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt12.pfb>
-Output written on main.pdf (20 pages, 492390 bytes).
+fonts/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (22 pages, 502997 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 373 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 414 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

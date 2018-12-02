@@ -91,8 +91,12 @@
 		\subfile{chapter3/introduction}
 	\section{Process}
 		\subfile{chapter3/process}
+	\section{Interface}
+		\subfile{chapter3/interface}
 	\section{Testing}
 		\subfile{chapter3/testing}
+	\section{Summary}
+		\subfile{chapter3/summary}
 		
 \chapter{Progress, Conclusion \& Project Plan}
 	\section{Introduction}

@@ -16,20 +16,24 @@
 \contentsline {section}{\numberline {2.3}Web-Based System}{4}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Basic Web}{4}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}The System}{4}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Django}{5}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Django vs Laravel}{5}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.4}Django}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Django vs Laravel}{6}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Django vs Ruby on Rails}{6}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Summary}{7}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Requirement \& Analysis}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Process}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Testing}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}SQL Queries}{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Cross Site Scripting}{9}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Automated Testing}{9}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}User Testing}{9}{subsection.3.3.4}
-\contentsline {chapter}{\numberline {4}Progress, Conclusion \& Project Plan}{10}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{10}{section.4.1}
-\contentsline {section}{\numberline {4.2}Achievements}{10}{section.4.2}
-\contentsline {section}{\numberline {4.3}Plan Of Work}{10}{section.4.3}
-\contentsline {chapter}{Bibliography}{12}{chapter*.13}
+\contentsline {section}{\numberline {3.3}Interface}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Student Panel}{9}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Scrutiny Committee Panel}{9}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Testing}{11}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}SQL Queries}{11}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Cross Site Scripting}{11}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Automated Testing}{11}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}User Testing}{11}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Summary}{11}{section.3.5}
+\contentsline {chapter}{\numberline {4}Progress, Conclusion \& Project Plan}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Achievements}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Plan Of Work}{12}{section.4.3}
+\contentsline {chapter}{Bibliography}{14}{chapter*.14}
