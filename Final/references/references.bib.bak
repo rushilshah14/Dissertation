@@ -1,0 +1,147 @@
+
+@online{ecfuni,
+    author = "Sheffield, U",
+    title = "Extenuating Circumstances Form: Explanatory Notes - Forms - SSiD - The University of Sheffield",
+    year = "2018",
+    note = "Accessed: 01.10.2018",
+    howpublished={\url{https://www.sheffield.ac.uk/ssid/forms/circsnotes}},
+
+}
+
+@online{djangovslaravel,
+    author = "Cabotsolutions",
+    title = "Django vs Laravel: A Comparison of Web Application Frameworks",
+    year = "2018",
+    note = "Accessed: 01.10.2018",
+    howpublished={\url{https://www.cabotsolutions.com/django-vs-laravel-a-comparison-of-web-application-frameworks }},
+
+}
+
+@online{securelanguage,
+    author = "Upguard",
+    title = "Which Web Programming Language Is The Most Secure?",
+    year = "2018",
+    note = "Accessed: 01.10.2018",
+    howpublished={\url{https://www.upguard.com/blog/which-web-programming-language-is-the-most-secure}},
+
+}
+
+@online{django,
+    author = "Django",
+    title = "The web framework for perfectionists",
+    year = "2018",
+    note = "Accessed: 01.11.2018",
+    howpublished={\url{https://www.djangoproject.com/}},
+
+}
+
+@online{forbestop7,
+    author = "Forbes - Jayson DeMers",
+    title = "7 Technology Trends That Will Dominate 2018",
+    year = "2017",
+    note = "Accessed: 01.11.2018",
+    howpublished={\url{https://www.forbes.com/sites/jaysondemers/2017/12/30/7-technology-trends-that-will-dominate-2018/#7e4e30157d76}},
+
+}
+@online{arvr,
+    author = "Jonathan Ronzio",
+    title = "7 Technology Trends That Will Dominate 2018",
+    year = "2018",
+    note = "Accessed: 03.11.2018",
+    howpublished={\url{https://cramer.com/story/the-difference-between-ar-and-vr/}},
+
+}
+@online{vergeblockchain,
+    author = "Alex Castro",
+    title = "Blockchain’ is meaningless",
+    year = "2018",
+    note = "Accessed: 06.11.2018",
+    howpublished={\url{https://www.theverge.com/2018/3/7/17091766/blockchain-bitcoin-ethereum-cryptocurrency-meaning}},
+
+}
+@online{morephones,
+    author = "Zachary Davies Boren",
+    title = "There are officially more mobile devices than people in the world",
+    year = "2014",
+    note = "Accessed: 06.11.2018",
+    howpublished={\url{https://www.independent.co.uk/life-style/gadgets-and-tech/news/there-are-officially-more-mobile-devices-than-people-in-the-world-9780518.html}},
+
+}
+
+@online{morewebsites,
+    author = "Andrea Larson",
+    title = "How many websites are there?",
+    year = "2018",
+    note = "Accessed: 08.11.2018",
+    howpublished={\url{https://www.independent.co.uk/life-style/gadgets-and-tech/news/there-are-officially-more-mobile-devices-than-people-in-the-world-9780518.html}},
+
+}
+
+@report{WhiteHatSec,
+author = "WhiteHat Security",
+title = "2014 Website Security Statistics Report",
+type = "PDF",
+institution = "WhiteHatSec",
+year = "2014",
+note = "Accessed: 06.11.2018",
+howpublished={\url{http://info.whitehatsec.com/rs/whitehatsecurity/images/statsreport2014-20140410.pdf}}
+}
+
+@online{laravel,
+    author = "Laravel",
+    title = "Laravel - The PHP Framework For Web Artisans",
+    year = "2018",
+    note = "Accessed: 11.11.2018",
+    howpublished={\url{https://laravel.com/}},
+
+}
+
+@online{pythonresearch2018,
+    author = "JetBrains",
+    title = "JetBrains - Python",
+    year = "2018",
+    note = "Accessed: 11.11.2018",
+    howpublished={\url{https://www.jetbrains.com/research/devecosystem-2018/python/}},
+
+}
+
+@online{rubyresearch2018,
+    author = "JetBrains",
+    title = "JetBrains - Ruby",
+    year = "2018",
+    note = "Accessed: 11.11.2018",
+    howpublished={\url{https://www.jetbrains.com/research/devecosystem-2018/ruby/}},
+
+}
+
+@online{djangovsrails,
+    author = "John Hargan",
+    title = "Django vs Rails: Picking the Right Web Framework",
+    year = "2018",
+    note = "Accessed: 11.11.2018",
+    howpublished={\url{https://www.tivix.com/blog/django-vs-rails-picking-right-web-framework}},
+
+}
+
+@online{djangoTesting,
+    author = "Django",
+    title = "Documentation - Writing and running tests",
+    year = "2018",
+    note = "Accessed: 20.11.2018",
+    howpublished={\url{https://docs.djangoproject.com/en/2.1/topics/testing/overview/}},
+
+}
+
+@online{muse,
+    author = "University Of Sheffield",
+    title = "Making the Most of MUSE",
+    year = "2016",
+    note = "Accessed: 01.12.2018",
+    howpublished={\url{https://www.sheffield.ac.uk/bms/undergrad/muse}},
+}
+
+
+
+
+
+ 

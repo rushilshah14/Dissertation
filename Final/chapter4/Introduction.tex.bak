@@ -1,0 +1,9 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+\raggedright
+
+This chapter briefly talks about the progress on the project, the work that has been completed till this date and the next steps from this point forward. It will also present a Gantt Chart to display the progress.  
+
+\end{document}
