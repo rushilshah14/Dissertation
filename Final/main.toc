@@ -32,8 +32,8 @@
 \contentsline {subsection}{\numberline {3.4.3}Automated Testing}{12}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}User Testing}{12}{subsection.3.4.4}
 \contentsline {section}{\numberline {3.5}Summary}{12}{section.3.5}
-\contentsline {chapter}{\numberline {4}Progress, Conclusion \& Project Plan}{13}{chapter.4}
+\contentsline {chapter}{\numberline {4}Design}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Achievements}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Plan Of Work}{13}{section.4.3}
-\contentsline {chapter}{Bibliography}{15}{chapter*.14}
+\contentsline {section}{\numberline {4.2}HTML Template}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Javascript}{14}{section.4.3}
+\contentsline {chapter}{Bibliography}{16}{chapter*.13}
