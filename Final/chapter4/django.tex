@@ -1,0 +1,10 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\begin{document}
+\raggedright
+Django will run the system as the main back-end code. Its inbuilt functionality allows us to use GET and POST forms as well as uploading and retrieving data directly to the websites HTML pages. Django also allows the use of external packages and this system will be using All-Auth\cite{allauth} which is a precoded authentication package allowing the use of external accounts such as Google, Dropbox, Github, LinkedIn and many others to login directly into our system. All-Auth create a secure session system for the website which behaves as our authentication into the site. It has a \textit{login\_required} function which can be used with individual pages to prevent unauthorised accesses without logging in. \\[4mm]
+
+Bcrypt\cite{bcrypt} is a password hashing function which can be combined with Django and All-Auth to securely store user passwords into the database with a salt hash. Our system will be using a SHA256 BCrypt Hasher which is currently one of the safest password encryptions\cite{bcryptpower}. 
+  
+\end{document}

@@ -36,4 +36,6 @@
 \contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}
 \contentsline {section}{\numberline {4.2}HTML Template}{13}{section.4.2}
 \contentsline {section}{\numberline {4.3}Javascript}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}Django/Python}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Summary}{14}{section.4.5}
 \contentsline {chapter}{Bibliography}{16}{chapter*.13}

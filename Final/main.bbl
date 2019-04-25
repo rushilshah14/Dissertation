@@ -96,9 +96,43 @@ C.~T. License, ``Free html admin template - license.''
   \url{https://www.creative-tim.com/license}, 2019.
 \newblock Accessed: 10.02.2019.
 
+\bibitem{bootstrapfour}
+Bootstrap, ``Boostrap.'' \url{https://getbootstrap.com/}, 2019.
+\newblock Accessed: 10.02.2019.
+
 \bibitem{creativeTimTemplate}
 C.~Tim, ``Free html admin template.''
   \url{https://www.creative-tim.com/product/material-dashboard}, 2019.
 \newblock Accessed: 10.02.2019.
+
+\bibitem{datatables}
+DataTables, ``Datatables - table plug-in for jquery.''
+  \url{https://datatables.net/}, 2019.
+\newblock Accessed: 10.02.2019.
+
+\bibitem{jsPDF}
+MrRio, ``Javascript generation for html to pdf.''
+  \url{https://github.com/MrRio/jsPDF}, 2019.
+\newblock Accessed: 10.02.2019.
+
+\bibitem{htmlcanvas}
+N.~von Hertzen, ``html2canvas - screenshots with javascript.''
+  \url{https://html2canvas.hertzen.com/}, 2019.
+\newblock Accessed: 10.02.2019.
+
+\bibitem{allauth}
+IntenCT, ``Authentication for django.''
+  \url{https://www.intenct.nl/projects/django-allauth/}, 2019.
+\newblock Accessed: 10.02.2019.
+
+\bibitem{bcrypt}
+dwaiter, ``Django-bcrypt.'' \url{https://github.com/dwaiter/django-bcrypt},
+  2019.
+\newblock Accessed: 10.02.2019.
+
+\bibitem{bcryptpower}
+D.~Boswell, ``Storing user passwords securely: hashing, salting, and bcrypt.''
+  \url{http://dustwell.com/how-to-handle-passwords-bcrypt.html}, 2012.
+\newblock Accessed: 10.03.2019.
 
 \end{thebibliography}

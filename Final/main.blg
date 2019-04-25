@@ -39,36 +39,51 @@ Warning--entry type for "creativeTimTemplate" isn't style-file defined
 --line 143 of file references/references.bib
 Warning--entry type for "creativeTimTemplateLicense" isn't style-file defined
 --line 151 of file references/references.bib
-You've used 18 entries,
+Warning--entry type for "bootstrapfour" isn't style-file defined
+--line 159 of file references/references.bib
+Warning--entry type for "datatables" isn't style-file defined
+--line 167 of file references/references.bib
+Warning--entry type for "jsPDF" isn't style-file defined
+--line 175 of file references/references.bib
+Warning--entry type for "htmlcanvas" isn't style-file defined
+--line 183 of file references/references.bib
+Warning--entry type for "allauth" isn't style-file defined
+--line 191 of file references/references.bib
+Warning--entry type for "bcrypt" isn't style-file defined
+--line 199 of file references/references.bib
+Warning--entry type for "bcryptpower" isn't style-file defined
+--line 207 of file references/references.bib
+Warning--I didn't find a database entry for "boostrapfour"
+You've used 25 entries,
             1876 wiz_defined-function locations,
-            564 strings with 6124 characters,
-and the built_in function-call counts, 2472 in all, are:
-= -- 252
-> -- 72
+            596 strings with 6813 characters,
+and the built_in function-call counts, 3424 in all, are:
+= -- 350
+> -- 100
 < -- 0
-+ -- 36
-- -- 18
-* -- 92
-:= -- 373
-add.period$ -- 36
-call.type$ -- 18
-change.case$ -- 18
++ -- 50
+- -- 25
+* -- 127
+:= -- 513
+add.period$ -- 50
+call.type$ -- 25
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 72
-empty$ -- 325
-format.name$ -- 18
-if$ -- 631
+cite$ -- 25
+duplicate$ -- 100
+empty$ -- 451
+format.name$ -- 25
+if$ -- 876
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 25
 missing$ -- 0
-newline$ -- 75
-num.names$ -- 18
-pop$ -- 108
+newline$ -- 103
+num.names$ -- 25
+pop$ -- 150
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 53
+skip$ -- 74
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -77,7 +92,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 18
-width$ -- 20
-write$ -- 182
-(There were 18 warnings)
+while$ -- 25
+width$ -- 27
+write$ -- 252
+(There were 26 warnings)
