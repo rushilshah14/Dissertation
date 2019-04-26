@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  26 APR 2019 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  26 APR 2019 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,7 +434,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 \openout3 = `main.out'.
 
  (./title/title.tex
-<images/TuosLogo.png, id=184, 74.9199pt x 72.0291pt>
+<images/TuosLogo.png, id=196, 74.9199pt x 72.0291pt>
 File: images/TuosLogo.png Graphic file (type png)
 <use images/TuosLogo.png>
 Package pdftex.def Info: images/TuosLogo.png  used on input line 17.
@@ -502,25 +502,25 @@ Overfull \hbox (12.71942pt too wide) in paragraph at lines 82--82
 (./chapter2/webvsapp.tex) [3
 
 ] (./chapter2/websystem.tex
-<images/webserverdesign.png, id=321, 1003.75pt x 501.875pt>
+<images/webserverdesign.png, id=340, 1003.75pt x 501.875pt>
 File: images/webserverdesign.png Graphic file (type png)
 <use images/webserverdesign.png>
 Package pdftex.def Info: images/webserverdesign.png  used on input line 11.
 (pdftex.def)             Requested size: 250.93689pt x 125.46843pt.
-<images/mostLanguagesUsed.png, id=326, 437.13312pt x 257.46187pt>
+<images/mostLanguagesUsed.png, id=345, 437.13312pt x 257.46187pt>
 File: images/mostLanguagesUsed.png Graphic file (type png)
 <use images/mostLanguagesUsed.png>
 Package pdftex.def Info: images/mostLanguagesUsed.png  used on input line 24.
 (pdftex.def)             Requested size: 262.28189pt x 154.4783pt.
  [4 <./images/webserverdesign.png>]
-<images/languageAttacks.png, id=337, 327.2225pt x 390.45876pt>
+<images/languageAttacks.png, id=356, 327.2225pt x 390.45876pt>
 File: images/languageAttacks.png Graphic file (type png)
 <use images/languageAttacks.png>
 Package pdftex.def Info: images/languageAttacks.png  used on input line 33.
 (pdftex.def)             Requested size: 245.41626pt x 292.84334pt.
 ) (./chapter2/django.tex [5 <./images/mostLanguagesUsed.png> <./images/language
 Attacks.png>]
-<images/djangovslaravelspeeds.png, id=352, 397.485pt x 275.52937pt>
+<images/djangovslaravelspeeds.png, id=371, 397.485pt x 275.52937pt>
 File: images/djangovslaravelspeeds.png Graphic file (type png)
 <use images/djangovslaravelspeeds.png>
 Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
@@ -529,7 +529,7 @@ Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
  [6 <./images/djangovslaravelspeeds.png>]) [7]
 Chapter 3.
 (./chapter3/introduction.tex) (./chapter3/process.tex
-<images/portal1.png, id=375, 1003.75pt x 702.625pt>
+<images/portal1.png, id=394, 1003.75pt x 702.625pt>
 File: images/portal1.png Graphic file (type png)
 <use images/portal1.png>
 Package pdftex.def Info: images/portal1.png  used on input line 14.
@@ -545,7 +545,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
-<images/portalandfeedback.png, id=386, 501.875pt x 501.875pt>
+<images/portalandfeedback.png, id=405, 501.875pt x 501.875pt>
 File: images/portalandfeedback.png Graphic file (type png)
 <use images/portalandfeedback.png>
 Package pdftex.def Info: images/portalandfeedback.png  used on input line 22.
@@ -556,22 +556,37 @@ Chapter 4.
 (./chapter4/introduction.tex) (./chapter4/html.tex [13
 
 ])
-(./chapter4/javascript.tex) (./chapter4/django.tex) (./chapter4/summary.tex)
-Overfull \hbox (7.53937pt too wide) in paragraph at lines 6--112
+(./chapter4/javascript.tex) (./chapter4/database.tex
+<images/db.png, id=444, 424.58624pt x 335.2525pt>
+File: images/db.png Graphic file (type png)
+<use images/db.png>
+Package pdftex.def Info: images/db.png  used on input line 10.
+(pdftex.def)             Requested size: 509.50095pt x 402.30098pt.
+
+Overfull \hbox (85.44061pt too wide) in paragraph at lines 9--11
+[][] 
+ []
+
+[14]) (./chapter4/django.tex) [15 <./images/db.png>] (./chapter4/summary.tex)
+Overfull \hbox (7.53937pt too wide) in paragraph at lines 6--114
 \OT1/cmr/m/n/12 The de-sign as stated above con-sists of three key el-e-ments w
 hich are HTML, JavaScript
  []
 
-[14]
+[16]
 Chapter 5.
 
-Overfull \hbox (33.18651pt too wide) in paragraph at lines 113--113
+Overfull \hbox (33.18651pt too wide) in paragraph at lines 115--115
 |\OT1/cmr/bx/n/24.88 Chapter 5. Im-ple-men-ta-tion And Test-
  []
 
-(./chapter5/introduction.tex) (./chapter5/production.tex) (./main.bbl [15
+(./chapter5/introduction.tex) (./chapter5/production.tex [17
 
 ]
+
+LaTeX Warning: Citation `djangoLatest' on page 18 undefined on input line 57.
+
+[18]) (./main.bbl [19]
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\OT1/cmr/m/n/12 W. Se-cu-rity, ``2014 web-site se-cu-rity statis-tics re-port
 .''
@@ -688,7 +703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
 guard . com / blog /
  []
 
-[16
+[20
 
 ]
 Underfull \hbox (badness 3471) in paragraph at lines 85--88
@@ -721,36 +736,49 @@ Underfull \hbox (badness 1264) in paragraph at lines 129--132
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F30A3291AFF0D589FC7370730F3D7179;2661.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 93CD3B0739CF8ED25AA3C44C9E389EC2;2840
+(rerunfilecheck)             After:  A10E61F86A1F3B8FFF5107660E2CD7CB;2840.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 7627 strings out of 494091
- 117721 string characters out of 6163523
- 211859 words of memory out of 5000000
- 11019 multiletter control sequences out of 15000+600000
+ 7658 strings out of 494091
+ 118178 string characters out of 6163523
+ 211968 words of memory out of 5000000
+ 11030 multiletter control sequences out of 15000+600000
  9974 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 36i,14n,43p,1072b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 493108 bytes).
+ 36i,14n,43p,1162b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter*.18} has been referenced but does not exi
+st, replaced by a fixed one
+
+</usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (29 pages, 585087 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 496 compressed objects within 5 object streams
- 106 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 425 words of extra memory for PDF output out of 10000 (max. 10000000)
 
