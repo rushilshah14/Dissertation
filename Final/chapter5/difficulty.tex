@@ -1,7 +1,42 @@
 \documentclass[../main.tex]{subfiles}
 
-
 \begin{document}
 \raggedright
-This section will cover the implementation of the system. Development requires production, bug fixes and finally testing which will all be discussed in this section. 
+Different types of complications were generated when building the system in Django. The tables \ref{tab:studentcomplications} and \ref{tab:secretarycomplications} below explains each of the complications and its relevant solution for each of the panels.
+
+\subsubsection{Student Panel}
+\def\arraystretch{1.2}%  1 is the default, change whatever you need
+\begin{table}[H]
+\centering
+\begin{tabular}{| l | p{6.5cm} | p{6.5cm} |}
+\hline
+\textbf{Page} & \textbf{Issue}                                                                                                           & \textbf{Solution}                                                                                                                                                                                           \\ \hline
+Dashboard     & Calculate based on forms and not each individual module within the form.                                                 & Use nested FOR loops to calculate statistics for each module within the form and only display the final count as the main form statistic.                                                                   \\ \hline
+New Form      & Create module input fields based on the GET parameter value and allow each of the modules to be stored into the database & Retrieve the GET parameter value from views.py and import it into forms.py where the input fields are generated from. Use a FOR loop to create an input field with increasing HTML attributes eg. unitcode1 \\ \hline
+New Form      & Allow only ZIP files to be added and validated                                                                           & Create a Django validations.py function which detects the format of the file and rejects if it is not a ZIP.                                                                                                \\ \hline
+New Form      & Store files with the same name without replacing them                                                                    & Rename the uploaded file by adding a 5 digit random string to the end to prevent files being replaced when stored                                                                                           \\ \hline
+View Form     & Prevent other users from accessing current users form                                                                    & Create validations which check if the form belongs to the current logged user, if so, then the user is allowed to access it.                                                                                \\ \hline
+
+\end{tabular}%
+\captionof{table}{Complications generated and their solutions under the Student Panel}
+\label{tab:studentcomplications}
+\end{table}
+
+
+\subsubsection{Secretary Panel}
+\begin{table}[H]
+\centering
+\begin{tabular}{| l | p{6.5cm} | p{6.5cm} |}
+\hline
+\textbf{Page} & \textbf{Issue}                                                                                 & \textbf{Solution}                                                                                                                                                                              \\ \hline
+Dashboard     & Calculate based on forms and not each individual module within the form.                       & Use nested FOR loops to calculate statistics for each module within the form and only display the final count as the main form statistic.                                                      \\ \hline
+View Form     & Modal popup to edit form details would load on a different page instead of current one         & Instead of having the modal on a different file, having it in the current file with a JavaScript code to retrieve data and fill it in allowed the popup to load on the current page seamlessly \\ \hline
+View Form     & Multiple POST forms would bring about issues when working on views.py as the controller        & Provide each POST request with a unique 'name' attribute to differenciate which part of the views.py it should access using IF statements                                                      \\ \hline
+View Form     & Switch-case Toggle HTML would not change the switch based on the current value in the database & Added a JavaScript code to manually get the value from the database and switch the toggle CSS.                                                                                                 \\ \hline
+\end{tabular}%
+
+\captionof{table}{Complications generated and their solutions under the Secretary Panel}
+\label{tab:secretarycomplications}
+\end{table}
+
 \end{document}
