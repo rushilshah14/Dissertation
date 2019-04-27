@@ -28,27 +28,28 @@
 \contentsline {subsection}{\numberline {3.3.2}Scrutiny Committee Panel}{9}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Testing}{11}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}SQL Queries}{11}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Cross Site Scripting}{12}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Automated Testing}{12}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}User Testing}{12}{subsection.3.4.4}
-\contentsline {section}{\numberline {3.5}Summary}{12}{section.3.5}
-\contentsline {chapter}{\numberline {4}Design}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}HTML Template}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Javascript}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Database}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Django/Python}{15}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{16}{section.4.6}
-\contentsline {chapter}{\numberline {5}Implementation And Testing}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Implementation}{17}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}HTML}{17}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}JavaScript}{18}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Django}{18}{subsection.5.2.3}
-\contentsline {subsubsection}{Authentication \& Database}{19}{subsubsection*.14}
-\contentsline {subsubsection}{New Form}{19}{subsubsection*.15}
-\contentsline {subsubsection}{View Form}{19}{subsubsection*.16}
-\contentsline {subsubsection}{Dashboard}{19}{subsubsection*.17}
-\contentsline {subsubsection}{Profile Page}{19}{subsubsection*.18}
-\contentsline {subsubsection}{Difficulties}{19}{subsubsection*.19}
-\contentsline {chapter}{Bibliography}{21}{chapter*.20}
+\contentsline {subsection}{\numberline {3.4.2}Cross Site Scripting}{11}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Automated Testing}{11}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}User Testing}{11}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Summary}{11}{section.3.5}
+\contentsline {chapter}{\numberline {4}Design}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}HTML Template}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Javascript}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Database}{13}{section.4.4}
+\contentsline {section}{\numberline {4.5}Django}{14}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{15}{section.4.6}
+\contentsline {chapter}{\numberline {5}Implementation \& Testing}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Implementation}{16}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}HTML}{16}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}JavaScript}{17}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Django}{17}{subsection.5.2.3}
+\contentsline {subsubsection}{Authentication \& Database}{18}{subsubsection*.14}
+\contentsline {subsubsection}{New Form}{18}{subsubsection*.15}
+\contentsline {subsubsection}{Dashboard}{18}{subsubsection*.16}
+\contentsline {subsubsection}{View Form}{19}{subsubsection*.17}
+\contentsline {subsubsection}{Profile Page}{20}{subsubsection*.18}
+\contentsline {subsubsection}{Email Notifications}{20}{subsubsection*.19}
+\contentsline {section}{\numberline {5.3}Complications}{20}{section.5.3}
+\contentsline {chapter}{Bibliography}{22}{chapter*.20}

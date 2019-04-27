@@ -31,59 +31,60 @@ Warning--entry type for "rubyresearch2018" isn't style-file defined
 --line 108 of file references/references.bib
 Warning--entry type for "djangovsrails" isn't style-file defined
 --line 117 of file references/references.bib
-Warning--entry type for "djangoTesting" isn't style-file defined
+Warning--entry type for "djangoLatest" isn't style-file defined
 --line 126 of file references/references.bib
-Warning--entry type for "muse" isn't style-file defined
+Warning--entry type for "djangoTesting" isn't style-file defined
 --line 135 of file references/references.bib
+Warning--entry type for "muse" isn't style-file defined
+--line 144 of file references/references.bib
 Warning--entry type for "creativeTimTemplate" isn't style-file defined
---line 143 of file references/references.bib
+--line 152 of file references/references.bib
 Warning--entry type for "creativeTimTemplateLicense" isn't style-file defined
---line 151 of file references/references.bib
+--line 160 of file references/references.bib
 Warning--entry type for "bootstrapfour" isn't style-file defined
---line 159 of file references/references.bib
+--line 168 of file references/references.bib
 Warning--entry type for "datatables" isn't style-file defined
---line 167 of file references/references.bib
+--line 176 of file references/references.bib
 Warning--entry type for "jsPDF" isn't style-file defined
---line 175 of file references/references.bib
+--line 184 of file references/references.bib
 Warning--entry type for "htmlcanvas" isn't style-file defined
---line 183 of file references/references.bib
+--line 192 of file references/references.bib
 Warning--entry type for "allauth" isn't style-file defined
---line 191 of file references/references.bib
+--line 200 of file references/references.bib
 Warning--entry type for "bcrypt" isn't style-file defined
---line 199 of file references/references.bib
+--line 208 of file references/references.bib
 Warning--entry type for "bcryptpower" isn't style-file defined
---line 207 of file references/references.bib
-Warning--I didn't find a database entry for "boostrapfour"
-You've used 25 entries,
+--line 216 of file references/references.bib
+You've used 26 entries,
             1876 wiz_defined-function locations,
-            596 strings with 6813 characters,
-and the built_in function-call counts, 3424 in all, are:
-= -- 350
-> -- 100
+            599 strings with 6888 characters,
+and the built_in function-call counts, 3560 in all, are:
+= -- 364
+> -- 104
 < -- 0
-+ -- 50
-- -- 25
-* -- 127
-:= -- 513
-add.period$ -- 50
-call.type$ -- 25
-change.case$ -- 25
++ -- 52
+- -- 26
+* -- 132
+:= -- 533
+add.period$ -- 52
+call.type$ -- 26
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 100
-empty$ -- 451
-format.name$ -- 25
-if$ -- 876
+cite$ -- 26
+duplicate$ -- 104
+empty$ -- 469
+format.name$ -- 26
+if$ -- 911
 int.to.chr$ -- 0
-int.to.str$ -- 25
+int.to.str$ -- 26
 missing$ -- 0
-newline$ -- 103
-num.names$ -- 25
-pop$ -- 150
+newline$ -- 107
+num.names$ -- 26
+pop$ -- 156
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 74
+skip$ -- 77
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -92,7 +93,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 25
-width$ -- 27
-write$ -- 252
+while$ -- 26
+width$ -- 28
+write$ -- 262
 (There were 26 warnings)

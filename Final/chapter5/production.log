@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  26 APR 2019 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  26 APR 2019 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,15 +450,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 31.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-[1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+LaTeX Warning: Citation `creativeTimTemplate' on page 1 undefined on input line
+ 37.
+
+
+LaTeX Warning: Citation `bootstrapfour' on page 1 undefined on input line 37.
+
+
+LaTeX Warning: Citation `datatables' on page 1 undefined on input line 39.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+ [1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 
-(./production.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+LaTeX Warning: Citation `jsPDF' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation `htmlcanvas' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `djangoLatest' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `allauth' on page 2 undefined on input line 60.
+
+
+LaTeX Warning: Reference `fig:dbschema' on page 2 undefined on input line 60.
+
+[2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+ (./production.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
 
 
 Package rerunfilecheck Warning: File `production.out' has changed.
@@ -466,8 +498,8 @@ Package rerunfilecheck Warning: File `production.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `production.out':
-(rerunfilecheck)             Before: 6C35F47371D07527172B6D6BD2DE6D15;46
-(rerunfilecheck)             After:  C9170DF86D624B98D188264172F853C4;98.
+(rerunfilecheck)             Before: C9170DF86D624B98D188264172F853C4;98
+(rerunfilecheck)             After:  ADFE88DC7A93FDFCB647CD0B0B42C841;146.
 
 LaTeX Warning: There were undefined references.
 
@@ -476,20 +508,22 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7293 strings out of 494091
- 112636 string characters out of 6163523
- 206846 words of memory out of 5000000
- 10884 multiletter control sequences out of 15000+600000
- 7640 words of font info for 27 fonts, out of 8000000 for 9000
+ 7326 strings out of 494091
+ 113173 string characters out of 6163523
+ 207905 words of memory out of 5000000
+ 10903 multiletter control sequences out of 15000+600000
+ 7987 words of font info for 28 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 45i,10n,45p,600b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,10n,45p,1235b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb>
-Output written on production.pdf (1 page, 33507 bytes).
+mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb>
+Output written on production.pdf (4 pages, 64012 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

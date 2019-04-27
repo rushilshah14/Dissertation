@@ -37,12 +37,13 @@
 \BOOKMARK [1][-]{section.4.2}{HTML Template}{chapter.4}% 37
 \BOOKMARK [1][-]{section.4.3}{Javascript}{chapter.4}% 38
 \BOOKMARK [1][-]{section.4.4}{Database}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{Django/Python}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.5}{Django}{chapter.4}% 40
 \BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Implementation And Testing}{}% 42
+\BOOKMARK [0][-]{chapter.5}{Implementation \046 Testing}{}% 42
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 43
 \BOOKMARK [1][-]{section.5.2}{Implementation}{chapter.5}% 44
 \BOOKMARK [2][-]{subsection.5.2.1}{HTML}{section.5.2}% 45
 \BOOKMARK [2][-]{subsection.5.2.2}{JavaScript}{section.5.2}% 46
 \BOOKMARK [2][-]{subsection.5.2.3}{Django}{section.5.2}% 47
-\BOOKMARK [0][-]{chapter*.20}{Bibliography}{}% 48
+\BOOKMARK [1][-]{section.5.3}{Complications}{chapter.5}% 48
+\BOOKMARK [0][-]{chapter*.20}{Bibliography}{}% 49

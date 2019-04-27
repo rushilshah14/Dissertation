@@ -88,7 +88,7 @@ JetBrains, ``Jetbrains - ruby.''
 
 \bibitem{djangoTesting}
 Django, ``Documentation - writing and running tests.''
-  \url{https://docs.djangoproject.com/en/2.1/topics/testing/overview/}, 2018.
+  \url{https://docs.djangoproject.com/en/2.2/topics/testing/overview/}, 2018.
 \newblock Accessed: 20.11.2018.
 
 \bibitem{creativeTimTemplateLicense}
@@ -134,5 +134,10 @@ dwaiter, ``Django-bcrypt.'' \url{https://github.com/dwaiter/django-bcrypt},
 D.~Boswell, ``Storing user passwords securely: hashing, salting, and bcrypt.''
   \url{http://dustwell.com/how-to-handle-passwords-bcrypt.html}, 2012.
 \newblock Accessed: 10.03.2019.
+
+\bibitem{djangoLatest}
+Django, ``Documentation - 2.2.'' \url{https://docs.djangoproject.com/en/2.2/},
+  2018.
+\newblock Accessed: 20.11.2018.
 
 \end{thebibliography}
