@@ -62,5 +62,8 @@
 \contentsline {section}{\numberline {6.2}Results}{25}{section.6.2}
 \contentsline {subsubsection}{Mobile First}{25}{subsubsection*.23}
 \contentsline {subsubsection}{Organised Data}{26}{subsubsection*.25}
-\contentsline {subsubsection}{Security}{27}{subsubsection*.28}
-\contentsline {chapter}{Bibliography}{29}{chapter*.29}
+\contentsline {subsubsection}{Additional Files}{27}{subsubsection*.28}
+\contentsline {subsubsection}{Print, Download \& Student Record}{27}{subsubsection*.29}
+\contentsline {subsubsection}{Security}{28}{subsubsection*.30}
+\contentsline {subsubsection}{Email Notifications (Additional Feature)}{28}{subsubsection*.31}
+\contentsline {chapter}{Bibliography}{31}{chapter*.32}

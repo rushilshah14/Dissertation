@@ -57,36 +57,38 @@ Warning--entry type for "bcrypt" isn't style-file defined
 --line 217 of file references/references.bib
 Warning--entry type for "bcryptpower" isn't style-file defined
 --line 225 of file references/references.bib
-You've used 27 entries,
+Warning--entry type for "dbencrypt" isn't style-file defined
+--line 241 of file references/references.bib
+You've used 28 entries,
             1876 wiz_defined-function locations,
-            603 strings with 7000 characters,
-and the built_in function-call counts, 3696 in all, are:
-= -- 378
-> -- 108
+            608 strings with 7109 characters,
+and the built_in function-call counts, 3832 in all, are:
+= -- 392
+> -- 112
 < -- 0
-+ -- 54
-- -- 27
-* -- 137
-:= -- 553
-add.period$ -- 54
-call.type$ -- 27
-change.case$ -- 27
++ -- 56
+- -- 28
+* -- 142
+:= -- 573
+add.period$ -- 56
+call.type$ -- 28
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 108
-empty$ -- 487
-format.name$ -- 27
-if$ -- 946
+cite$ -- 28
+duplicate$ -- 112
+empty$ -- 505
+format.name$ -- 28
+if$ -- 981
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 28
 missing$ -- 0
-newline$ -- 111
-num.names$ -- 27
-pop$ -- 162
+newline$ -- 115
+num.names$ -- 28
+pop$ -- 168
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 80
+skip$ -- 83
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -95,7 +97,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 27
-width$ -- 29
-write$ -- 272
-(There were 27 warnings)
+while$ -- 28
+width$ -- 30
+write$ -- 282
+(There were 28 warnings)

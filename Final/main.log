@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  28 APR 2019 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  28 APR 2019 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,7 +652,14 @@ Overfull \hbox (61.09892pt too wide) in paragraph at lines 28--30
  [] 
  []
 
-) (./main.bbl [27 <./images/ecfstudenttable.png> <./images/ecfsectable.png>]
+[27 <./images/ecfstudenttable.png> <./images/ecfsectable.png>]
+
+LaTeX Warning: Citation `danielquinn' on page 28 undefined on input line 46.
+
+
+LaTeX Warning: Citation `ruddra' on page 28 undefined on input line 46.
+
+) (./main.bbl [28]
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\OT1/cmr/m/n/12 W. Se-cu-rity, ``2014 web-site se-cu-rity statis-tics re-port
 .''
@@ -769,7 +776,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
 guard . com / blog /
  []
 
-[28
+[29
 
 ]
 Underfull \hbox (badness 3471) in paragraph at lines 85--88
@@ -801,15 +808,15 @@ Underfull \hbox (badness 1264) in paragraph at lines 129--132
  github . com / dwaiter / django-[]bcrypt$[][]\OT1/cmr/m/n/12 ,
  []
 
-)
+[30])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [29]
+ [31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7AA031190C29D2A399BEF70BFC20D77B;3174.
+(rerunfilecheck)             Checksum: 6B0B062CCE0DBBCB7422FCBC75C871E5;3174.
 
 
 LaTeX Warning: There were undefined references.
@@ -817,10 +824,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 7728 strings out of 494091
- 119388 string characters out of 6163523
- 213461 words of memory out of 5000000
- 11057 multiletter control sequences out of 15000+600000
+ 7735 strings out of 494091
+ 119478 string characters out of 6163523
+ 213493 words of memory out of 5000000
+ 11058 multiletter control sequences out of 15000+600000
  9974 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  36i,14n,43p,1612b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -832,10 +839,10 @@ s/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (37 pages, 1158459 bytes).
+Output written on main.pdf (39 pages, 1163406 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
- 637 compressed objects within 7 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 653 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
  488 words of extra memory for PDF output out of 10000 (max. 10000000)
 

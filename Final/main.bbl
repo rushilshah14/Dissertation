@@ -145,4 +145,9 @@ Django, ``Documentation - security.''
   \url{https://docs.djangoproject.com/en/2.2/topics/security/}, 2018.
 \newblock Accessed: 20.11.2018.
 
+\bibitem{dbencrypt}
+D.~Watson, ``django-pgcrypto.''
+  \url{https://django-pgcrypto.readthedocs.io/en/latest/}, 2014.
+\newblock Accessed: 10.04.2019.
+
 \end{thebibliography}
