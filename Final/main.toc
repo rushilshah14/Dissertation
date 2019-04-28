@@ -57,13 +57,10 @@
 \contentsline {subsubsection}{Secretary Panel}{23}{subsubsection*.22}
 \contentsline {section}{\numberline {5.4}Testing}{23}{section.5.4}
 \contentsline {section}{\numberline {5.5}Summary}{24}{section.5.5}
-\contentsline {chapter}{\numberline {6}Results \& Discussion}{25}{chapter.6}
+\contentsline {chapter}{\numberline {6}Evaluation}{25}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{25}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results}{25}{section.6.2}
-\contentsline {subsubsection}{Mobile First}{25}{subsubsection*.23}
-\contentsline {subsubsection}{Organised Data}{26}{subsubsection*.25}
-\contentsline {subsubsection}{Additional Files}{27}{subsubsection*.28}
-\contentsline {subsubsection}{Print, Download \& Student Record}{27}{subsubsection*.29}
-\contentsline {subsubsection}{Security}{28}{subsubsection*.30}
-\contentsline {subsubsection}{Email Notifications (Additional Feature)}{28}{subsubsection*.31}
-\contentsline {chapter}{Bibliography}{31}{chapter*.32}
+\contentsline {section}{\numberline {6.2}Results \& Discussion}{25}{section.6.2}
+\contentsline {subsubsection}{Email Notifications (Additional Feature)}{28}{subsubsection*.26}
+\contentsline {section}{\numberline {6.3}Future Work}{29}{section.6.3}
+\contentsline {section}{\numberline {6.4}Summary}{30}{section.6.4}
+\contentsline {chapter}{Bibliography}{33}{chapter*.27}

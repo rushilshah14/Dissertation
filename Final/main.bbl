@@ -150,4 +150,14 @@ D.~Watson, ``django-pgcrypto.''
   \url{https://django-pgcrypto.readthedocs.io/en/latest/}, 2014.
 \newblock Accessed: 10.04.2019.
 
+\bibitem{danielquinn}
+D.~Quinn, ``django-encrypted-filefield.''
+  \url{https://github.com/danielquinn/django-encrypted-filefield}, 2016.
+\newblock Accessed: 10.04.2019.
+
+\bibitem{ruddra}
+Ruddra, ``django-encrypt-file.''
+  \url{https://github.com/ruddra/django-encrypt-file}, 2018.
+\newblock Accessed: 10.04.2019.
+
 \end{thebibliography}
