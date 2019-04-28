@@ -3,5 +3,24 @@
 
 \begin{document}
 \raggedright
-This section will cover the implementation of the system. Development requires production, bug fixes and finally testing which will all be discussed in this section. 
+In order to make sure that the implementation is secure a few tests were carried out as mentioned in Chapter 3. The first was \textbf{SQL queries} being executed directly from the any of the POST and GET forms. When the form was submitted the back-end directly took the data as being unsafe and produced an error. As stated in Django's \textbf{security documentation}\cite{djangoSecurity} the SQL commands were \textbf{escaped and ignored} hence making it safe to use. \\[4mm]
+
+Another test executed on the system was \textbf{Cross Site request forgery(CSRF)}, this meant duplicating a cookie from a browser where the user was already logged in and trying to send POST requests from another browser. Each POST form in Django requires a \textbf{Secret Key} to be present, and when the duplicated cookie POST request did not have a Secret Key, Django automatically \textbf{denied access} to the action. This security feature is extremely important as common \textbf{Remote Administration Tools} can access your cookies and duplicate them. \\[4mm]
+
+\textbf{Cross Site Scripting(XSS)} had its limitations when testing, for example if a CSS Style was defined within the HTML code, a simple execution of a JavaScript code would be possible to access unauthorised data but as there was no such code present a significantly professional code would be required to test and penetrate through Django's security system for auto escaping unknown code. \\[4mm]
+
+Simple \textbf{Automated tests} called '\textbf{unittest}' were also executed using Django's inbuilt features to test out the execution of\textbf{ POST and GET forms}. A simple unittest for POST forms such as login, profile update, and request more files was executed where the result was displayed in console. The result were verified using \textbf{response code} received when the code was executed as well as the page location. For example when testing; \\
+\begin{verbatim}
+client.post('/account/login/', {'email': 'rshah5@sheffield.ac.uk',
+ 'password': 'complexp@ssw0rd'}) 
+\end{verbatim}
+The response received was '200' with the HTML code for the dashboard page. \\[4mm]
+
+Lastly, the system was \textbf{manually tested} for bugs and security loop holes as well as \textbf{user reviews} based on ease of access, confidence and comparison.
+When running manual tests, a user with Student privileges would be able to access pages where only a Secretary would have access. For example simply typing 
+\begin{verbatim}
+<link to website>/secretarypanel/viewform?id=1
+\end{verbatim} 
+would allow the student to access and change data as though they were the secretary. Same applied for the Scrutiny panel as well as regular forms created by other Students. In order to prevent this, \textbf{validation checks} were implemented which would check the privileges of the user and only give them access to specific pages in the system. The checks would also make sure that the logged in \textbf{session user} is accessing only data created by them and not by other users(mainly for the Student Panel as the Secretary has access to all). \\
+Students who had previously submitted the paper extenuating circumstance forms and students who did not know how to submit the extenuating circumstances were asked to provide their views on the system created on Django and four out of five found the system easy to use, user friendly, and extremely efficient compared to the previous paper based forms. 
 \end{document}

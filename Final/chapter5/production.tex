@@ -13,22 +13,19 @@ Redesigning the HTML code required changing the CSS, HTML components and removin
 \def\arraystretch{2}%  1 is the default, change whatever you need
 \begin{table}[H]
 \centering
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{ll}
+\begin{tabular}{|l| p{9cm} |}
 \hline
 \textbf{Page} & \textbf{HTML Components} \\ \hline
-\multicolumn{1}{|l|}{Login} & \multicolumn{1}{l|}{POST Form(Email, Password)} \\ \hline
-\multicolumn{1}{|l|}{Register} & \multicolumn{1}{l|}{POST Form(Firstname, Lastname, Email, Password1, Password2, DOB)} \\ \hline
-\multicolumn{1}{|l|}{Password Change} & \multicolumn{1}{l|}{POST Form(Current Password, Password1, Password2)} \\ \hline
-\multicolumn{1}{|l|}{Profile Page} & \multicolumn{1}{l|}{POST Form(Email;Disabled, Firstname, Lastname, DOB), TextArea(PublicData)} \\ \hline
-\multicolumn{1}{|l|}{Dashboard} & \multicolumn{1}{l|}{Statistics, Table(ID, Description, Date, View)} \\ \hline
-\multicolumn{1}{|l|}{View Form} & \multicolumn{1}{l|}{Text Fields(User Details, Circumstance), Table(Module Details), Table(Uploaded Files), POST Form(Files)} \\ \hline
-\multicolumn{1}{|l|}{Units} & \multicolumn{1}{l|}{GET Form(Number of modules)} \\ \hline
-\multicolumn{1}{|l|}{New Form} & \multicolumn{1}{l|}{POST Form(Circumstance, Module Details, Files)} \\ \hline
-\multicolumn{1}{|l|}{Public Data} & \multicolumn{1}{l|}{TextArea(PublicData;Disabled)} \\ \hline
+Login & POST Form(Email, Password) \\ \hline
+Register & POST Form(Firstname, Lastname, Email, Password1, Password2, DOB) \\ \hline
+Password Change & POST Form(Current Password, Password1, Password2) \\ \hline
+Profile Page & POST Form(Email;Disabled, Firstname, Lastname, DOB), TextArea(PublicData) \\ \hline
+Dashboard & Statistics, Table(ID, Description, Date, View) \\ \hline
+View Form & Text Fields(User Details, Circumstance), Table(Module Details), Table(Uploaded Files), POST Form(Files) \\ \hline
+Units & GET Form(Number of modules) \\ \hline
+New Form & POST Form(Circumstance, Module Details, Files) \\ \hline
+Public Data & TextArea(PublicData;Disabled) \\ \hline
 \end{tabular}%
-}
 \captionof{table}{HTML Components \&  Relative Pages}\label{tab:htmlcom} 
 \end{table}
 \egroup
@@ -57,7 +54,7 @@ Lastly, the secretary can also directly print the form while viewing it. All mod
 The main part of the implementation is combining both the \textbf{HTML} and \textbf{JavaScript} to work along with \textbf{Django} being the main controller. In the implementation, Django 2.2\cite{djangoLatest} which is the latest version was used. The first step was simply to combine the HTML, JavaScript, CSS and Django together into a folder system and define it on Django's settings. Within seconds the entire HTML was accessible on a Django running web server. The three sections below explain the process of coding in Django, the difficulties faces and lastly a small summary on back-end development. 
 
 \subsubsection{Authentication \& Database}
-After combining all the above, the authentication system was first to be built. As stated in Chapter 4.4, \textbf{All-Auth}\cite{allauth} was implemented into the Django system by importing the relevant packages. However, in order to avoid users creating multiple accounts with multiple emails, a manual \textbf{validation} was coded which only allows the student to register with their University Email Address (\textbf{sheffield.ac.uk}) only. All HTML files for All-Auth were overwritten by the HTML design already created in order to have a continuous site. At this point, all data being registered from All-Auth was bring stored into a \textbf{SQLite database} which was inbuilt with Django. Creating the database schema seen in \ref{fig:dbschema} was extremely simple with the \textbf{Model, View and Controller system} which Django follows. The database was ready in seconds after defining it in Models. \\[4mm]
+After combining all the above, the authentication system was first to be built. As stated in Chapter 4, \textbf{All-Auth}\cite{allauth} was implemented into the Django system by importing the relevant packages. However, in order to avoid users creating multiple accounts with multiple emails, a manual \textbf{validation} was coded which only allows the student to register with their University Email Address (\textbf{sheffield.ac.uk}) only. All HTML files for All-Auth were overwritten by the HTML design already created in order to have a continuous site. At this point, all data being registered from All-Auth was bring stored into a \textbf{SQLite database} which was inbuilt with Django. Creating the database schema seen in \ref{fig:dbschema} was extremely simple with the \textbf{Model, View and Controller system} which Django follows. The database was ready in seconds after defining it in Models. \\[4mm]
 
 \subsubsection{New Form}
 At this point, the authentication system was ready as well as the database in which all the data would be stored. In order to retrieve data from the database there needed to be some data already inserted and so in order to do that the "Create new form" page had to be completed with back-end code. Different students may have different number of modules which are affected by their circumstance and so the first step would be to ask them to fill in how many modules are affected by their circumstance. This would send in a GET request with the parameter '\textbf{units}' and its \textbf{value} as an integer. The form for creating a new extenuating circumstance would then get this integer from the GET link and produce those many 'input fields' for the modules section of the form. The creation of a HTML POST form is made extremely easy with Django's \textbf{forms.py} system where you simply define the fields of a form such as text input or email and it will automatically present the form on the template where it is called. On successful submit, the student is notified, redirected to dashboard and the form data is saved into the database. The student is also notified if the form was not submitted fully and if it should be re-submitted.

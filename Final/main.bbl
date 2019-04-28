@@ -140,4 +140,9 @@ Django, ``Documentation - 2.2.'' \url{https://docs.djangoproject.com/en/2.2/},
   2018.
 \newblock Accessed: 20.11.2018.
 
+\bibitem{djangoSecurity}
+Django, ``Documentation - security.''
+  \url{https://docs.djangoproject.com/en/2.2/topics/security/}, 2018.
+\newblock Accessed: 20.11.2018.
+
 \end{thebibliography}

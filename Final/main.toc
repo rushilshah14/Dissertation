@@ -44,15 +44,17 @@
 \contentsline {section}{\numberline {5.2}Implementation}{16}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}HTML}{16}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}JavaScript}{17}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Django}{17}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Django}{18}{subsection.5.2.3}
 \contentsline {subsubsection}{Authentication \& Database}{18}{subsubsection*.14}
-\contentsline {subsubsection}{New Form}{18}{subsubsection*.15}
-\contentsline {subsubsection}{Dashboard}{18}{subsubsection*.16}
-\contentsline {subsubsection}{View Form}{19}{subsubsection*.17}
+\contentsline {subsubsection}{New Form}{19}{subsubsection*.15}
+\contentsline {subsubsection}{Dashboard}{19}{subsubsection*.16}
+\contentsline {subsubsection}{View Form}{20}{subsubsection*.17}
 \contentsline {subsubsection}{Profile Page}{20}{subsubsection*.18}
-\contentsline {subsubsection}{Student Record}{20}{subsubsection*.19}
-\contentsline {subsubsection}{Email Notifications}{20}{subsubsection*.20}
-\contentsline {section}{\numberline {5.3}Complications}{21}{section.5.3}
-\contentsline {subsubsection}{Student Panel}{21}{subsubsection*.21}
-\contentsline {subsubsection}{Secretary Panel}{22}{subsubsection*.22}
-\contentsline {chapter}{Bibliography}{24}{chapter*.23}
+\contentsline {subsubsection}{Student Record}{21}{subsubsection*.19}
+\contentsline {subsubsection}{Email Notifications}{21}{subsubsection*.20}
+\contentsline {section}{\numberline {5.3}Complications}{22}{section.5.3}
+\contentsline {subsubsection}{Student Panel}{22}{subsubsection*.21}
+\contentsline {subsubsection}{Secretary Panel}{23}{subsubsection*.22}
+\contentsline {section}{\numberline {5.4}Testing}{23}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summary}{24}{section.5.5}
+\contentsline {chapter}{Bibliography}{26}{chapter*.23}

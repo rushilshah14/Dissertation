@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  14 NOV 2018 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  27 APR 2019 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,12 +435,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
+ (./title.out) (./title.out)
 \@outlinefile=\write3
 \openout3 = `title.out'.
 
 
 
-LaTeX Warning: File `images/TuosLogo.png' not found on input line 17.
+LaTeX Warning: File `images/TuosLogo.png' not found on input line 16.
 
 
 ! Package pdftex.def Error: File `images/TuosLogo.png' not found: using draft s
@@ -450,36 +451,29 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...ludegraphics[scale=2]{images/TuosLogo.png}
-                                                  \\[8mm]
+l.16 ...ludegraphics[scale=2]{images/TuosLogo.png}
+                                                  \\[12mm]
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
 [1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 
 (./title.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-
-
-Package rerunfilecheck Warning: File `title.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `title.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package rerunfilecheck Info: File `title.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7264 strings out of 494091
- 112213 string characters out of 6163523
- 202742 words of memory out of 5000000
+ 7268 strings out of 494091
+ 112252 string characters out of 6163523
+ 202846 words of memory out of 5000000
  10865 multiletter control sequences out of 15000+600000
- 5978 words of font info for 22 fonts, out of 8000000 for 9000
+ 5977 words of font info for 22 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  45i,5n,45p,253b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
@@ -487,7 +481,7 @@ Here is how much of TeX's memory you used:
 mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on title.pdf (1 page, 43601 bytes).
+Output written on title.pdf (1 page, 43185 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
