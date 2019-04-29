@@ -63,36 +63,38 @@ Warning--entry type for "ruddra" isn't style-file defined
 --line 249 of file references/references.bib
 Warning--entry type for "danielquinn" isn't style-file defined
 --line 257 of file references/references.bib
-You've used 30 entries,
+Warning--entry type for "vulner" isn't style-file defined
+--line 266 of file references/references.bib
+You've used 31 entries,
             1876 wiz_defined-function locations,
-            616 strings with 7303 characters,
-and the built_in function-call counts, 4104 in all, are:
-= -- 420
-> -- 120
+            621 strings with 7539 characters,
+and the built_in function-call counts, 4240 in all, are:
+= -- 434
+> -- 124
 < -- 0
-+ -- 60
-- -- 30
-* -- 152
-:= -- 613
-add.period$ -- 60
-call.type$ -- 30
-change.case$ -- 30
++ -- 62
+- -- 31
+* -- 157
+:= -- 633
+add.period$ -- 62
+call.type$ -- 31
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 120
-empty$ -- 541
-format.name$ -- 30
-if$ -- 1051
+cite$ -- 31
+duplicate$ -- 124
+empty$ -- 559
+format.name$ -- 31
+if$ -- 1086
 int.to.chr$ -- 0
-int.to.str$ -- 30
+int.to.str$ -- 31
 missing$ -- 0
-newline$ -- 123
-num.names$ -- 30
-pop$ -- 180
+newline$ -- 127
+num.names$ -- 31
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 89
+skip$ -- 92
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -101,7 +103,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 30
-width$ -- 32
-write$ -- 302
-(There were 30 warnings)
+while$ -- 31
+width$ -- 33
+write$ -- 312
+(There were 31 warnings)

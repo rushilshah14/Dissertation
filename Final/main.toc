@@ -43,24 +43,25 @@
 \contentsline {section}{\numberline {5.1}Introduction}{16}{section.5.1}
 \contentsline {section}{\numberline {5.2}Implementation}{16}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}HTML}{16}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}JavaScript}{17}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}JavaScript}{18}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Django}{18}{subsection.5.2.3}
-\contentsline {subsubsection}{Authentication \& Database}{18}{subsubsection*.14}
-\contentsline {subsubsection}{New Form}{19}{subsubsection*.15}
-\contentsline {subsubsection}{Dashboard}{19}{subsubsection*.16}
-\contentsline {subsubsection}{View Form}{20}{subsubsection*.17}
-\contentsline {subsubsection}{Profile Page}{20}{subsubsection*.18}
-\contentsline {subsubsection}{Student Record}{21}{subsubsection*.19}
-\contentsline {subsubsection}{Email Notifications}{21}{subsubsection*.20}
-\contentsline {section}{\numberline {5.3}Complications}{22}{section.5.3}
-\contentsline {subsubsection}{Student Panel}{22}{subsubsection*.21}
-\contentsline {subsubsection}{Secretary Panel}{23}{subsubsection*.22}
-\contentsline {section}{\numberline {5.4}Testing}{23}{section.5.4}
-\contentsline {section}{\numberline {5.5}Summary}{24}{section.5.5}
-\contentsline {chapter}{\numberline {6}Evaluation}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{25}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results \& Discussion}{25}{section.6.2}
-\contentsline {subsubsection}{Email Notifications (Additional Feature)}{28}{subsubsection*.26}
-\contentsline {section}{\numberline {6.3}Future Work}{29}{section.6.3}
-\contentsline {section}{\numberline {6.4}Summary}{30}{section.6.4}
-\contentsline {chapter}{Bibliography}{33}{chapter*.27}
+\contentsline {subsubsection}{Authentication \& Database}{19}{subsubsection*.16}
+\contentsline {subsubsection}{New Form}{20}{subsubsection*.19}
+\contentsline {subsubsection}{Dashboard}{20}{subsubsection*.20}
+\contentsline {subsubsection}{View Form}{21}{subsubsection*.21}
+\contentsline {subsubsection}{Profile Page}{22}{subsubsection*.22}
+\contentsline {subsubsection}{Student Record}{22}{subsubsection*.23}
+\contentsline {subsubsection}{Email Notifications}{22}{subsubsection*.24}
+\contentsline {section}{\numberline {5.3}Complications}{23}{section.5.3}
+\contentsline {subsubsection}{Student Panel}{24}{subsubsection*.25}
+\contentsline {subsubsection}{Secretary Panel}{25}{subsubsection*.26}
+\contentsline {section}{\numberline {5.4}Testing}{25}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summary}{26}{section.5.5}
+\contentsline {chapter}{\numberline {6}Evaluation}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{27}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results}{27}{section.6.2}
+\contentsline {subsubsection}{Email Notifications (Additional Feature)}{33}{subsubsection*.34}
+\contentsline {section}{\numberline {6.3}Discussion}{33}{section.6.3}
+\contentsline {section}{\numberline {6.4}Future Work}{34}{section.6.4}
+\contentsline {section}{\numberline {6.5}Summary}{35}{section.6.5}
+\contentsline {chapter}{Bibliography}{39}{chapter*.36}

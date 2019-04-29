@@ -7,7 +7,19 @@
 The implementation process began with re-constructing the HTML template by Creative Tim\cite{creativeTimTemplate} to the different sections mentioned in chapter 4.2, JavaScript going along with the HTML and finally the Django back-end.
 
 \subsection{HTML}
-Redesigning the HTML code required changing the CSS, HTML components and removing unwanted JavaScript code. This brought about various bugs and unexpected changes in the overall HTML which crashed a few elements of the code such as Tables. With the use of Google Chrome and Console the debugging was completed and successful HTML pages were created for all three different sections as mentioned in Chapter 4.2. However, since pages are going to be repeated(Dashboard, Viewform, Profile, etc) only one HTML code was required and repeated depending on which panel you are logged in as. Table \ref{tab:htmlcom} shows what components were created into their relative files by redesigning the public licensed template. Each of these were combined with CSS and JavaScript from Chapter 4.2.2
+Redesigning the HTML code required changing the CSS, HTML components and removing unwanted JavaScript code. This brought about various bugs and unexpected changes in the overall HTML which crashed a few elements of the code such as Tables. With the use of Google Chrome Console the debugging was completed and successful HTML pages were created for all three different sections as mentioned in Chapter \ref{ch:design}. However, since pages are going to be repeated(Dashboard, Viewform, Profile, etc) only one HTML code was required and repeated depending on which panel you are logged in as. Table \ref{tab:htmlcom} shows what components were created into their relative files by redesigning the public licensed template. Each of these were combined with CSS and JavaScript from Chapter \ref{ch:design}. Figures \ref{fig:dash} and \ref{fig:ctdash} show how the template was redesigned to fit our requirements. 
+
+\begin{figure}[H]
+        \includegraphics[scale=0.5]
+        {images/dash.png}
+        \caption{\label{fig:dash} Redesigned Dashboard}
+      \end{figure}
+      
+\begin{figure}[H]
+        \includegraphics[scale=0.5]
+        {images/ctdash.png}
+        \caption{\label{fig:ctdash} Creative Tim Dashboard}
+      \end{figure}      
 
 \bgroup
 \def\arraystretch{2}%  1 is the default, change whatever you need
@@ -31,30 +43,40 @@ Public Data & TextArea(PublicData;Disabled) \\ \hline
 \egroup
 
 \subsection{JavaScript}
-After completion of the HTML design, it was important to add JavaScript in order to allow smooth control of the website. Along side the JavaScript received with the template by Creative Tim\cite{creativeTimTemplate} such as \textbf{Bootstrap}\cite{bootstrapfour} other scripts were manually added.  \\[4mm]
+After completion of the HTML design, it was important to add JavaScript in order to allow smooth control of the website. Along side the JavaScript received with the template by Creative Tim\cite{creativeTimTemplate} such as Bootstrap\cite{bootstrapfour} other scripts were manually added.  \\[4mm]
 
-Tables would load numerous entries for the \textit{Secretary Panel} and the \textit{Scrutiny Panel}, this caused the page to be extensively long without the ability to filter out or search for a specific form, user or find pending forms. In order to achieve efficiency and sort out the entries in the table the use of \textbf{DataTables}\cite{datatables} came in handy. It automatically completed the following;
-\begin{itemize}
-  \item Added a search field - Allows the user to search for data in the entries
-  \item Limited entries shown and added more pages - Allows efficiency and speed
-  \item Sort by ascending or descending - Useful when searching for \textit{Pending} forms
-\end{itemize}
+Tables would load numerous entries for the \textit{Secretary Panel} and the \textit{Scrutiny Panel}, this caused the page to be extensively long without the ability to filter out or search for a specific form, user or find pending forms. In order to achieve efficiency and sort out the entries in the table the use of DataTables\cite{datatables} came in handy. It automatically completed the following;
+Added a search field - Allows the user to search for data in the entries\\
+Limited entries shown and added more pages - Allows efficiency and speed\\
+Sort by ascending or descending - Useful when searching for \textit{Pending} forms \\
+Being able to sort and filter through the tables was an important requirement for organised data. \\[4mm]
 
-The above are a requirement as being able to sort the forms, users and finding exactly something specific is an important factor which can be useful when a form needs to be reviewed or assessed. \\[4mm]
+Another important public script used was \textit{jsPDF}\cite{jsPDF}, as per the requirements, the secretary needs to be able to print and download the forms. PDF would be a perfect format to download these files as any browser, or PDF compatible viewer can be used to view the form. This JavaScript code converts the content inside a specific \textit{HTML container} and copies that data to a PDF which can then be downloaded by the user, in our case, the secretary. When the implementation of this was complete, the data from the form would be saved simply as text and would loose its colours and format. This would scramble up all the data and make it highly unreadable. To overcome this bug, \textit{Html2Canvas} was used. \\[4mm]
 
-Another important public script used was \textbf{jsPDF}\cite{jsPDF}, as per the requirements, the secretary needs to be able to print and download the forms. PDF would be a perfect format to download these files as any browser, or PDF compatible viewer can be used to view the form. This JavaScript code converts the content inside a specific \textit{HTML container} and copies that data to a PDF which can then be downloaded by the user, in our case, the secretary. When the implementation of this was complete, the data from the form would be saved simply as text and would loose its colours and format. This would scramble up all the data and make it highly unreadable. To overcome this bug, \textbf{Html2Canvas} was used. \\[4mm]
-
-\textbf{Html2Canvas}\cite{htmlcanvas} is a MIT licensed script which creates an image for everything on the current web page or a specific HTML container with the CSS (including colour and design). This is then copied onto the PDF created by jsPDF as mentioned above and made available for download. This allows the form to be printed exactly the same way it would be seen when viewing it on the web-page. \\[4mm]
+\textit{Html2Canvas}\cite{htmlcanvas} is a MIT licensed script which creates an image for everything on the current web page or a specific HTML container with the CSS (including colour and design). This is then copied onto the PDF created by jsPDF as mentioned above and made available for download. This allows the form to be printed exactly the same way it would be seen when viewing it on the web-page. \\[4mm]
 
 Lastly, the secretary can also directly print the form while viewing it. All modern browsers have the ability to print directly what is being displayed on the current web page and with a simple line of code(\textit{window.print()}), a button on the view form html allows the browser to detect a print command being sent. 
-
 
 
 \subsection{Django}
 The main part of the implementation is combining both the \textbf{HTML} and \textbf{JavaScript} to work along with \textbf{Django} being the main controller. In the implementation, Django 2.2\cite{djangoLatest} which is the latest version was used. The first step was simply to combine the HTML, JavaScript, CSS and Django together into a folder system and define it on Django's settings. Within seconds the entire HTML was accessible on a Django running web server. The three sections below explain the process of coding in Django, the difficulties faces and lastly a small summary on back-end development. 
 
 \subsubsection{Authentication \& Database}
-After combining all the above, the authentication system was first to be built. As stated in Chapter 4, \textbf{All-Auth}\cite{allauth} was implemented into the Django system by importing the relevant packages. However, in order to avoid users creating multiple accounts with multiple emails, a manual \textbf{validation} was coded which only allows the student to register with their University Email Address (\textbf{sheffield.ac.uk}) only. All HTML files for All-Auth were overwritten by the HTML design already created in order to have a continuous site. At this point, all data being registered from All-Auth was bring stored into a \textbf{SQLite database} which was inbuilt with Django. Creating the database schema seen in \ref{fig:dbschema} was extremely simple with the \textbf{Model, View and Controller system} which Django follows. The database was ready in seconds after defining it in Models. \\[4mm]
+After combining all the above, the authentication system was first to be built. As stated in Chapter 4, \textbf{All-Auth}\cite{allauth} was implemented into the Django system by importing the relevant packages. However, in order to avoid users creating multiple accounts with multiple emails, a manual \textbf{validation} was coded which only allows the student to register with their University Email Address (\textbf{sheffield.ac.uk}) only. All HTML files for All-Auth were overwritten by the HTML design already created in order to have a continuous site. At this point, all data being registered from All-Auth was bring stored into a \textbf{SQLite database} which was inbuilt with Django. Creating the database schema, as built in Chapter \ref{ch:design} seen in \ref{fig:dbschema} was extremely simple with the \textbf{Model, View and Controller system} which Django follows. The database was ready in seconds after defining it in Models. Figure \ref{fig:login} and \ref{fig:register} show the login and register pages respectively with All-Auth and Django being the backend controllers. 
+
+\begin{center}
+ \begin{figure}[H]
+        \includegraphics[scale=1]
+        {images/login.png}
+        \caption{\label{fig:login} Login Page}
+      \end{figure} 
+
+\begin{figure}[H]
+        \includegraphics[scale=1]
+        {images/register.png}
+        \caption{\label{fig:register} Login Page}
+      \end{figure}
+ \end{center} 
 
 \subsubsection{New Form}
 At this point, the authentication system was ready as well as the database in which all the data would be stored. In order to retrieve data from the database there needed to be some data already inserted and so in order to do that the "Create new form" page had to be completed with back-end code. Different students may have different number of modules which are affected by their circumstance and so the first step would be to ask them to fill in how many modules are affected by their circumstance. This would send in a GET request with the parameter '\textbf{units}' and its \textbf{value} as an integer. The form for creating a new extenuating circumstance would then get this integer from the GET link and produce those many 'input fields' for the modules section of the form. The creation of a HTML POST form is made extremely easy with Django's \textbf{forms.py} system where you simply define the fields of a form such as text input or email and it will automatically present the form on the template where it is called. On successful submit, the student is notified, redirected to dashboard and the form data is saved into the database. The student is also notified if the form was not submitted fully and if it should be re-submitted.

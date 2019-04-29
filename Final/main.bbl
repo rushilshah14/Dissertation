@@ -37,7 +37,8 @@ F.~J. DeMers, ``7 technology trends that will dominate 2018.''
 \newblock Accessed: 01.11.2018.
 
 \bibitem{arvr}
-J.~Ronzio, ``7 technology trends that will dominate 2018.''
+J.~Ronzio, ``What is the difference between ar and vr? a lesson in altered
+  realities.''
   \url{https://cramer.com/story/the-difference-between-ar-and-vr/}, 2018.
 \newblock Accessed: 03.11.2018.
 
@@ -158,6 +159,12 @@ D.~Quinn, ``django-encrypted-filefield.''
 \bibitem{ruddra}
 Ruddra, ``django-encrypt-file.''
   \url{https://github.com/ruddra/django-encrypt-file}, 2018.
+\newblock Accessed: 10.04.2019.
+
+\bibitem{vulner}
+M.~Ángel Mendoza, ``Vulnerabilities reached a historic peak in 2017.''
+  \url{https://www.welivesecurity.com/2018/02/05/vulnerabilities-reached-historic-peak-2017/},
+  2018.
 \newblock Accessed: 10.04.2019.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  28 APR 2019 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  29 APR 2019 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -325,7 +325,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 \@float@every@table=\toks25
 ))
-No file Results.aux.
+(./Results.aux)
 \openout1 = `Results.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -342,6 +342,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 (/usr/local/texlive/2018basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
@@ -434,15 +435,163 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
+ (./Results.out) (./Results.out)
 \@outlinefile=\write3
 \openout3 = `Results.out'.
 
 
 
-LaTeX Warning: Citation `bootstrapfour' on page 1 undefined on input line 9.
+LaTeX Warning: File `images/ecfstudenttable.png' not found on input line 13.
 
 
-LaTeX Warning: File `images/mobiledevice.jpg' not found on input line 14.
+! Package pdftex.def Error: File `images/ecfstudenttable.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13         {images/ecfstudenttable.png}
+                                         }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/ecfsectable.png' not found on input line 19.
+
+
+! Package pdftex.def Error: File `images/ecfsectable.png' not found: using draf
+t setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19         {images/ecfsectable.png}
+                                     }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:dashboardmorefiles' on page 1 undefined on input 
+line 24.
+
+
+LaTeX Warning: Reference `fig:viewformmorefiles' on page 1 undefined on input l
+ine 24.
+
+[1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+LaTeX Warning: File `images/dashboardmorefiles.png' not found on input line 28.
+
+
+
+! Package pdftex.def Error: File `images/dashboardmorefiles.png' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28         {images/dashboardmorefiles.png}
+                                            }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/viewformmorefiles.png' not found on input line 34.
+
+
+! Package pdftex.def Error: File `images/viewformmorefiles.png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34         {images/viewformmorefiles.png}
+                                           }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `ch:implementation' on page 2 undefined on input line 
+39.
+
+
+LaTeX Warning: Reference `fig:print' on page 2 undefined on input line 39.
+
+
+LaTeX Warning: File `images/print.png' not found on input line 43.
+
+
+! Package pdftex.def Error: File `images/print.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43         {images/print.png}
+                               }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:studlink' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Reference `ch:implementation' on page 2 undefined on input line 
+47.
+
+
+LaTeX Warning: File `images/studlink.png' not found on input line 51.
+
+
+! Package pdftex.def Error: File `images/studlink.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51         {images/studlink.png}
+                                  }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2]
+
+LaTeX Warning: Citation `allauth' on page 3 undefined on input line 56.
+
+
+LaTeX Warning: Citation `bcrypt' on page 3 undefined on input line 56.
+
+
+LaTeX Warning: Citation `dbencrypt' on page 3 undefined on input line 56.
+
+
+LaTeX Warning: Reference `ch:implementation' on page 3 undefined on input line 
+58.
+
+
+LaTeX Warning: Reference `ch:implementation' on page 3 undefined on input line 
+60.
+
+
+LaTeX Warning: Citation `danielquinn' on page 3 undefined on input line 64.
+
+
+LaTeX Warning: Citation `ruddra' on page 3 undefined on input line 64.
+
+[3]
+
+LaTeX Warning: Citation `bootstrapfour' on page 4 undefined on input line 66.
+
+
+LaTeX Warning: File `images/mobiledevice.jpg' not found on input line 70.
 
 
 ! Package pdftex.def Error: File `images/mobiledevice.jpg' not found: using dra
@@ -452,29 +601,20 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14         {images/mobiledevice.jpg}
+l.70         {images/mobiledevice.jpg}
                                       }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18.
-[1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ (./Results.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `Results.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
-
-(./Results.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 18.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
-
-
-Package rerunfilecheck Warning: File `Results.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Results.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Warning: There were undefined references.
 
@@ -483,21 +623,22 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 7268 strings out of 494091
- 112307 string characters out of 6163523
- 203742 words of memory out of 5000000
- 10869 multiletter control sequences out of 15000+600000
- 4766 words of font info for 18 fonts, out of 8000000 for 9000
+ 7301 strings out of 494091
+ 112754 string characters out of 6163523
+ 206059 words of memory out of 5000000
+ 10879 multiletter control sequences out of 15000+600000
+ 5718 words of font info for 21 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 45i,6n,45p,441b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,6n,45p,1015b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt12.pfb>
-Output written on Results.pdf (1 page, 31152 bytes).
+m/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt12.pfb>
+Output written on Results.pdf (4 pages, 64943 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
