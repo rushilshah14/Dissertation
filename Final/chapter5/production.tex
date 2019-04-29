@@ -146,9 +146,15 @@ The profile page simply displays the current users information. If the user is a
       \end{figure}
 
 \subsubsection{Student Record} 
-Every user when registered is provided with a\textit{ 8 digit random key} which can is used as a \textit{GET parameter} to access their public record. Only users who have the \textit{KEY} can access these records making it secure. This random key is stored in the database under \textit{User Profile} and has a unique schema which makes sure that two users do not have the same KEY. The public data again is simply displayed with a '\textit{textarea}' HTML component which is coded as mobile first. The purpose of using a random key is to avoid pattern detection (For example, using an email instead of a random key) and unauthorised access.  \\[4mm]
+Every user when registered is provided with a\textit{ 8 digit random key} which can is used as a \textit{GET parameter} to access their public record. Only users who have the \textit{KEY} can access these records making it secure. This random key is stored in the database under \textit{User Profile} and has a unique schema which makes sure that two users do not have the same KEY. The public data again is simply displayed with a '\textit{textarea}' HTML component which is coded as mobile first. The purpose of using a random key is to avoid pattern detection (For example, using an email instead of a random key) and unauthorised access. Figure \ref{fig:studrecord} shows how the private link can be accessed and the data it would show. Since it is a \textit{textarea} HTML component, the data can be copied into a TXT when needed. \\[4mm]
 
 Secretary Panel: Since only the secretary can give out the direct link to access the student's record, they also have access to regenerating the key. This is a safety feature to avoid unauthorised access. The regeneration uses the same principle of using Python's \textit{Random} package to generate an \textit{8 digit key} and replace it in the database. 
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/studrecord.png}
+        \caption{\label{fig:studrecord} Student Record Via Secret Link}
+      \end{figure}
 
 \subsubsection{Email Notifications} 
 Email notification were created with the use of Gmail's SMTP services. Django has an inbuilt system which makes mailing and bulk mailing extremely easy. The SMTP details of the sender email can be set in the settings.py page which directly links to the Django mailer and with a simple \textit{sendMail} function we can send mail. To make debugging and later changes to the email text being sent, each message is stored as a TXT file which is called in the \textit{sendMail} function when required. For example, when a new user registers, a confirmation email is sent to the user using the \textit{sendMail} function and uses the data from NewUser.txt as the main message. Email notifications have been implemented for the following instances: New user registration; Password reset and confirmation of password change; Successful creation of extenuating circumstance form; Updated status of the form (Rejected/Approved); Requested additional files.

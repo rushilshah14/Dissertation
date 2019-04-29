@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  29 APR 2019 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  29 APR 2019 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,7 +459,7 @@ LaTeX Info: Redefining \nameref on input line 20.
 \openout3 = `main.out'.
 
  (./title/title.tex
-<images/TuosLogo.png, id=229, 74.9199pt x 72.0291pt>
+<images/TuosLogo.png, id=233, 74.9199pt x 72.0291pt>
 File: images/TuosLogo.png Graphic file (type png)
 <use images/TuosLogo.png>
 Package pdftex.def Info: images/TuosLogo.png  used on input line 16.
@@ -527,25 +527,25 @@ Overfull \hbox (12.71942pt too wide) in paragraph at lines 83--83
 (./chapter2/webvsapp.tex) [3
 
 ] (./chapter2/websystem.tex
-<images/webserverdesign.png, id=420, 1003.75pt x 501.875pt>
+<images/webserverdesign.png, id=429, 1003.75pt x 501.875pt>
 File: images/webserverdesign.png Graphic file (type png)
 <use images/webserverdesign.png>
 Package pdftex.def Info: images/webserverdesign.png  used on input line 11.
 (pdftex.def)             Requested size: 250.93689pt x 125.46843pt.
-<images/mostLanguagesUsed.png, id=425, 437.13312pt x 257.46187pt>
+<images/mostLanguagesUsed.png, id=434, 437.13312pt x 257.46187pt>
 File: images/mostLanguagesUsed.png Graphic file (type png)
 <use images/mostLanguagesUsed.png>
 Package pdftex.def Info: images/mostLanguagesUsed.png  used on input line 24.
 (pdftex.def)             Requested size: 262.28189pt x 154.4783pt.
  [4 <./images/webserverdesign.png>]
-<images/languageAttacks.png, id=436, 327.2225pt x 390.45876pt>
+<images/languageAttacks.png, id=445, 327.2225pt x 390.45876pt>
 File: images/languageAttacks.png Graphic file (type png)
 <use images/languageAttacks.png>
 Package pdftex.def Info: images/languageAttacks.png  used on input line 33.
 (pdftex.def)             Requested size: 245.41626pt x 292.84334pt.
 ) (./chapter2/django.tex [5 <./images/mostLanguagesUsed.png> <./images/language
 Attacks.png>]
-<images/djangovslaravelspeeds.png, id=451, 397.485pt x 275.52937pt>
+<images/djangovslaravelspeeds.png, id=460, 397.485pt x 275.52937pt>
 File: images/djangovslaravelspeeds.png Graphic file (type png)
 <use images/djangovslaravelspeeds.png>
 Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
@@ -554,7 +554,7 @@ Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
  [6 <./images/djangovslaravelspeeds.png>]) [7]
 Chapter 3.
 (./chapter3/introduction.tex) (./chapter3/process.tex
-<images/portal1.png, id=475, 1003.75pt x 702.625pt>
+<images/portal1.png, id=484, 1003.75pt x 702.625pt>
 File: images/portal1.png Graphic file (type png)
 <use images/portal1.png>
 Package pdftex.def Info: images/portal1.png  used on input line 13.
@@ -563,7 +563,7 @@ Package pdftex.def Info: images/portal1.png  used on input line 13.
 
 ])
 (./chapter3/interface.tex [9 <./images/portal1.png>]
-<images/moqup.png, id=487, 325.215pt x 243.91125pt>
+<images/moqup.png, id=496, 325.215pt x 243.91125pt>
 File: images/moqup.png Graphic file (type png)
 <use images/moqup.png>
 Package pdftex.def Info: images/moqup.png  used on input line 19.
@@ -579,7 +579,7 @@ Overfull \hbox (26.57278pt too wide) in paragraph at lines 10--18
 ) (./chapter4/javascript.tex) [12
 
 ] (./chapter4/database.tex
-<images/db.png, id=523, 290.08376pt x 363.3575pt>
+<images/db.png, id=532, 290.08376pt x 363.3575pt>
 File: images/db.png Graphic file (type png)
 <use images/db.png>
 Package pdftex.def Info: images/db.png  used on input line 11.
@@ -594,12 +594,12 @@ hich are HTML, JavaScript
 [15]
 Chapter 5.
 (./chapter5/introduction.tex) (./chapter5/production.tex
-<images/dash.png, id=553, 833.61438pt x 379.91937pt>
+<images/dash.png, id=562, 833.61438pt x 379.91937pt>
 File: images/dash.png Graphic file (type png)
 <use images/dash.png>
 Package pdftex.def Info: images/dash.png  used on input line 14.
 (pdftex.def)             Requested size: 416.80617pt x 189.95921pt.
-<images/ctdash.png, id=554, 838.63312pt x 447.17062pt>
+<images/ctdash.png, id=563, 838.63312pt x 447.17062pt>
 File: images/ctdash.png Graphic file (type png)
 <use images/ctdash.png>
 Package pdftex.def Info: images/ctdash.png  used on input line 20.
@@ -622,18 +622,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
  []
 
 [17 <./images/ctdash.png>] [18]
-<images/login.png, id=582, 379.4175pt x 186.19562pt>
+<images/login.png, id=592, 379.4175pt x 186.19562pt>
 File: images/login.png Graphic file (type png)
 <use images/login.png>
 Package pdftex.def Info: images/login.png  used on input line 71.
 (pdftex.def)             Requested size: 379.41656pt x 186.19516pt.
-<images/register.png, id=583, 384.93813pt x 282.05376pt>
+<images/register.png, id=593, 384.93813pt x 282.05376pt>
 File: images/register.png Graphic file (type png)
 <use images/register.png>
 Package pdftex.def Info: images/register.png  used on input line 79.
 (pdftex.def)             Requested size: 384.93718pt x 282.05305pt.
  [19 <./images/login.png>]
-<images/units.png, id=595, 699.61375pt x 180.17313pt>
+<images/units.png, id=604, 699.61375pt x 180.17313pt>
 File: images/units.png Graphic file (type png)
 <use images/units.png>
 Package pdftex.def Info: images/units.png  used on input line 90.
@@ -644,7 +644,7 @@ Overfull \hbox (65.66595pt too wide) in paragraph at lines 89--91
  []
 
 [20 <./images/register.png>]
-<images/newform.png, id=602, 681.04437pt x 437.635pt>
+<images/newform.png, id=611, 681.04437pt x 437.635pt>
 File: images/newform.png Graphic file (type png)
 <use images/newform.png>
 Package pdftex.def Info: images/newform.png  used on input line 96.
@@ -655,7 +655,7 @@ Overfull \hbox (52.66748pt too wide) in paragraph at lines 95--97
  []
 
 [21 <./images/units.png> <./images/newform.png>]
-<images/dashboardimplement.png, id=612, 695.59875pt x 369.38pt>
+<images/dashboardimplement.png, id=621, 695.59875pt x 369.38pt>
 File: images/dashboardimplement.png Graphic file (type png)
 <use images/dashboardimplement.png>
 Package pdftex.def Info: images/dashboardimplement.png  used on input line 107.
@@ -666,7 +666,7 @@ Overfull \hbox (62.85548pt too wide) in paragraph at lines 106--108
 [][] 
  []
 
-<images/secretarydashimplement.png, id=613, 702.625pt x 402.00188pt>
+<images/secretarydashimplement.png, id=622, 702.625pt x 402.00188pt>
 File: images/secretarydashimplement.png Graphic file (type png)
 <use images/secretarydashimplement.png>
 Package pdftex.def Info: images/secretarydashimplement.png  used on input line 
@@ -679,7 +679,7 @@ Overfull \hbox (67.7738pt too wide) in paragraph at lines 112--114
 
 [22 <./images/dashboardimplement.png>] [23 <./images/secretarydashimplement.png
 >]
-<images/secviewform.png, id=628, 685.56125pt x 448.17438pt>
+<images/secviewform.png, id=637, 685.56125pt x 448.17438pt>
 File: images/secviewform.png Graphic file (type png)
 <use images/secviewform.png>
 Package pdftex.def Info: images/secviewform.png  used on input line 127.
@@ -689,23 +689,28 @@ Overfull \hbox (55.82927pt too wide) in paragraph at lines 126--128
 [][] 
  []
 
-<images/modal.png, id=629, 451.18562pt x 226.8475pt>
+<images/modal.png, id=638, 451.18562pt x 226.8475pt>
 File: images/modal.png Graphic file (type png)
 <use images/modal.png>
 Package pdftex.def Info: images/modal.png  used on input line 134.
 (pdftex.def)             Requested size: 315.82777pt x 158.79216pt.
 [24 <./images/secviewform.png>]
-<images/profile.png, id=636, 592.2125pt x 379.91937pt>
+<images/profile.png, id=645, 592.2125pt x 379.91937pt>
 File: images/profile.png Graphic file (type png)
 <use images/profile.png>
 Package pdftex.def Info: images/profile.png  used on input line 144.
 (pdftex.def)             Requested size: 414.54591pt x 265.94173pt.
- [25 <./images/modal.png> <./images/profile.png>]) (./chapter5/difficulty.tex [
-26]) (./chapter5/testing.tex [27]) [28]
-(./chapter5/summary.tex) [29]
+ [25 <./images/modal.png> <./images/profile.png>]
+<images/studrecord.png, id=654, 576.1525pt x 264.99pt>
+File: images/studrecord.png Graphic file (type png)
+<use images/studrecord.png>
+Package pdftex.def Info: images/studrecord.png  used on input line 155.
+(pdftex.def)             Requested size: 403.30399pt x 185.49173pt.
+) [26 <./images/studrecord.png>] (./chapter5/difficulty.tex [27])
+(./chapter5/testing.tex [28]) (./chapter5/summary.tex) [29]
 Chapter 6.
 (./chapter6/introduction.tex) (./chapter6/Results.tex
-<images/ecfstudenttable.png, id=672, 694.595pt x 195.22937pt>
+<images/ecfstudenttable.png, id=684, 694.595pt x 195.22937pt>
 File: images/ecfstudenttable.png Graphic file (type png)
 <use images/ecfstudenttable.png>
 Package pdftex.def Info: images/ecfstudenttable.png  used on input line 13.
@@ -718,7 +723,7 @@ Overfull \hbox (62.15285pt too wide) in paragraph at lines 12--14
 [30
 
 ]
-<images/ecfsectable.png, id=677, 693.08937pt x 205.26688pt>
+<images/ecfsectable.png, id=689, 693.08937pt x 205.26688pt>
 File: images/ecfsectable.png Graphic file (type png)
 <use images/ecfsectable.png>
 Package pdftex.def Info: images/ecfsectable.png  used on input line 19.
@@ -728,7 +733,7 @@ Overfull \hbox (61.09892pt too wide) in paragraph at lines 18--20
  [] 
  []
 
-<images/dashboardmorefiles.png, id=680, 699.61375pt x 421.575pt>
+<images/dashboardmorefiles.png, id=692, 699.61375pt x 421.575pt>
 File: images/dashboardmorefiles.png Graphic file (type png)
 <use images/dashboardmorefiles.png>
 Package pdftex.def Info: images/dashboardmorefiles.png  used on input line 28.
@@ -739,7 +744,7 @@ Overfull \hbox (65.66595pt too wide) in paragraph at lines 27--29
  []
 
 [31 <./images/ecfstudenttable.png> <./images/ecfsectable.png>]
-<images/viewformmorefiles.png, id=687, 695.09688pt x 278.03876pt>
+<images/viewformmorefiles.png, id=699, 695.09688pt x 278.03876pt>
 File: images/viewformmorefiles.png Graphic file (type png)
 <use images/viewformmorefiles.png>
 Package pdftex.def Info: images/viewformmorefiles.png  used on input line 34.
@@ -750,7 +755,7 @@ Overfull \hbox (62.50417pt too wide) in paragraph at lines 33--35
  []
 
 [32 <./images/dashboardmorefiles.png> <./images/viewformmorefiles.png>]
-<images/print.png, id=696, 691.58376pt x 211.28937pt>
+<images/print.png, id=709, 691.58376pt x 211.28937pt>
 File: images/print.png Graphic file (type png)
 <use images/print.png>
 Package pdftex.def Info: images/print.png  used on input line 43.
@@ -760,31 +765,41 @@ Overfull \hbox (60.045pt too wide) in paragraph at lines 42--44
  [] 
  []
 
-<images/studlink.png, id=699, 372.39125pt x 148.555pt>
+<images/studlink.png, id=712, 372.39125pt x 148.555pt>
 File: images/studlink.png Graphic file (type png)
 <use images/studlink.png>
 Package pdftex.def Info: images/studlink.png  used on input line 51.
 (pdftex.def)             Requested size: 372.39034pt x 148.55463pt.
 [33 <./images/print.png> <./images/studlink.png>] [34]
-<images/mobiledevice.jpg, id=721, 1113.15875pt x 2216.28pt>
+<images/mobiledevice.jpg, id=733, 1113.15875pt x 2216.28pt>
 File: images/mobiledevice.jpg Graphic file (type jpg)
 <use images/mobiledevice.jpg>
 Package pdftex.def Info: images/mobiledevice.jpg  used on input line 71.
 (pdftex.def)             Requested size: 166.9666pt x 332.42766pt.
  [35 <./images/mobiledevice.jpg>]
-<images/emailuploadfiles.png, id=731, 309.65688pt x 115.93312pt>
+<images/emailuploadfiles.png, id=744, 309.65688pt x 115.93312pt>
 File: images/emailuploadfiles.png Graphic file (type png)
 <use images/emailuploadfiles.png>
 Package pdftex.def Info: images/emailuploadfiles.png  used on input line 80.
 (pdftex.def)             Requested size: 371.58638pt x 139.11903pt.
-) (./chapter6/discussion.tex [36 <./images/emailuploadfiles.png>])
-(./chapter6/futurework.tex [37]) (./chapter6/summary.tex)
+<images/newformsub.png, id=745, 171.13937pt x 69.76062pt>
+File: images/newformsub.png Graphic file (type png)
+<use images/newformsub.png>
+Package pdftex.def Info: images/newformsub.png  used on input line 86.
+(pdftex.def)             Requested size: 205.36618pt x 83.71231pt.
+) (./chapter6/discussion.tex [36 <./images/emailuploadfiles.png> <./images/newf
+ormsub.png>]) (./chapter6/futurework.tex [37]) [38]
+(./chapter6/summary.tex)
 Overfull \hbox (0.5672pt too wide) in paragraph at lines 6--142
 \OT1/cmr/m/n/12 This sec-tion has mainly con-nected re-quire-ments and im-ple-m
 en-ta-tion for this project.
  []
 
-[38] (./main.bbl [39]
+[39]
+Chapter 7.
+(./chapter7/conclusion.tex) (./main.bbl [40
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\OT1/cmr/m/n/12 W. Se-cu-rity, ``2014 web-site se-cu-rity statis-tics re-port
 .''
@@ -895,7 +910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--74
 guard . com / blog /
  []
 
-[40
+[41
 
 ]
 Underfull \hbox (badness 3471) in paragraph at lines 86--89
@@ -927,7 +942,7 @@ Underfull \hbox (badness 1264) in paragraph at lines 130--133
  github . com / dwaiter / django-[]bcrypt$[][]\OT1/cmr/m/n/12 ,
  []
 
-[41]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 160--163
 []\OT1/cmr/m/n/12 Ruddra, ``django-encrypt-file.'' [][]$\OT1/cmtt/m/n/12 https 
 : / / github . com / ruddra /
@@ -952,23 +967,23 @@ mr/m/n/12 , 2018.  Ac-cessed:
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
- [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+ [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5C129E4B45831F7EDDD1386B4A96D97C;3250.
+(rerunfilecheck)             Checksum: 0F2BA902AA3DE20E7F070335D2F78EBF;3296.
  ) 
 Here is how much of TeX's memory you used:
- 8707 strings out of 494091
- 134322 string characters out of 6163523
- 239526 words of memory out of 5000000
- 11968 multiletter control sequences out of 15000+600000
+ 8728 strings out of 494091
+ 134716 string characters out of 6163523
+ 239681 words of memory out of 5000000
+ 11979 multiletter control sequences out of 15000+600000
  9974 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 36i,14n,43p,1764b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,43p,1764b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
@@ -976,10 +991,10 @@ m/cmr17.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (50 pages, 2357951 bytes).
+Output written on main.pdf (51 pages, 2437087 bytes).
 PDF statistics:
- 897 PDF objects out of 1000 (max. 8388607)
- 774 compressed objects within 8 object streams
- 183 named destinations out of 1000 (max. 500000)
- 584 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 917 PDF objects out of 1000 (max. 8388607)
+ 789 compressed objects within 8 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 
