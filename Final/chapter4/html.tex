@@ -3,38 +3,20 @@
 
 \begin{document}
 \raggedright
-The HTML template used in the production of this system needed to be able to support the different types of user groups i.e Students, Secretary Panel and Scrutiny Panel. With research a \textit{Public Licensed}\cite{creativeTimTemplateLicense} Boostrap 4\cite{bootstrapfour} HTML template\cite{creativeTimTemplate} designed with a mobile first coding aspect by \textit{Creative Tim} will be used as the base of development. The selected template is an "Admin Template" which has functionality built in such as HTML for statistics, graphs and much more which can be really useful when creating dashboards and profile pages. 
+The HTML template used in the production of this system needed to be able to support the different types of user groups i.e Students, Secretary Panel and Scrutiny Panel. With research a \textit{Public Licensed}\cite{creativeTimTemplateLicense} Boostrap 4\cite{bootstrapfour} HTML template\cite{creativeTimTemplate} designed with a mobile first coding aspect by \textit{Creative Tim} will be used as the base of development. The selected template is an "Admin Template" which has functionality built in such as HTML for statistics, graphs and more. Table \ref{tab:panelpages} shows the relevant panel and its pages.
 
-Each section needs specific HTML pages:
-
-\begin{enumerate}
-	\item Basics
-		\begin{itemize}
-     		\item Login Page(Email and Password)
-     		\item Register Page(Names, Email, Password and Date of Birth)
-     		\item Password Change
-     		\item Profile Page
-     		\item A student profile page accessible to staff members
-   		\end{itemize}
-   	\item Student Panel
-   		\begin{itemize}
-     		\item Dashboard page to display the already submitted forms and link to creating a new form
-     		\item View form page which allows the user to see the already submitted form
-     		\item Create a new form with required fields
-     		\item Students available public data
-   		\end{itemize}
-   \item Secretary Panel
-		\begin{itemize}
-     		\item Dashboard displaying all forms submitted by students 
-     		\item View form page with ability to change status of form and request more files
-     		\item Access to students public information and ability to change it
-   		\end{itemize}
-   	\item Scrutiny Panel
-		\begin{itemize}
-     		\item Dashboard page with all forms access
-     		\item View form page to view data from the form
-   		\end{itemize}
-\end{enumerate}
+\def\arraystretch{1.2}
+\begin{table}[H]
+\begin{tabular}{|l|l|}
+\hline
+Panel      & Pages                                                                                                                                                                                                                                                                              \\ \hline
+All Panels & \begin{tabular}[c]{@{}l@{}}Login Page(Email and Password)\\ Register Page(Names, Email, Password and Date of Birth)\\ Password Change\\ Profile Page\\ A student profile page accessible to staff members\end{tabular}                                                             \\ \hline
+Student    & \begin{tabular}[c]{@{}l@{}}Dashboard page to display the already submitted forms and link to\\ creating a new form\\ View form page which allows the user to see the already submitted form\\ Create a new form with required fields\\ Students available public data\end{tabular} \\ \hline
+Secretary  & \begin{tabular}[c]{@{}l@{}}Dashboard displaying all forms submitted by students\\ View form page with ability to change status of form and request more\\ files\\ Access to students public information and ability to change it\end{tabular}                                      \\ \hline
+Scrutiny   & \begin{tabular}[c]{@{}l@{}}Dashboard page with all forms access\\ View form page to view data from the form\end{tabular}                                                                                                                                                           \\ \hline
+\end{tabular}
+\captionof{table}{Development panels \& their pages}\label{tab:panelpages} 
+\end{table}
 
 
 \end{document}

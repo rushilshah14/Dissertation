@@ -22,38 +22,35 @@
 \BOOKMARK [2][-]{subsection.2.4.3}{Summary}{section.2.4}% 22
 \BOOKMARK [0][-]{chapter.3}{Requirement \046 Analysis}{}% 23
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{Process}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{Analysis}{chapter.3}% 25
 \BOOKMARK [1][-]{section.3.3}{Interface}{chapter.3}% 26
 \BOOKMARK [2][-]{subsection.3.3.1}{Student Panel}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.2}{Scrutiny Committee Panel}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Testing}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.4.1}{SQL Queries}{section.3.4}% 30
-\BOOKMARK [2][-]{subsection.3.4.2}{Cross Site Scripting}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.3}{Automated Testing}{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.4}{User Testing}{section.3.4}% 33
-\BOOKMARK [1][-]{section.3.5}{Summary}{chapter.3}% 34
-\BOOKMARK [0][-]{chapter.4}{Design}{}% 35
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.2}{HTML Template}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.3}{Javascript}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{Database}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{Django}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Implementation \046 Testing}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Implementation}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.2.1}{HTML}{section.5.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.2}{JavaScript}{section.5.2}% 46
-\BOOKMARK [2][-]{subsection.5.2.3}{Django}{section.5.2}% 47
-\BOOKMARK [1][-]{section.5.3}{Complications}{chapter.5}% 48
-\BOOKMARK [2][-]{subsection.5.3.1}{Student Panel}{section.5.3}% 49
-\BOOKMARK [2][-]{subsection.5.3.2}{Secretary Panel}{section.5.3}% 50
-\BOOKMARK [1][-]{section.5.4}{Testing}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.5}{Summary}{chapter.5}% 52
-\BOOKMARK [0][-]{chapter.6}{Evaluation}{}% 53
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 54
-\BOOKMARK [1][-]{section.6.2}{Results}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.3}{Discussion}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}% 58
-\BOOKMARK [0][-]{chapter*.46}{Bibliography}{}% 59
+\BOOKMARK [2][-]{subsection.3.3.2}{Secretary Panel}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.3}{Scrutiny Panel}{section.3.3}% 29
+\BOOKMARK [1][-]{section.3.4}{Testing}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.5}{Summary}{chapter.3}% 31
+\BOOKMARK [0][-]{chapter.4}{Design}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{HTML Template}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Javascript}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.4}{Database}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.5}{Django}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Implementation \046 Testing}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{Implementation}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.2.1}{HTML}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.2}{JavaScript}{section.5.2}% 43
+\BOOKMARK [2][-]{subsection.5.2.3}{Django}{section.5.2}% 44
+\BOOKMARK [1][-]{section.5.3}{Complications}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.3.1}{Student Panel}{section.5.3}% 46
+\BOOKMARK [2][-]{subsection.5.3.2}{Secretary Panel}{section.5.3}% 47
+\BOOKMARK [1][-]{section.5.4}{Testing}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.5}{Summary}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{Evaluation}{}% 50
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.2}{Results}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.3}{Discussion}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.4}{Future Work}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}% 55
+\BOOKMARK [0][-]{chapter*.50}{Bibliography}{}% 56
