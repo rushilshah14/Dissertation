@@ -59,64 +59,99 @@ Lastly, the secretary can also directly print the form while viewing it. All mod
 
 
 \subsection{Django}
-The main part of the implementation is combining both the \textbf{HTML} and \textbf{JavaScript} to work along with \textbf{Django} being the main controller. In the implementation, Django 2.2\cite{djangoLatest} which is the latest version was used. The first step was simply to combine the HTML, JavaScript, CSS and Django together into a folder system and define it on Django's settings. Within seconds the entire HTML was accessible on a Django running web server. The three sections below explain the process of coding in Django, the difficulties faces and lastly a small summary on back-end development. 
+The main part of the implementation is combining both the HTML and JavaScript to work along with Django being the main controller. In the implementation, Django 2.2\cite{djangoLatest} which is the latest version was used. The first step was simply to combine the HTML, JavaScript, CSS and Django together into a folder system and define it on Django's settings. Within seconds the entire HTML was accessible on a Django running web server. The three sections below explain the process of coding in Django, the difficulties faces and lastly a small summary on back-end development. 
 
 \subsubsection{Authentication \& Database}
-After combining all the above, the authentication system was first to be built. As stated in Chapter 4, \textbf{All-Auth}\cite{allauth} was implemented into the Django system by importing the relevant packages. However, in order to avoid users creating multiple accounts with multiple emails, a manual \textbf{validation} was coded which only allows the student to register with their University Email Address (\textbf{sheffield.ac.uk}) only. All HTML files for All-Auth were overwritten by the HTML design already created in order to have a continuous site. At this point, all data being registered from All-Auth was bring stored into a \textbf{SQLite database} which was inbuilt with Django. Creating the database schema, as built in Chapter \ref{ch:design} seen in \ref{fig:dbschema} was extremely simple with the \textbf{Model, View and Controller system} which Django follows. The database was ready in seconds after defining it in Models. Figure \ref{fig:login} and \ref{fig:register} show the login and register pages respectively with All-Auth and Django being the backend controllers. 
+After combining all the above, the authentication system was first to be built. As stated in Chapter 4, All-Auth\cite{allauth} was implemented into the Django system by importing the relevant packages. However, in order to avoid users creating multiple accounts with multiple emails, a manual validation was coded which only allows the student to register with their University Email Address (sheffield.ac.uk) only. All HTML files for All-Auth were overwritten by the HTML design already created in order to have a continuous site. At this point, all data being registered from All-Auth was bring stored into a SQLite database which was inbuilt with Django. Creating the database schema, as built in Chapter \ref{ch:design} seen in \ref{fig:dbschema} was extremely simple with the Model, View and Controller system which Django follows. The database was ready in seconds after defining it in Models. Figure \ref{fig:login} and \ref{fig:register} show the login and register pages respectively with All-Auth and Django being the backend controllers. 
 
-\begin{center}
+
  \begin{figure}[H]
+ 	\begin{center}
         \includegraphics[scale=1]
         {images/login.png}
         \caption{\label{fig:login} Login Page}
+     \end{center} 
       \end{figure} 
 
 \begin{figure}[H]
+	\begin{center}
         \includegraphics[scale=1]
         {images/register.png}
-        \caption{\label{fig:register} Login Page}
+        \caption{\label{fig:register} Register Page}
+     \end{center} 
       \end{figure}
- \end{center} 
+ 
 
 \subsubsection{New Form}
-At this point, the authentication system was ready as well as the database in which all the data would be stored. In order to retrieve data from the database there needed to be some data already inserted and so in order to do that the "Create new form" page had to be completed with back-end code. Different students may have different number of modules which are affected by their circumstance and so the first step would be to ask them to fill in how many modules are affected by their circumstance. This would send in a GET request with the parameter '\textbf{units}' and its \textbf{value} as an integer. The form for creating a new extenuating circumstance would then get this integer from the GET link and produce those many 'input fields' for the modules section of the form. The creation of a HTML POST form is made extremely easy with Django's \textbf{forms.py} system where you simply define the fields of a form such as text input or email and it will automatically present the form on the template where it is called. On successful submit, the student is notified, redirected to dashboard and the form data is saved into the database. The student is also notified if the form was not submitted fully and if it should be re-submitted.
+At this point, the authentication system was ready as well as the database in which all the data would be stored. In order to retrieve data from the database there needed to be some data already inserted and so in order to do that the "Create new form" page had to be completed with back-end code. Different students may have different number of modules which are affected by their circumstance and so the first step would be to ask them to fill in how many modules are affected by their circumstance. This would send in a GET request with the parameter \textit{units} and its \textit{value} as an integer. The form for creating a new extenuating circumstance would then get this integer from the GET link and produce those many 'input fields' for the modules section of the form. The creation of a HTML POST form is made extremely easy with Django's \textit{forms.py} system where you simply define the fields of a form such as text input or email and it will automatically present the form on the template where it is called. On successful submit, the student is notified, redirected to dashboard and the form data is saved into the database. The student is also notified if the form was not submitted fully and if it should be re-submitted. Figures \ref{fig:units} and \ref{fig:newform} show the process of creating a new form with the modules from \ref{fig:units} used as a GET request in \ref{fig:newform}
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/units.png}
+        \caption{\label{fig:units} Number of modules}
+      \end{figure}
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/newform.png}
+        \caption{\label{fig:newform} Submit a new form}
+      \end{figure}
 
 \subsubsection{Dashboard} 
-\textbf{Student:} Once the form has been submitted, the student can see it on the list of forms submitted. The dashboard provides statistics based on the current status of the all the forms submitted. These statistics are counted based on the status of each module under each form. If all modules are approved, the form will be '\textbf{entirely approved}' and this will be visible to the student under the statistics. The same goes for pending and rejected. However, if the modules are set to different statuses such as 'rejected' and 'approved' under one form, the overall result is '\textbf{partially approved}' or '\textbf{partially pending}' if the module has one or more pending modules. The student can see exactly which module has been rejected, approved or still pending.  All data is retrieved from the database as follows mathematical calculations where each module is added onto the statistics based on the other modules within the same form. The calculations as well as the display of each form was completed easily with the use of \textbf{FOR} loops.\\[4mm]
+Student: Once the form has been submitted, the student can see it on the list of forms submitted. The dashboard provides statistics based on the current status of the all the forms submitted. These statistics are counted based on the status of each module under each form. If all modules are approved, the form will be entirely approved and this will be visible to the student under the statistics. The same goes for pending and rejected. However, if the modules are set to different statuses such as \enquote{rejected} and \enquote{approved} under one form, the overall result is \enquote{partially approved} or \enquote{partially pending} if the module has one or more pending modules. The student can see exactly which module has been rejected, approved or still pending.  All data is retrieved from the database as follows mathematical calculations where each module is added onto the statistics based on the other modules within the same form. The calculations as well as the display of each form was completed easily with the use of \textit{FOR} loops. Figure \ref{fig:dashboardimplement} shows the dashboard created including statistics for the students.\\[4mm] 
 
-\textbf{Secretary \& Scrutiny Panel:} If the secretary or someone from the scrutiny panel logs into the system, the dashboard follows the same format as that of the students but with access to all forms submitted by students and their public data. The statistics of the forms are also similar to that of the students allowing the secretary or the scrutiny panel to know exactly how many pending forms are there which need to be updated. 
+Secretary \& Scrutiny Panel: If the secretary or someone from the scrutiny panel logs into the system, the dashboard follows the same format as that of the students but with access to all forms submitted by students and their public data. The statistics of the forms are also similar to that of the students allowing the secretary or the scrutiny panel to know exactly how many pending forms are there which need to be updated. Figure \ref{fig:secretarydashimplement} shows the dashboard created excluding statistics for the students.
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/dashboardimplement.png}
+        \caption{\label{fig:dashboardimplement} Student Panel Dashboard}
+      \end{figure}
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/secretarydashimplement.png}
+        \caption{\label{fig:secretarydashimplement} Secretary Panel Dashboard}
+      \end{figure}
 
 \subsubsection{View Form} 
 
-\textbf{Student:} The dashboard links each of the forms created to a view form page. This page retrieves data from the database based on the GET parameters(form ID) received when requesting the page. Interlinked data from the database is then retrieved based on the \textbf{Form ID} such as the \textit{User} who created it, the \textit{Files} uploaded under the form and lastly the \textit{Modules} affected. Each of these is stored in different tables as they share a one to many relationship. Apart from simply displaying the form data already submitted, there is an option triggered by the secretary which creates a new \textbf{file up-loader} at the top of the page allowing the student to upload more files. The file up-loader submits the new files as a POST form and saves based on the form ID. \\[4mm]
+Student: The dashboard links each of the forms created to a view form page. This page retrieves data from the database based on the GET parameters(form ID) received when requesting the page. Interlinked data from the database is then retrieved based on the Form ID such as the \textit{User} who created it, the \textit{Files} uploaded under the form and lastly the \textit{Modules} affected. Each of these is stored in different tables as they share a one to many relationship. Apart from simply displaying the form data already submitted, there is an option triggered by the secretary which creates a new \textit{file up-loader} at the top of the page allowing the student to upload more files. The file up-loader submits the new files as a POST form and saves based on the form ID. \\[4mm]
 
-\textbf{Secretary Panel:} This page follows the same format as the student view form with an exception of allowing the secretary have control over editing the final status and action for each module and requesting more files. Each module is displayed in a table with individual buttons bringing up a '\textbf{pop-up}' also known as '\textbf{Modal}' in HTML5. The modal pop-ups then allow the secretary to change values for the 'Action' and 'Status' of the form. \textbf{HTML drop-down} allows us to display text as the displayed options while the back-end gets a '\textbf{value}' which is stored into the database as an integer. This same value is automatically selected when displaying the current selection as it retrieves the integer from the database. A \textbf{switch-case toggle} was designed to allow the secretary to request more files from the student. When the switch is toggled, the database value for '\textbf{requestfiles}' is switched. This then displays the additional files up-loader as stated previously. The switch is called by a POST submit button with a '\textbf{name}' attribute to differentiate between the different POST forms. Lastly, for ease of access, a 'textarea' was created allowing direct change of the students public data without having to open multiple tabs and make changes. This again uses a POST form with a different 'name' attribute. Django '\textbf{views.py}' controls all the data received from the POST request and cleans the data ready to be saved into the database with the '\textbf{save()}' function. \\[4mm]
+Secretary Panel: This page follows the same format as the student view form with an exception of allowing the secretary have control over editing the final status and action for each module and requesting more files. Each module is displayed in a table with individual buttons bringing up a \textit{pop-up} also known as \textit{Modal} in HTML5. The modal pop-ups then allow the secretary to change values for the \enquote{Action} and \enquote{Status} of the form. HTML drop-down allows us to display text as the displayed options while the back-end gets a \textit{value} which is stored into the database as an integer. This same value is automatically selected when displaying the current selection as it retrieves the integer from the database. A switch-case toggle was designed to allow the secretary to request more files from the student. When the switch is toggled, the database value for \enquote{requestfiles} is switched. This then displays the additional files up-loader as stated previously. The switch is called by a POST submit button with a \textit{name} attribute to differentiate between the different POST forms. Lastly, for ease of access, a \enquote{textarea} was created allowing direct change of the students public data without having to open multiple tabs and make changes. This again uses a POST form with a different \enquote{name} attribute. Django views.py controls all the data received from the POST request and cleans the data ready to be saved into the database with the \textit{save()} function. Figures \ref{fig:secviewform} and \ref{fig:modal} shows PART of the view form page with and the popup which shows up when the edit button is clicked respectively.\\[4mm]
 
-\textbf{Scrutiny Panel:} Since the scrutiny panel does not control the status directly on the portal, the view form page simply retrieves data from the database and displayed it with the use of HTML components such as p, a, h1, h2, h3, label, and many others. 
+Scrutiny Panel: Since the scrutiny panel does not control the status directly on the portal, the view form page simply retrieves data from the database and displayed it with the use of HTML components. 
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/secviewform.png}
+        \caption{\label{fig:secviewform} PART of the Secretary Panel View Form}
+      \end{figure}
+      
+\begin{figure}[H]
+        \begin{center}
+        \includegraphics[scale=0.7]
+        {images/modal.png}
+        \caption{\label{fig:modal} Secretary Panel Edit Module Modal}
+        \end{center}
+      \end{figure}
 
 \subsubsection{Profile Page} 
-The profile page simply displays the current users information. If the user is a student they can view their public data in a \textbf{disabled} '\textbf{textarea}', this allows scrolling of long paragraphs without having to extend the page size. Users cannot change their email address as this would bring about issues of multiple sign ups with different emails hence the \textbf{validation of only sheffield.ac.uk emails}. A simple POST form on the page retrieves the values current in the database and allows changing them after cleaning the new data. \textbf{This includes: firstname; lastname; dob only. }
+The profile page simply displays the current users information. If the user is a student they can view their public data in a \textit{disabled} \textit{textarea}, this allows scrolling of long paragraphs without having to extend the page size. Users cannot change their email address as this would bring about issues of multiple sign ups with different emails hence the validation of only sheffield.ac.uk emails. A simple POST form on the page retrieves the values current in the database and allows changing them after cleaning the new data. \textit{This includes: firstname; lastname; dob only.} Figure \ref{fig:profile} shows the student panel profile page with randomly generated text as the public data. 
+
+\begin{figure}[H]
+        \includegraphics[scale=0.7]
+        {images/profile.png}
+        \caption{\label{fig:profile} Student Panel Profile Page}
+      \end{figure}
 
 \subsubsection{Student Record} 
-Every user when registered is provided with a\textbf{ 8 digit random key} which can is used as a \textbf{GET parameter} to access their public record. Only users who have the \textbf{KEY} can access these records making it secure. This random key is stored in the database under '\textbf{User Profile}' and has a \textbf{unique schema} which makes sure that two users do not have the same KEY. The public data again is simply displayed with a '\textbf{textarea}' HTML component which is coded as mobile first. The purpose of using a random key is to \textbf{avoid pattern detection}(For example, using an email instead of a random key) and \textbf{unauthorised access.}  \\[4mm]
+Every user when registered is provided with a\textit{ 8 digit random key} which can is used as a \textit{GET parameter} to access their public record. Only users who have the \textit{KEY} can access these records making it secure. This random key is stored in the database under \textit{User Profile} and has a unique schema which makes sure that two users do not have the same KEY. The public data again is simply displayed with a '\textit{textarea}' HTML component which is coded as mobile first. The purpose of using a random key is to avoid pattern detection (For example, using an email instead of a random key) and unauthorised access.  \\[4mm]
 
-\textbf{Secretary Panel:} Since only the secretary can give out the direct link to access the student's record, they also have access to \textbf{regenerating the key}. This is a \textbf{safety feature} to avoid unauthorised access. The regeneration uses the same principle of using \textbf{Python's Random package} to generate an \textbf{8 digit key} and replace it in the database. 
+Secretary Panel: Since only the secretary can give out the direct link to access the student's record, they also have access to regenerating the key. This is a safety feature to avoid unauthorised access. The regeneration uses the same principle of using Python's \textit{Random} package to generate an \textit{8 digit key} and replace it in the database. 
 
 \subsubsection{Email Notifications} 
-Email notification were created with the use of \textbf{Gmail's SMTP services}. Django has an inbuilt system which makes mailing and bulk mailing extremely easy. The SMTP details of the sender email can be set in the settings.py page which directly links to the \textbf{Django mailer} and with a simple \textit{sendMail} function we can send mail. To make debugging and later changes to the email text being sent, each message is stored as a TXT file which is called in the \textit{sendMail} function when required. For example, when a new user registers, a confirmation email is sent to the user using the \textit{sendMail} function and uses the data from \textbf{NewUser.txt} as the main message. Email notifications have been implemented for the following instances;
+Email notification were created with the use of Gmail's SMTP services. Django has an inbuilt system which makes mailing and bulk mailing extremely easy. The SMTP details of the sender email can be set in the settings.py page which directly links to the Django mailer and with a simple \textit{sendMail} function we can send mail. To make debugging and later changes to the email text being sent, each message is stored as a TXT file which is called in the \textit{sendMail} function when required. For example, when a new user registers, a confirmation email is sent to the user using the \textit{sendMail} function and uses the data from NewUser.txt as the main message. Email notifications have been implemented for the following instances: New user registration; Password reset and confirmation of password change; Successful creation of extenuating circumstance form; Updated status of the form (Rejected/Approved); Requested additional files.
 
-\begin{itemize}
-  \item New user registration
-  \item Password reset and confirmation of password change
-  \item Successful creation of extenuating circumstance form
-  	\begin{itemize}
-     \item Email is sent to both Student and Secretary
-    \end{itemize}
-  \item Updated status of the form (Rejected/Approved)
-  \item Requested additional files
-  	\begin{itemize}
-     \item Email is sent to the Student and once uploaded to the Secretary
-    	\end{itemize} 
-\end{itemize}
 
 \end{document}

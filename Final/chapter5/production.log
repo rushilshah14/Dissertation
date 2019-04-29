@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  27 APR 2019 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  29 APR 2019 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -179,6 +179,30 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count94
 )
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count95
+)
+\csq@reset=\count96
+\csq@gtype=\count97
+\csq@glevel=\count98
+\csq@qlevel=\count99
+\csq@maxlvl=\count100
+\csq@tshold=\count101
+\csq@ltx@everypar=\toks22
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
 
@@ -192,9 +216,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2018basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count95
-\Gm@cntv=\count96
-\c@Gm@tempcnt=\count97
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
 \Gm@bindingoffset=\dimen137
 \Gm@wd@mp=\dimen138
 \Gm@odd@mp=\dimen139
@@ -203,7 +227,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen142
 \Gm@layouthoffset=\dimen143
 \Gm@layoutvoffset=\dimen144
-\Gm@dimlist=\toks22
+\Gm@dimlist=\toks23
 )
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -262,15 +286,15 @@ Package auxhook Warning: Cannot patch \document,
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen145
-\Hy@linkcounter=\count98
-\Hy@pagecounter=\count99
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count100
+\Hy@SavedSpaceFactor=\count107
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -282,10 +306,10 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count101
+\c@Hy@tempcnt=\count108
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen146
-\Fld@menulength=\count102
+\Fld@menulength=\count109
 \Field@Width=\dimen147
 \Fld@charsize=\dimen148
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -297,16 +321,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count103
-\c@Item=\count104
-\c@Hfootnote=\count105
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count106
-\c@bookmark@seq@number=\count107
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -316,14 +340,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip70
 ) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
-\float@exts=\toks23
+\c@float@type=\count115
+\float@exts=\toks24
 \float@box=\box29
-\@float@everytoks=\toks24
+\@float@everytoks=\toks25
 \@floatcapt=\box30
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
-\@float@every@table=\toks25
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+\@float@every@table=\toks26
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
 ))
 (./production.aux)
 \openout1 = `production.aux'.
@@ -345,17 +371,17 @@ LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
+\scratchcounter=\count116
 \scratchdimen=\dimen149
 \scratchbox=\box31
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count112
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count119
 \MPscratchDim=\dimen150
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -430,7 +456,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 y
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count115
+\c@section@level=\count122
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -444,94 +470,281 @@ LaTeX Info: Redefining \nameref on input line 4.
 LaTeX Warning: Citation `creativeTimTemplate' on page 1 undefined on input line
  7.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
 
-Underfull \hbox (badness 1796) in paragraph at lines 22--22
+LaTeX Warning: Reference `ch:design' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: Reference `ch:design' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: File `images/dash.png' not found on input line 14.
+
+
+! Package pdftex.def Error: File `images/dash.png' not found: using draft setti
+ng.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14         {images/dash.png}
+                              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/ctdash.png' not found on input line 20.
+
+
+! Package pdftex.def Error: File `images/ctdash.png' not found: using draft set
+ting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20         {images/ctdash.png}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
+
+Underfull \hbox (badness 1796) in paragraph at lines 34--34
 []|\OT1/cmr/m/n/12 POST Form(Email;Disabled, First-name, Last-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 24--24
+Underfull \hbox (badness 2119) in paragraph at lines 36--36
 []|\OT1/cmr/m/n/12 Text Fields(User De-tails, Cir-cum-stance), Ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 \OT1/cmr/m/n/12 ble(Module De-tails), Ta-ble(Uploaded Files),
  []
-
-
-LaTeX Warning: Citation `creativeTimTemplate' on page 1 undefined on input line
- 34.
-
-
-LaTeX Warning: Citation `bootstrapfour' on page 1 undefined on input line 34.
 
 [1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-LaTeX Warning: Citation `datatables' on page 2 undefined on input line 36.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
-(/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+LaTeX Warning: Citation `creativeTimTemplate' on page 2 undefined on input line
+ 46.
 
 
-LaTeX Warning: Citation `jsPDF' on page 2 undefined on input line 45.
+LaTeX Warning: Citation `bootstrapfour' on page 2 undefined on input line 46.
 
 
-LaTeX Warning: Citation `htmlcanvas' on page 2 undefined on input line 47.
+LaTeX Warning: Citation `datatables' on page 2 undefined on input line 48.
 
 
-LaTeX Warning: Citation `djangoLatest' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `jsPDF' on page 2 undefined on input line 54.
 
 [2]
 
-LaTeX Warning: Citation `allauth' on page 3 undefined on input line 57.
+LaTeX Warning: Citation `htmlcanvas' on page 3 undefined on input line 56.
 
 
-LaTeX Warning: Reference `fig:dbschema' on page 3 undefined on input line 57.
+LaTeX Warning: Citation `djangoLatest' on page 3 undefined on input line 62.
 
-[3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+
+LaTeX Warning: Citation `allauth' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Reference `ch:design' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Reference `fig:dbschema' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: File `images/login.png' not found on input line 71.
+
+
+! Package pdftex.def Error: File `images/login.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71         {images/login.png}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3]
+
+LaTeX Warning: File `images/register.png' not found on input line 79.
+
+
+! Package pdftex.def Error: File `images/register.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79         {images/register.png}
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/units.png' not found on input line 90.
+
+
+! Package pdftex.def Error: File `images/units.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90         {images/units.png}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/newform.png' not found on input line 96.
+
+
+! Package pdftex.def Error: File `images/newform.png' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96         {images/newform.png}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4]
+
+LaTeX Warning: File `images/dashboardimplement.png' not found on input line 107
+.
+
+
+! Package pdftex.def Error: File `images/dashboardimplement.png' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107         {images/dashboardimplement.png}
+                                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/secretarydashimplement.png' not found on input line
+ 113.
+
+
+! Package pdftex.def Error: File `images/secretarydashimplement.png' not found:
+ using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113         {images/secretarydashimplement.png}
+                                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+
+LaTeX Warning: Reference `fig:secviewform' on page 6 undefined on input line 12
+1.
+
+
+LaTeX Warning: Reference `fig:modal' on page 6 undefined on input line 121.
+
+
+LaTeX Warning: File `images/secviewform.png' not found on input line 127.
+
+
+! Package pdftex.def Error: File `images/secviewform.png' not found: using draf
+t setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127         {images/secviewform.png}
+                                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `images/modal.png' not found on input line 133.
+
+
+! Package pdftex.def Error: File `images/modal.png' not found: using draft sett
+ing.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133         {images/modal.png}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 149.
+
+ (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
+ [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./production.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `production.out' has not changed.
 (rerunfilecheck)             Checksum: ADFE88DC7A93FDFCB647CD0B0B42C841;146.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 7330 strings out of 494091
- 113219 string characters out of 6163523
- 207902 words of memory out of 5000000
- 10904 multiletter control sequences out of 15000+600000
- 7987 words of font info for 28 fonts, out of 8000000 for 9000
+ 8219 strings out of 494091
+ 126199 string characters out of 6163523
+ 233103 words of memory out of 5000000
+ 11756 multiletter control sequences out of 15000+600000
+ 8156 words of font info for 29 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 45i,10n,45p,1586b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,10n,45p,1747b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb>
-Output written on production.pdf (6 pages, 75061 bytes).
+ts/cm/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb>
+Output written on production.pdf (8 pages, 85806 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 30 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
