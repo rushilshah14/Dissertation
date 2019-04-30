@@ -2,34 +2,34 @@
 
 \begin{document}
 \raggedright
-Different types of complications were generated when building the system in Django. The most difficult ones are described below under two sections; Students and Secretary. The Scrutiny Panel did not have as many difficult complications as most of the code was re-used from the other two. 
+Different types of complications showed up while compiling the code. The most difficult ones are described below under two sections; Students and Secretary. The Scrutiny Panel did not have as many severe complications as most of the code was reused from the other two. 
 
 \subsection{Student Panel}
 
 \subsubsection{Dashboard}
-Issue: Calculate based on forms and not each individual module within the form. \\
+Issue: Calculate based on forms and not each module within the form. \\
 Solution: Use nested FOR loops to calculate statistics for each module within the form and only display the final count as the main form statistic.                                                                  \\[2mm]
 
 
 \subsubsection{New Form}
 Issue: Create module input fields based on the GET parameter value and allow each of the modules to be stored into the database. \\
-Solution: Retrieve the GET parameter value from views.py and import it into forms.py where the input fields are generated from. Use a FOR loop to create an input field with increasing HTML attributes eg. unitcode1 \\[2mm]
+Solution: Retrieve the GET parameter value from views.py and import it into forms.py where the input fields are generated from. Use a FOR loop to create an input field with increasing HTML attributes example, unitcode1 \\[2mm]
 
 Issue: Allow only ZIP files to be added and validated.                                                                 \\
 Solution: Create a Django validations.py function which detects the format of the file and rejects if it is not a ZIP.                                                                                               \\[2mm]
 
 Issue: Store files with the same name without replacing them.                                                                   \\
-Solution: Rename the uploaded file by adding a 5 digit random string to the end to prevent files being replaced when stored.                                                                                          \\[2mm]
+Solution: Rename the uploaded file by adding a five digit random string to the end to prevent files being replaced when stored.                                                                                          \\[2mm]
 
 \subsubsection{View Form}
 Issue: Prevent other users from accessing current users form.                                                                   \\
-Solution: Create validations which check if the form belongs to the current logged user, if so, then the user is allowed to access it.                                                                               \\[2mm]
+Solution: Create validations which check if the form belongs to the currently logged user, if so, then the user is allowed to access it.                                                                               \\[2mm]
 
 
 \subsection{Secretary Panel}
 
 \subsubsection{Dashboard}
-Issue: Calculate based on forms and not each individual module within the form.\\
+Issue: Calculate based on forms and not each module within the form.\\
 Solution: Use nested FOR loops to calculate statistics for each module within the form and only display the final count as the main form statistic.                                                     \\[2mm]
 
 \subsubsection{View Form}
