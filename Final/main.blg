@@ -69,36 +69,43 @@ Warning--entry type for "topfivecyber" isn't style-file defined
 --line 274 of file references/references.bib
 Warning--entry type for "webdev" isn't style-file defined
 --line 282 of file references/references.bib
-You've used 33 entries,
+Warning--entry type for "whyusedjango" isn't style-file defined
+--line 290 of file references/references.bib
+Warning--entry type for "nodejsdjango" isn't style-file defined
+--line 298 of file references/references.bib
+Warning--entry type for "nodejs" isn't style-file defined
+--line 306 of file references/references.bib
+Warning--empty booktitle in Holovaty2007TheDG
+You've used 37 entries,
             1876 wiz_defined-function locations,
-            630 strings with 7822 characters,
-and the built_in function-call counts, 4512 in all, are:
-= -- 462
-> -- 132
+            647 strings with 8293 characters,
+and the built_in function-call counts, 5084 in all, are:
+= -- 515
+> -- 152
 < -- 0
-+ -- 66
-- -- 33
-* -- 167
-:= -- 673
-add.period$ -- 66
-call.type$ -- 33
-change.case$ -- 33
++ -- 75
+- -- 38
+* -- 191
+:= -- 757
+add.period$ -- 73
+call.type$ -- 37
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 132
-empty$ -- 595
-format.name$ -- 33
-if$ -- 1156
+cite$ -- 38
+duplicate$ -- 156
+empty$ -- 671
+format.name$ -- 38
+if$ -- 1300
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 0
-newline$ -- 135
-num.names$ -- 33
-pop$ -- 198
+int.to.str$ -- 37
+missing$ -- 1
+newline$ -- 150
+num.names$ -- 37
+pop$ -- 225
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 98
+skip$ -- 109
 stack$ -- 0
 substring$ -- 0
 swap$ -- 0
@@ -106,8 +113,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 33
-width$ -- 35
-write$ -- 332
-(There were 33 warnings)
+warning$ -- 1
+while$ -- 37
+width$ -- 39
+write$ -- 369
+(There were 37 warnings)

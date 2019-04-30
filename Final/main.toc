@@ -19,6 +19,8 @@
 \contentsline {section}{\numberline {2.4}Django}{6}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Django vs Laravel}{6}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Django vs Ruby on Rails}{7}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Django vs NodeJS}{8}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Security}{8}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}Summary}{8}{section.2.5}
 \contentsline {chapter}{\numberline {3}Requirement \& Analysis}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{9}{section.3.1}

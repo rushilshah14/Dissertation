@@ -83,6 +83,10 @@ Martin, ``Top programming languages used in web development.''
   \url{https://www.cleverism.com/programming-languages-web-development/}, 2015.
 \newblock Accessed: 20.04.2019.
 
+\bibitem{whyusedjango}
+EDUCBA, ``Uses of django.'' \url{https://www.educba.com/uses-of-django/}, 2015.
+\newblock Accessed: 20.04.2019.
+
 \bibitem{laravel}
 Laravel, ``Laravel - the php framework for web artisans.''
   \url{https://laravel.com/}, 2018.
@@ -102,6 +106,20 @@ JetBrains, ``Jetbrains - python.''
 JetBrains, ``Jetbrains - ruby.''
   \url{https://www.jetbrains.com/research/devecosystem-2018/ruby/}, 2018.
 \newblock Accessed: 11.11.2018.
+
+\bibitem{nodejs}
+NodeJs, ``Node.js® is a javascript runtime built on chrome's v8 javascript
+  engine..'' \url{https://nodejs.org/en/}, 2019.
+\newblock Accessed: 20.04.2019.
+
+\bibitem{nodejsdjango}
+DailyRazor, ``Django vs node.js – here’s a 3 minutes detailed comparison
+  analysis.'' \url{https://www.dailyrazor.com/blog/django-vs-node.js/}, 2018.
+\newblock Accessed: 20.04.2019.
+
+\bibitem{Holovaty2007TheDG}
+A.~Holovaty and J.~Kaplan-Moss, ``The definitive guide to django: Web
+  development done right,'' 2007.
 
 \bibitem{djangoTesting}
 Django, ``Documentation - writing and running tests.''
