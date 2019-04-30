@@ -3,33 +3,33 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Basic Web Server.\relax }}{4}{figure.caption.7}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Most widely used languages for Web Systems - WhiteHatSec\cite {WhiteHatSec}\relax }}{5}{figure.caption.8}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Security Vulnerabilites in ASP, PHP, Perl, Java, .NET and ColdFusion - WhiteHatSec\cite {WhiteHatSec}\relax }}{5}{figure.caption.9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Django vs Laravel Speeds 2016 - CabotSolutions\cite {djangovslaravel}\relax }}{6}{figure.caption.10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Django vs Laravel Speeds 2016 - CabotSolutions\cite {djangovslaravel}\relax }}{7}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Portal and users.\relax }}{9}{figure.caption.11}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Portal mock-up\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Portal and users.\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Portal mock-up\relax }}{11}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Database Schema\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Database Schema\relax }}{15}{figure.caption.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Redesigned Dashboard\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Creative Tim Dashboard\relax }}{17}{figure.caption.19}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Login Page\relax }}{19}{figure.caption.21}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Register Page\relax }}{20}{figure.caption.22}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of modules\relax }}{21}{figure.caption.24}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Submit a new form\relax }}{21}{figure.caption.25}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Student Panel Dashboard\relax }}{22}{figure.caption.27}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Secretary Panel Dashboard\relax }}{23}{figure.caption.28}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces PART of the Secretary Panel View Form\relax }}{24}{figure.caption.30}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Secretary Panel Edit Module Modal\relax }}{25}{figure.caption.31}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Student Panel Profile Page\relax }}{25}{figure.caption.33}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Student Record Via Secret Link\relax }}{26}{figure.caption.35}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Redesigned Dashboard\relax }}{17}{figure.caption.18}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Creative Tim Dashboard\relax }}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Login Page\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Register Page\relax }}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of modules\relax }}{22}{figure.caption.24}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Submit a new form\relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Student Panel Dashboard\relax }}{23}{figure.caption.27}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Secretary Panel Dashboard\relax }}{24}{figure.caption.28}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces PART of the Secretary Panel View Form\relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Secretary Panel Edit Module Modal\relax }}{26}{figure.caption.31}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Student Panel Profile Page\relax }}{26}{figure.caption.33}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Student Record Via Secret Link\relax }}{27}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Student Panel Submitted Forms\relax }}{31}{figure.caption.42}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Secretary/Scrutiny Panel Submitted Forms\relax }}{31}{figure.caption.43}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Dashboard notification for more files\relax }}{32}{figure.caption.44}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces View Form upload files\relax }}{32}{figure.caption.45}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Print and Download Files\relax }}{33}{figure.caption.46}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Student Record link\relax }}{33}{figure.caption.47}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Screenshot of the system running on a mobile device\relax }}{35}{figure.caption.48}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Screenshot of E-Mail received for additional files by student.\relax }}{36}{figure.caption.50}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Screenshot of E-Mail received by secretary.\relax }}{36}{figure.caption.51}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Student Panel Submitted Forms\relax }}{32}{figure.caption.42}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Secretary/Scrutiny Panel Submitted Forms\relax }}{32}{figure.caption.43}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Dashboard notification for more files\relax }}{33}{figure.caption.44}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces View Form upload files\relax }}{33}{figure.caption.45}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Print and Download Files\relax }}{34}{figure.caption.46}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Student Record link\relax }}{34}{figure.caption.47}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Screenshot of the system running on a mobile device\relax }}{36}{figure.caption.48}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Screenshot of E-Mail received for additional files by student.\relax }}{37}{figure.caption.50}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Screenshot of E-Mail received by secretary.\relax }}{37}{figure.caption.51}
 \addvspace {10\p@ }

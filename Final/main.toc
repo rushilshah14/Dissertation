@@ -18,57 +18,57 @@
 \contentsline {subsection}{\numberline {2.3.2}The System}{4}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Django}{6}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Django vs Laravel}{6}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Django vs Ruby on Rails}{6}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Summary}{7}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Requirement \& Analysis}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}Analysis}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interface}{9}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Student Panel}{9}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Secretary Panel}{10}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Scrutiny Panel}{10}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Testing}{11}{section.3.4}
-\contentsline {subsubsection}{SQL Queries}{11}{subsubsection*.13}
-\contentsline {subsubsection}{Cross Site Scripting}{11}{subsubsection*.14}
-\contentsline {subsubsection}{Automated Testing}{11}{subsubsection*.15}
-\contentsline {subsubsection}{User Testing}{11}{subsubsection*.16}
-\contentsline {section}{\numberline {3.5}Summary}{11}{section.3.5}
-\contentsline {chapter}{\numberline {4}Design}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}HTML Template}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Javascript}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}Database}{13}{section.4.4}
-\contentsline {section}{\numberline {4.5}Django}{14}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{15}{section.4.6}
-\contentsline {chapter}{\numberline {5}Implementation \& Testing}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}Implementation}{16}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}HTML}{16}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}JavaScript}{18}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Django}{18}{subsection.5.2.3}
-\contentsline {subsubsection}{Authentication \& Database}{19}{subsubsection*.20}
-\contentsline {subsubsection}{New Form}{20}{subsubsection*.23}
-\contentsline {subsubsection}{Dashboard}{21}{subsubsection*.26}
-\contentsline {subsubsection}{View Form}{23}{subsubsection*.29}
-\contentsline {subsubsection}{Profile Page}{25}{subsubsection*.32}
-\contentsline {subsubsection}{Student Record}{26}{subsubsection*.34}
-\contentsline {subsubsection}{Email Notifications}{26}{subsubsection*.36}
-\contentsline {section}{\numberline {5.3}Complications}{27}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Student Panel}{27}{subsection.5.3.1}
-\contentsline {subsubsection}{Dashboard}{27}{subsubsection*.37}
-\contentsline {subsubsection}{New Form}{27}{subsubsection*.38}
-\contentsline {subsubsection}{View Form}{27}{subsubsection*.39}
-\contentsline {subsection}{\numberline {5.3.2}Secretary Panel}{27}{subsection.5.3.2}
-\contentsline {subsubsection}{Dashboard}{27}{subsubsection*.40}
-\contentsline {subsubsection}{View Form}{28}{subsubsection*.41}
-\contentsline {section}{\numberline {5.4}Testing}{28}{section.5.4}
-\contentsline {section}{\numberline {5.5}Summary}{29}{section.5.5}
-\contentsline {chapter}{\numberline {6}Evaluation}{30}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{30}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results}{30}{section.6.2}
-\contentsline {subsubsection}{Email Notifications (Additional Feature)}{36}{subsubsection*.49}
-\contentsline {section}{\numberline {6.3}Discussion}{36}{section.6.3}
-\contentsline {section}{\numberline {6.4}Future Work}{37}{section.6.4}
-\contentsline {section}{\numberline {6.5}Summary}{39}{section.6.5}
-\contentsline {chapter}{\numberline {7}Conclusion}{40}{chapter.7}
-\contentsline {chapter}{Bibliography}{43}{chapter*.52}
+\contentsline {subsection}{\numberline {2.4.2}Django vs Ruby on Rails}{7}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Summary}{8}{section.2.5}
+\contentsline {chapter}{\numberline {3}Requirement \& Analysis}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Analysis}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interface}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Student Panel}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Secretary Panel}{11}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Scrutiny Panel}{11}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Testing}{12}{section.3.4}
+\contentsline {subsubsection}{SQL Queries}{12}{subsubsection*.13}
+\contentsline {subsubsection}{Cross Site Scripting}{12}{subsubsection*.14}
+\contentsline {subsubsection}{Automated Testing}{12}{subsubsection*.15}
+\contentsline {subsubsection}{User Testing}{12}{subsubsection*.16}
+\contentsline {section}{\numberline {3.5}Summary}{12}{section.3.5}
+\contentsline {chapter}{\numberline {4}Design}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}HTML Template}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Javascript}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}Database}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Django}{15}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{16}{section.4.6}
+\contentsline {chapter}{\numberline {5}Implementation \& Testing}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Implementation}{17}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}HTML}{17}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}JavaScript}{19}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Django}{19}{subsection.5.2.3}
+\contentsline {subsubsection}{Authentication \& Database}{20}{subsubsection*.20}
+\contentsline {subsubsection}{New Form}{21}{subsubsection*.23}
+\contentsline {subsubsection}{Dashboard}{22}{subsubsection*.26}
+\contentsline {subsubsection}{View Form}{24}{subsubsection*.29}
+\contentsline {subsubsection}{Profile Page}{26}{subsubsection*.32}
+\contentsline {subsubsection}{Student Record}{27}{subsubsection*.34}
+\contentsline {subsubsection}{Email Notifications}{27}{subsubsection*.36}
+\contentsline {section}{\numberline {5.3}Complications}{28}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Student Panel}{28}{subsection.5.3.1}
+\contentsline {subsubsection}{Dashboard}{28}{subsubsection*.37}
+\contentsline {subsubsection}{New Form}{28}{subsubsection*.38}
+\contentsline {subsubsection}{View Form}{28}{subsubsection*.39}
+\contentsline {subsection}{\numberline {5.3.2}Secretary Panel}{28}{subsection.5.3.2}
+\contentsline {subsubsection}{Dashboard}{28}{subsubsection*.40}
+\contentsline {subsubsection}{View Form}{29}{subsubsection*.41}
+\contentsline {section}{\numberline {5.4}Testing}{29}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summary}{30}{section.5.5}
+\contentsline {chapter}{\numberline {6}Evaluation}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results}{31}{section.6.2}
+\contentsline {subsubsection}{Email Notifications (Additional Feature)}{37}{subsubsection*.49}
+\contentsline {section}{\numberline {6.3}Discussion}{37}{section.6.3}
+\contentsline {section}{\numberline {6.4}Future Work}{38}{section.6.4}
+\contentsline {section}{\numberline {6.5}Summary}{40}{section.6.5}
+\contentsline {chapter}{\numberline {7}Conclusion}{41}{chapter.7}
+\contentsline {chapter}{Bibliography}{44}{chapter*.52}

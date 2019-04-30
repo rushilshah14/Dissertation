@@ -72,10 +72,26 @@ Upguard, ``Which web programming language is the most secure?.''
   2018.
 \newblock Accessed: 01.10.2018.
 
+\bibitem{topfivecyber}
+M.~J. Garbade, ``Vulnerabilities reached a historic peak in 2017.''
+  \url{https://hackernoon.com/5-best-programming-languages-to-learn-for-cyber-security-be97071919f9},
+  2018.
+\newblock Accessed: 10.04.2019.
+
+\bibitem{webdev}
+Martin, ``Top programming languages used in web development.''
+  \url{https://www.cleverism.com/programming-languages-web-development/}, 2015.
+\newblock Accessed: 20.04.2019.
+
 \bibitem{laravel}
 Laravel, ``Laravel - the php framework for web artisans.''
   \url{https://laravel.com/}, 2018.
 \newblock Accessed: 11.11.2018.
+
+\bibitem{dbencrypt}
+D.~Watson, ``django-pgcrypto.''
+  \url{https://django-pgcrypto.readthedocs.io/en/latest/}, 2014.
+\newblock Accessed: 10.04.2019.
 
 \bibitem{pythonresearch2018}
 JetBrains, ``Jetbrains - python.''
@@ -145,11 +161,6 @@ Django, ``Documentation - 2.2.'' \url{https://docs.djangoproject.com/en/2.2/},
 Django, ``Documentation - security.''
   \url{https://docs.djangoproject.com/en/2.2/topics/security/}, 2018.
 \newblock Accessed: 20.11.2018.
-
-\bibitem{dbencrypt}
-D.~Watson, ``django-pgcrypto.''
-  \url{https://django-pgcrypto.readthedocs.io/en/latest/}, 2014.
-\newblock Accessed: 10.04.2019.
 
 \bibitem{danielquinn}
 D.~Quinn, ``django-encrypted-filefield.''
