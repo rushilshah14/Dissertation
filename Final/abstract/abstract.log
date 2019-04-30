@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  30 APR 2019 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  30 APR 2019 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,14 +465,14 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write3
 \openout3 = `abstract.out'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9.
  [1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 8.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 9.
  (./abstract.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 8.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 8.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 9.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9.
 Package rerunfilecheck Info: File `abstract.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -483,10 +483,10 @@ Here is how much of TeX's memory you used:
  11696 multiletter control sequences out of 15000+600000
  4290 words of font info for 16 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 45i,5n,45p,1025b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,5n,45p,877b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
 .pfb>
-Output written on abstract.pdf (1 page, 17053 bytes).
+Output written on abstract.pdf (1 page, 16631 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream

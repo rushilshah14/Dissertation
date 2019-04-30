@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  30 APR 2019 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.1)  30 APR 2019 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,14 +538,14 @@ File: images/mostLanguagesUsed.png Graphic file (type png)
 Package pdftex.def Info: images/mostLanguagesUsed.png  used on input line 24.
 (pdftex.def)             Requested size: 349.70697pt x 205.96976pt.
  [4 <./images/webserverdesign.png>]
-<images/languageAttacks.png, id=454, 327.2225pt x 390.45876pt>
+<images/languageAttacks.png, id=455, 327.2225pt x 390.45876pt>
 File: images/languageAttacks.png Graphic file (type png)
 <use images/languageAttacks.png>
 Package pdftex.def Info: images/languageAttacks.png  used on input line 31.
 (pdftex.def)             Requested size: 310.8596pt x 370.9337pt.
  [5 <./images/mostLanguagesUsed.png> <./images/languageAttacks.png>]) (./chapte
 r2/django.tex
-<images/djangovslaravelspeeds.png, id=473, 397.485pt x 275.52937pt>
+<images/djangovslaravelspeeds.png, id=474, 397.485pt x 275.52937pt>
 File: images/djangovslaravelspeeds.png Graphic file (type png)
 <use images/djangovslaravelspeeds.png>
 Package pdftex.def Info: images/djangovslaravelspeeds.png  used on input line 1
@@ -1014,7 +1014,7 @@ Here is how much of TeX's memory you used:
  12002 multiletter control sequences out of 15000+600000
  9974 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 36i,14n,43p,1764b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,43p,1758b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/amsfonts/c
@@ -1024,7 +1024,7 @@ nts/cm/cmsl12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (52 pages, 2456068 bytes).
+Output written on main.pdf (52 pages, 2455710 bytes).
 PDF statistics:
  961 PDF objects out of 1000 (max. 8388607)
  829 compressed objects within 9 object streams
