@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+        <li class="breadcrumb-item"><a href="/units">Units</a></li>
+        <li class="breadcrumb-item">Create a new form</li>
+    </ul>
+
+    <br>
+    <center>
+      <h1> New Extenutating Cicumstance Form</h1>
+        <h6> Please fill out the whole form and click submit</h6>
+    </center>
+        <form enctype="multipart/form-data" method="POST" action="newform?units={{request.GET.units}}"class="form-horizontal">
+            <!-- {{form}} -->
+            {% csrf_token %}
+         <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header card-header-info card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Student Information</h4>
+                  </div>
+                </div>
+                <div class="card-body ">
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">First Name</label>
+                      <div class="col-sm-10">
+                        <div class="form-group">
+                          <p class="form-control">{{request.user.first_name}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Last Name</label>
+                      <div class="col-sm-10">
+                        <div class="form-group">
+                          <p class="form-control">{{request.user.last_name}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label label-checkbox">Are you studying in the UK with a visa?</label>
+                      <div class="col-sm-10 checkbox-radios">
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="ukvisa" value="1" > Yes
+                            <span class="circle">
+                              <span class="check"></span>
+                            </span>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="ukvisa" value="0" checked=""> No
+                            <span class="circle">
+                              <span class="check"></span>
+                            </span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Programme of study</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <input required="" name="coursename" type="text" class="form-control" placeholder="Course name">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Level of study</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <input required="" name="studyyear" type="text" class="form-control" placeholder="Year (eg. 1)">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <input name="numberofunits" value="{{request.GET.units}}" type="text" class="form-control" hidden="">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Date</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group is-filled">
+                          <p class="form-control" id="date"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-info card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Units Affected By Extenuating Circumstances</h4>
+                  </div>
+                </div>
+
+               {% for i in units %}
+                <div id= "units-add" class="card">
+                  <div class="card-body ">
+                      <div class="row">
+                        <label class="col-sm-2 col-form-label">Unit Code</label>
+                        <div class="col-sm-10">
+                          <div class="form-group bmd-form-group">
+                            <input required="" name="unitcode{{i}}" type="text" class="form-control" placeholder="Module code">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <label class="col-sm-2 col-form-label">Assessment Type</label>
+                        <div class="col-sm-10">
+                          <div class="form-group bmd-form-group">
+                            <input required="" name="type{{i}}" type="text" class="form-control" placeholder="(e.g. assignment, exam, quiz, lab).  Please include all affected assessments for the unit(s) in question">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <label class="col-sm-2 col-form-label">Affected Start Date</label>
+                        <div class="col-sm-10">
+                          <div class="form-group bmd-form-group">
+                            <input required="" name="startdate{{i}}" type="Date" class="form-control" placeholder="DD/MM/YYYY">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <label class="col-sm-2 col-form-label">Affected End Date</label>
+                        <div class="col-sm-10">
+                          <div class="form-group bmd-form-group">
+                            <input required="" name="enddate{{i}}" type="Date" class="form-control" placeholder="DD/MM/YYYY">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                            <p>~This column should be left blank if the extenuating circumstances relate to absences only and not assessments. <br>
+                            Please insert a * next to the unit code if any of the units listed are Languages for All (LFA) units.  You must also provide the academic department providing  your LFA unit(s) with a copy of the form. </p>
+                      </div>
+
+                      <div class="row">
+                        <label class="col-sm-2 col-form-label">Requested Action</label>
+                        <div class="col-sm-10">
+                          <div class="form-group bmd-form-group">
+                            <select  name="action{{i}}" class="form-control" data-size="7" title="Single Select" required>
+                              <option disabled selected value="">Click to select one of the following</option>
+                              <option value="na">Not Assessed (another attempt permitted without capping grade)</option>
+                              <option value="np">No penalty for late submission</option>
+                              <option value="dex">Deadline Extension</option>
+                              <option value="au">Authorised Absence</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+                </div>
+              </div>
+
+
+             <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header card-header-info card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Duration Of Circumstance</h4>
+                  </div>
+                </div>
+
+
+                <div class="card-body ">
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Affected Start Date</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <input required="" name="durationstartdate" type="Date" class="form-control" placeholder="DD/MM/YYYY">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Affected End Date</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <input required="" name="durationenddate" type="Date" class="form-control" placeholder="DD/MM/YYYY">
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header card-header-info card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Details of cirumstances</h4>
+                  </div>
+                </div>
+
+
+                <div class="card-body ">
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Circumstance</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <select  name="circumstance" class="form-control" required>
+                            <option disabled selected value="">Click to select one of the following</option>
+                            <option value="1">Serious short term illness/accident/hospitalization*
+resulting in absence for more than 7 calendar days/affecting assessment.</option>
+                            <option value="2">A deterioration or fluctuation of a disability/long term health condition, resulting in absence of more than 7 calendar days and/or affecting assessment.**</option>
+                            <option value="3">Bereavement</option>
+                            <option value="4">Significant adverse personal/family circumstances</option>
+                            <option value="5">Other significant exceptional factors (including non-medical circumstances)</option>
+                            <option value="6">Frequent absence of less than 7 calendar days where no assessment is involved</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <label class="col-sm-2 col-form-label">Details of your extenuating circumstance</label>
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <textarea required="" id="detailecf" name="detailecf" rows= "7" class="form-control" placeholder="Type the details of your circumstance here..."></textarea>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header card-header-info card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Upload Files/Proof</h4>
+                  </div>
+                </div>
+
+
+                <div class="card-body ">
+
+                    <div class="row">
+                      <div class="col-sm-12">
+                          <h4> Upload all files as a SINGLE ZIP file </h4>
+                          <span> Non-zip files will not be allowed </span>
+                        <div class="form-group bmd-form-group">
+                            <input required="" type="file" name="fileinput" accept=".zip" id="real-input">
+                              <a class="btn btn-outline-info">
+                                Browse Zip
+                            </a>
+                            <span class="file-info">Upload a file</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header card-header-info card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Declaration</h4>
+                  </div>
+                </div>
+
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-sm-10">
+                      <label class="form-check-label">
+                        <p> By submitting this form I confirm that the information I have given on this form is correct to the best of my knowledge. I understand that appropriate University academic and support staff will have access to the information I have provided on this form </p>
+                      </label>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+              <button type="submit" id="submitbutton" class="btn btn-success pull-right">Submit Form</button>
+              <div class="clearfix"></div>
+          </form>
+        </div>
+      </div>
+      {%include 'base/footer.html'%}
+    </div>
+  </div>
+
+</body>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+
+const uploadButton = document.querySelector('.btn-outline-info');
+const fileInfo = document.querySelector('.file-info');
+const realInput = document.getElementById('real-input');
+
+uploadButton.addEventListener('click', (e) => {
+  realInput.click();
+});
+
+realInput.addEventListener('change', () => {
+  const name = realInput.value.split(/\\|\//).pop();
+  // const truncated = name.length > 20
+  //   ? name.substr(name.length - 20)
+  //   : name;
+
+  fileInfo.innerHTML = name;
+});
+</script>
+
+</html>

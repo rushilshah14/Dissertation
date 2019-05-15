@@ -1,0 +1,154 @@
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar no-print" data-color="purple" data-background-color="#ccdbe2" >
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+      <div class="logo">
+        <h6 class="simple-text logo-normal">
+          Extenuating Panel
+        </h6>
+      </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+        <!-- Navigation bar for students     -->
+        {% if usercheck == "1"%}
+            {%if navbardash == True%}
+                <li class="nav-item active  ">
+            {%else%}
+                <li class="nav-item  ">
+            {%endif%}
+                <a class="nav-link" href="/dashboard">
+                  <i class="material-icons">dashboard</i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+
+
+              {%if navbarnew == True%}
+                  <li class="nav-item active  ">
+              {%else%}
+                  <li class="nav-item  ">
+              {%endif%}
+                <a class="nav-link" href="/units">
+                  <i class="material-icons">create</i>
+                  <p>Submit A New Form</p>
+                </a>
+              </li>
+
+              {%if navbaruserp == True%}
+                  <li class="nav-item active  ">
+              {%else%}
+                  <li class="nav-item  ">
+              {%endif%}
+                <a class="nav-link" href="/userprofile">
+                  <i class="material-icons">person</i>
+                  <p>User Profile</p>
+                </a>
+              </li>
+
+        <!-- Navigation bar for secretary -->
+        {% elif usercheck == "2"%}
+            {%if navbarsecretary == True%}
+              <li class="nav-item active  ">
+            {%else%}
+              <li class="nav-item  ">
+            {%endif%}
+            <a class="nav-link" href="/secretarypanel/dashboard">
+              <i class="material-icons">person_outline</i>
+              <p>Secretary Panel</p>
+            </a>
+            </li>
+
+            {%if navbaruserp == True%}
+              <li class="nav-item active  ">
+            {%else%}
+              <li class="nav-item  ">
+            {%endif%}
+            <a class="nav-link" href="/userprofile">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="/admin">
+                <i class="material-icons">build</i>
+                <p>Admin Panel</p>
+              </a>
+            </li>
+
+        <!-- Navigation bar for scrutiny panel -->
+        {% elif usercheck == "3"%}
+            {%if navbarscrutiny == True%}
+              <li class="nav-item active  ">
+            {%else%}
+              <li class="nav-item  ">
+            {%endif%}
+            <a class="nav-link" href="/scrutinypanel/dashboard">
+              <i class="material-icons">group</i>
+              <p>Scrutiny Panel</p>
+            </a>
+            </li>
+
+            {%if navbaruserp == True%}
+              <li class="nav-item active  ">
+            {%else%}
+              <li class="nav-item  ">
+            {%endif%}
+            <a class="nav-link" href="/userprofile">
+              <i class="material-icons">person</i>
+              <p>User Profile</p>
+            </a>
+            </li>
+        {%else%}
+            {%if navbardash == True%}
+                <li class="nav-item active  ">
+            {%else%}
+                <li class="nav-item  ">
+            {%endif%}
+                <a class="nav-link" href="/dashboard">
+                  <i class="material-icons">dashboard</i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+        {%endif%}
+
+
+          <!-- <li class="nav-item active-pro ">
+            <a class="nav-link" href="./upgrade.html">
+              <i class="material-icons">unarchive</i>
+              <p>Upgrade to PRO</p>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+         <!--  <div class="navbar-wrapper">
+            <a class="navbar-brand" href="#pablo">Dashboard</a>
+          </div> -->
+
+          <div class="justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="material-icons">person</i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                  <a class="dropdown-item" href="/accounts/password/change">Password Change</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/accounts/logout">Log out</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container-fluid">

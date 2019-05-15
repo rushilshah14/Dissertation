@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+
+<div class="container">
+    <br>
+    {%if nouser == 1 %}
+        <div class="alert alert-danger">
+          <span><b> User not found! Please make sure the link is right.</b></span>
+        </div>
+    {%elif nodata == 1%}
+        <div class="alert alert-warning">
+          <span><b> User data not available yet! Check again later. </b></span>
+        </div>
+    {%else%}
+    <center>
+      <h1> Student Name: {{userdata.first_name}} {{userdata.last_name}}</h1>
+        <h6> The information below is a filtered version of the circumstance and has been updated by the secretary</h6>
+    </center>
+    <br>
+    <div class="col-md-12">
+        <div class="card ">
+            <div class="card-header card-header-warning card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Your current public extenuating details</h4>
+                <p class="card-category">This is the public version of your ECF which is available to staff members</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group bmd-form-group">
+                      <textarea disabled="" rows= "10" class="form-control" placeholder="Nothing available yet!">{{publicecf.publicecf}}</textarea>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{%endif%}
+</html>

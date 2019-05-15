@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+{%include 'base/header.html'%}
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {%if successform == 1 %}
+        <div class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Successfully submitted form</b></span>
+        </div>
+    {%elif successform == 2 %}
+        <div class="alert alert-danger">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Something went wrong! Please check each field and try again.</b></span>
+        </div>
+    {%endif%}
+
+        <div class="col-md-12">
+            <div class="card">
+              <div class="card-header card-header-danger">
+                  <h4 class="card-title">500 Error!</h4>
+                 </div>
+                 <div class="card-body">
+                <center>
+                  <p class="card-description">
+                    Unfortunately the page you are trying to access does not exist or has been removed. Kindly please go back to dashboard!
+                  </p>
+                  <a href="/dashboard" class="btn btn-danger btn-round">Dashboard</a>
+                  </center>
+                </div>
+              </div>
+         </div>
+
+</html>

@@ -1,0 +1,76 @@
+<footer class="footer">
+  <div class="container-fluid">
+
+    <nav class="float-left">
+        <ul>
+            {% if usercheck == "1"%}
+                <li>
+                    <a class="nav-link" href="/dashboard">
+                      <p>Dashboard</p>
+                    </a>
+                 </li>
+
+                  <li>
+                    <a class="nav-link" href="/units">
+                      <p>Submit A New Form</p>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="/userprofile">
+                      <p>User Profile</p>
+                    </a>
+                  </li>
+
+            <!-- Navigation bar for secretary -->
+            {% elif usercheck == "2"%}
+                <li>
+                    <a class="nav-link" href="/secretarypanel/dashboard">
+                      <p>Secretary Panel</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="/userprofile">
+                      <p>User Profile</p>
+                    </a>
+                </li>
+
+                <li>
+                  <a class="nav-link" href="/admin">
+                    <p>Admin Panel</p>
+                  </a>
+                </li>
+
+            <!-- Navigation bar for scrutiny panel -->
+            {% elif usercheck == "3"%}
+                <li>
+                    <a class="nav-link" href="/scrutinypanel/dashboard">
+
+                      <p>Scrutiny Panel</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="/userprofile">
+                      <p>User Profile</p>
+                    </a>
+                </li>
+            {%else%}
+                <li>
+                    <a class="nav-link" href="/dashboard">
+                      <p>Dashboard</p>
+                    </a>
+                  </li>
+            {%endif%}
+
+        </ul>
+    </nav>
+    <div class="copyright float-right">
+      &copy;
+      <script>
+        document.write(new Date().getFullYear())
+      </script> Sheffield Extenuating Circumstance
+    </div>
+  </div>
+</footer>

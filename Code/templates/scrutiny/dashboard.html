@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+
+    <ul class="breadcrumb">
+        <!-- <li class="breadcrumb-item"><a href="/dashboard">Home</a></li> -->
+        <li class="breadcrumb-item">Scrutiny Panel Dashboard</li>
+    </ul>
+    <br>
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-warning card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">hourglass_empty</i>
+            </div>
+            <p class="card-category">Pending Approval</p>
+            <h3 class="card-title">{{counterpending}}
+              <small>Forms</small>
+            </h3>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-success card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">done</i>
+            </div>
+            <p class="card-category">Approved</p>
+            <h3 class="card-title">{{counterapproved}}
+              <small>Forms</small>
+            </h3>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-danger card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">warning</i>
+            </div>
+            <p class="card-category">Rejected</p>
+            <h3 class="card-title">{{counterrejected}}
+              <small>Forms</small>
+            </h3>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card card-stats">
+          <div class="card-header card-header-info card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">info_outline</i>
+            </div>
+            <p class="card-category">Partially Approved</p>
+            <h3 class="card-title">{{counterpartial}}
+                <small>Forms</small>
+            </h3>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title">Extenuating Circumstance Applications</h4>
+                    <p class="card-category">Pending forms can be viewed here</p>
+                </div>
+                <div class="card-body table-responsive">
+                    <div class="material-datatables">
+                        <table id="datatables" class="table table-striped table-no-bordered table-hover" cellspacing="0" width="100%" style="width:100%">
+                            <thead class="text-info">
+                                <th>Form ID</th>
+                                <th>Student</th>
+                                <th>Circumstance</th>
+                                <th>Status</th>
+                                <th>View</th>
+                            </thead>
+
+                            <tbody>
+                            {% for item in allforms_data %}
+                            {%if item.finalmod == 0%}
+                                <tr>
+                                  <td>{{item.id}}</td>
+                                  <td>{{item.fullname}}</td>
+                                  {% if item.circumstance == "1" %}
+                                      <td class="ellipsis">Serious short term illness/accident/hospitalization resulting in absence for more than 7 calendar days/affecting assessment.</td>
+                                  {% elif item.circumstance == "2" %}
+                                      <td class="ellipsis">A deterioration or fluctuation of a disability/long term health condition, resulting in absence of more than 7 calendar days and/or affecting assessment.</td>
+                                  {% elif item.circumstance == "3" %}
+                                      <td class="ellipsis">Bereavement</td>
+                                  {% elif item.circumstance == "4" %}
+                                      <td class="ellipsis">Significant adverse personal/family circumstances</td>
+                                  {% elif item.circumstance == "5" %}
+                                      <td class="ellipsis">Other significant exceptional factors (including non-medical circumstances)</td>
+                                  {% elif item.circumstance == "6" %}
+                                      <td class="ellipsis">Frequent absence of less than 7 calendar days where no assessment is involved</td>
+                                  {% endif %}
+                                  {% if item.finalmod == 0%}
+                                      <td class="pendingspan">Pending</td>
+                                  {% elif item.finalmod == 1%}
+                                      <td class="approvedspan">Approved</td>
+                                  {% elif item.finalmod == 2%}
+                                      <td class="rejectedspan">Rejected</td>
+                                  {% elif item.finalmod == 3%}
+                                      <td class="mixedapprovalspan">Partially Approved</td>
+                                  {% elif item.finalmod == 4%}
+                                      <td class="mixedpendingspan">Partially Pending</td>
+                                  {%endif%}
+                                  <td><a href="viewform?id={{item.id}}">View</a></td>
+                                </tr>
+                            {%endif%}
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {%include 'base/footer.html'%}
+
+</html>

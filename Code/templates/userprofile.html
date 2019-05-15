@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+
+<ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+    <li class="breadcrumb-item">User Profile</li>
+</ul>
+
+<br>
+    {%if successform == 1 %}
+        <div class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Successfully updated!</span>
+        </div>
+    {%elif successform == 2 %}
+        <div class="alert alert-danger">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Something went wrong! Please try again.</span>
+        </div>
+    {%endif%}
+
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-icon card-header-primary">
+              <div class="card-icon">
+                <i class="material-icons">perm_identity</i>
+              </div>
+              <h4 class="card-title">Student Profile
+                <!-- <small class="category">Complete your profile</small> -->
+              </h4>
+            </div>
+            <div class="card-body">
+              <form  method="POST" action="/userprofile" class="form-horizontal">
+                  <!-- {{form}} -->
+                  {% csrf_token %}
+                    <div class="col-md-10">
+                        <div class="form-group bmd-form-group">
+                          <label class="bmd-label-floating">Email Address</label>
+                          <input type="email" disabled="" required="" class="form-control" value="{{request.user.email}}" >
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="form-group bmd-form-group">
+                          <label class="bmd-label-floating">First Name</label>
+                          <input type="text" name="first_name" required="" class="form-control" value="{{request.user.first_name}}" >
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="form-group bmd-form-group">
+                          <label class="bmd-label-floating">Last Name</label>
+                          <input type="text" name="last_name" required="" class="form-control" value="{{request.user.last_name}}" >
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="form-group bmd-form-group">
+                          <label class="bmd-label-floating">Date of Birth</label>
+                          <input name="dob" class="form-control" required="" placeholder="DD/MM/YYYY" value="{{userprofiledata.dob|date:'d/m/Y'}}" >
+                        </div>
+                    </div>
+                    <br>
+                <button type="submit" class="btn btn-outline-primary pull-left">Update Profile</button>
+                <div class="clearfix"></div>
+              </form>
+            </div>
+        </div>
+        <br>
+        {%if usercheck == "1"%}
+            <div class="card ">
+                <div class="card-header card-header-warning card-header-text">
+                  <div class="card-text">
+                    <h4 class="card-title">Your current public extenuating details</h4>
+                    <p class="card-category">This is the public version of your ECF which is available to staff members</p>
+
+                  </div>
+                </div>
+                <div class="card-body ">
+                    <div class="row">
+                      <div class="col-sm-10">
+                        <div class="form-group bmd-form-group">
+                          <textarea disabled="" rows= "10" class="form-control" placeholder="Nothing available yet!">{{userpubdata.publicecf}}</textarea>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+        {%endif%}
+    </div>
+
+
+        {%include 'base/footer.html'%}
+
+</html>

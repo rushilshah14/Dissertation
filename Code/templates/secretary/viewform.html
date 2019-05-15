@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+<div id="#printcontainer">
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+        <li class="breadcrumb-item"><a href="/secretarypanel/dashboard">Forms</a></li>
+        <li class="breadcrumb-item">Form ID #{{formid_get}}</li>
+    </ul>
+
+    <br>
+    {%if success == 1 %}
+        <div class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Successfully updated!</b></span>
+        </div>
+    {%elif success == 2 %}
+        <div class="alert alert-danger">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Something went wrong! Please try again!</b></span>
+        </div>
+    {%endif%}
+
+    <center>
+      <h1> Submitted form summary</h1>
+        <h6> The following are the details of the form submitted by the student. You can add public data at the end. </h6>
+    </center>
+    <button type="button" class="btn btn-outline-primary fa fa-print pull-right" onclick="printJ()"> Print</button>
+    <button type="button" class="btn btn-outline-primary fa fa-download pull-right" onclick="pdfprint()"> PDF</button>
+    <br>
+    <br>
+    <div class="col-md-12">
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">User Details</h4>
+                <p class="card-category">Student details</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">First Name</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{userdata.first_name}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Last Name</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{userdata.last_name}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{request.user.email}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Visa Student</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                        {% if ecfdata_info.ukvisa == 0 %}
+                            <p class="form-control-static">No</p>
+                        {% elif ecfdata_info.ukvisa == 1 %}
+                            <p class="form-control-static">Yes</p>
+                        {%endif%}
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Programme of study</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.coursename}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Level of study</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.studyyear}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Number of units</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.numberofunits}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Date Submitted</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.uploaded_at}}</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Circumstance Details</h4>
+                <p class="card-category">Details of your circumstance</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Circumstance Start Date</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.durationstartdate}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Circumstance End Date</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.durationenddate}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Circumstance</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                        {% if ecfdata_info.circumstance == "1" %}
+                            <p class="form-control-static">Serious short term illness/accident/hospitalization resulting in absence for more than 7 calendar days/affecting assessment.</p>
+                        {% elif ecfdata_info.circumstance == "2" %}
+                            <p class="form-control-static">A deterioration or fluctuation of a disability/long term health condition, resulting in absence of more than 7 calendar days and/or affecting assessment.</p>
+                        {% elif ecfdata_info.circumstance == "3" %}
+                            <p class="form-control-static">Bereavement</p>
+                        {% elif ecfdata_info.circumstance == "4" %}
+                            <p class="form-control-static">Significant adverse personal/family circumstances</p>
+                        {% elif ecfdata_info.circumstance == "5" %}
+                            <p class="form-control-static">Other significant exceptional factors (including non-medical circumstances)</p>
+                        {% elif ecfdata_info.circumstance == "6" %}
+                            <p class="form-control-static">Frequent absence of less than 7 calendar days where no assessment is involved</p>
+                        {%endif%}
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Description of circumstance</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.detailecf}}</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Module Details</h4>
+                <p class="card-category">You can approve each module on the next part</p>
+              </div>
+            </div>
+
+            <div class="card-body table-responsive">
+            <table class="table table-hover">
+                <thead class="text-info">
+                <th>ID</th>
+                <th>Unitcode</th>
+                <th>Assessment Type</th>
+                <th>Affected Start Date</th>
+                <th>Affected End Date</th>
+                <th>Action</th>
+                <th>Status</th>
+                <th>Edit</th>
+                </thead>
+                <tbody>
+                    {% for item in moduledata_info %}
+                  <tr>
+                    <td>{{item.id}}</td>
+                    <td>{{item.unitcode}}</td>
+                    <td>{{item.type}}</td>
+                    <td>{{item.startdate}}</td>
+                    <td>{{item.enddate}}</td>
+                    {%if item.action == "na"%}
+                        <td>Not Assessed(Another attempt permitted)</td>
+                    {%elif item.action == "np"%}
+                        <td>No Penalty(Late Submission)</td>
+                    {%elif item.action == "dex"%}
+                        <td>Deadline Extension</td>
+                    {%elif item.action == "au"%}
+                        <td>Authorised Absense</td>
+                    {%endif%}
+                    {%if item.approved == 0 %}
+                        <td class="pendingspan">Pending</td>
+                    {%elif item.approved == 1 %}
+                        <td class="approvedspan">Approved</td>
+                    {%elif item.approved == 2 %}
+                        <td class="rejectedspan">Rejected</td>
+                    {%endif%}
+                    <td> <button type="button" class="btn btn-outline-info fa fa-pencil openBtn" data-toggle="modal" data-modid="{{item.id}}" data-action="{{item.action}}" data-approved="{{item.approved}}" href="#editModModal"> Edit</button></td>
+
+                  </tr>
+                  {%endfor%}
+                </tbody>
+            </table>
+            {% if finalmod == 1 %}
+                <p> Your final approval status is: <span class="approvedspan"> Entirely Approved</span></p>
+            {% elif finalmod == 0 %}
+                <p> Your final approval status is: <span class="pendingspan"> Entirely Pending</span></p>
+            {% elif finalmod == 2 %}
+                <p> Your final approval status is: <span class="rejectedspan"> Entirely Rejected</span></p>
+            {% elif finalmod == 3 %}
+                <p> Your final approval status is: <span class="mixedapprovalspan"> Partially Approved</span></p>
+            {% elif finalmod == 4 %}
+                <p> Your final approval status is: <span class="mixedpendingspan"> Partially Pending</span></p>
+            {%endif%}
+            </div>
+        </div>
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Uploaded Files</h4>
+                <p class="card-category">You can download the files you uploaded</p>
+              </div>
+            </div>
+            <div class="card-body table-responsive">
+                <div class="switch-pull-right">
+                    <div class="onoffswitch">
+                        {%if ecfdata_info.moreproof == 1%}
+                            <form  method="POST" action="/secretarypanel/viewform?id={{formid_get}}&requestmore=0" class="form-horizontal">
+                                {% csrf_token %}
+                                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" onclick="this.form.submit();" checked>
+                                <label class="onoffswitch-label" for="myonoffswitch">
+                                    <span class="onoffswitch-inner"></span>
+                                    <span class="onoffswitch-switch"></span>
+                                </label>
+                              <!-- <input type="checkbox" data-on="Requested Files" name="requestmore" onclick="this.form.submit();" checked>
+                              <span class="slider round"></span> -->
+                            </form>
+                        {%else %}
+                        <form  method="POST" action="/secretarypanel/viewform?id={{formid_get}}&requestmore=1" class="form-horizontal">
+                            {% csrf_token %}
+                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" onclick="this.form.submit();">
+                            <label class="onoffswitch-label" for="myonoffswitch">
+                                <span class="onoffswitch-inner"></span>
+                                <span class="onoffswitch-switch"></span>
+                            </label>
+                            <!-- <input type="checkbox" data-on="Request Files" name="requestmore" onclick="this.form.submit();"> -->
+                        </form>
+                        {%endif%}
+                    </div>
+                </div>
+            <table class="table table-hover">
+                <thead class="text-info">
+                <th>Upload ID</th>
+                <th>File Name</th>
+                <th>Upload Date</th>
+                <th>Download</th>
+                </thead>
+                <tbody>
+                    {% for item in fileupload_data %}
+                  <tr>
+                    <td>{{item.id}}</td>
+                    <td>{{item.filename}}</td>
+                    <td>{{item.uploaded_at}}</td>
+                    <td><a href="{{item.document.url}}">Download</td>
+                  </tr>
+                  {%endfor%}
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-warning card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Students Current Public Extenuating Circumstance Details</h4>
+                <p class="card-category">These are the students public details</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+            <form  method="POST" action="/secretarypanel/viewform?id={{ecfdata_info.id}}" class="form-horizontal">
+                <!-- {{form}} -->
+                {% csrf_token %}
+                <div class="row">
+                  <div class="col-sm-10">
+                    <div class="form-group bmd-form-group">
+                      <textarea id="publicecf" name="publicecf" rows= "7" class="form-control" placeholder="Type the details of the circumstance other staff members can access!">{{publicecf_data.publicecf}}</textarea>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" name="pubdata" class="btn btn-success pull-left">Save Public Data</button>
+                <div class="clearfix"></div>
+            </form>
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="editModModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <form method="POST" action="/secretarypanel/viewform?id={{ecfdata_info.id}}"class="form-horizontal">
+                        <div class="modal-header">
+                            <h4 class="card-title">Edit Module Data</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- {{formone}} -->
+                            {% csrf_token %}
+                            <div class="card-body ">
+                                  <input type="number" class="form-control" name="modid" hidden="">
+                                <div class="form-group">
+                                  <label class="bmd-label">Action</label>
+                                  <select name="action" class="form-control" data-size="7" title="Single Select" id="action">
+                                    <option disabled selected>Click to select one of the following</option>
+                                    <option value="na">Not Assessed (another attempt permitted without capping grade)</option>
+                                    <option value="np">No penalty for late submission</option>
+                                    <option value="dex">Deadline Extension</option>
+                                    <option value="au">Authorised Absence</option>
+                                  </select>
+                                  <!-- <input type="text" class="form-control" id="action" name="action"> -->
+                                </div>
+                                <div class="form-group">
+                                  <label class="bmd-label">Approved</label>
+                                  <select name="approved" class="form-control" data-size="7" id="approved">
+                                    <option disabled selected>Click to select one of the following</option>
+                                    <option value="0">Pending</option>
+                                    <option value="1">Approved</option>
+                                    <option value="2">Rejected</option>
+                                  </select>
+                                  <!-- <input type="number" class="form-control" name="approved"> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="button" class="btn btn-default" data-dismiss="modal" value="Dismiss" />
+                            <button type="submit" name="moddata" class="btn btn-success pull-left">Submit</button>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {%include 'base/footer.html'%}
+
+</div>
+<script>
+$('#editModModal').on('show.bs.modal', function(e) {
+    var modid = $(e.relatedTarget).data('modid');
+    var action = $(e.relatedTarget).data('action');
+    var approved = $(e.relatedTarget).data('approved');
+    $(e.currentTarget).find('input[name="modid"]').val(modid);
+    $(e.currentTarget).find('select[name="action"]').val(action);
+    $(e.currentTarget).find('select[name="approved"]').val(approved);
+});
+
+</script>
+
+</html>

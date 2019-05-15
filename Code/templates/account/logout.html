@@ -1,0 +1,22 @@
+<html>
+
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+<div class="content">
+    <div class="container-fluid">
+          <h1>Sign Out</h1>
+
+          <p>Are you sure you want to sign out?</p>
+
+          <form method="post" action="{% url 'account_logout' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <button class="btn btn-danger" type="submit">Sign Out</button>
+          </form>
+        </div>
+      </div>
+</div>
+
+
+</body></html>

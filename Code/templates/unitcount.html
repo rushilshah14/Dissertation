@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+        <li class="breadcrumb-item">Number of units</li>
+    </ul>
+    <br>
+
+    <center>
+      <h1> New Extenutating Cicumstance Form</h1>
+        <h6> Please enter the number of modules affected due to the situation</h6>
+    </center>
+    {%if nounits == 1 %}
+        <div class="alert alert-danger">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="material-icons">close</i>
+          </button>
+          <span><b> Please select a number between 1 and 9</b></span>
+        </div>
+    {%endif%}
+            <form method="get" action="{% url 'newform' %}" class="form-horizontal">
+              <div class="col-md-12">
+                <div class="card ">
+                  <div class="card-header card-header-info card-header-text">
+                    <div class="card-text">
+                      <h4 class="card-title">Number of modules affected</h4>
+                    </div>
+                  </div>
+                    <div class="card-body ">
+                      <div class="row">
+                        <label class="col-sm-4 col-form-label">Number of modules affected by your circumstance</label>
+                        <div class="col-sm-2">
+                          <div class="form-group bmd-form-group">
+                            <input type="number" required="" name="units" value="{{request.GET.units}}" class="form-control" placeholder="0">
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-success pull-left">Next</button>
+                  <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+      </div>
+      {%include 'base/footer.html'%}
+    </div>
+  </div>
+
+</body>
+
+</html>

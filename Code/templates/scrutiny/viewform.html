@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+{%include 'base/header.html'%}
+{%include 'base/nav.html'%}
+<div id="#printcontainer">
+
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+        <li class="breadcrumb-item"><a href="/dashboard">Forms</a></li>
+        <li class="breadcrumb-item">Form ID #{{formid_get}}</li>
+    </ul>
+
+    <br>
+    <center>
+      <h1> Submitted form summary</h1>
+        <h6> The following are the details of the form already sumbitted. Each module is approved individually!</h6>
+    </center>
+    <button type="button" class="btn btn-outline-primary fa fa-print pull-right" onclick="printJ()"> Print</button>
+    <button type="button" class="btn btn-outline-primary fa fa-download pull-right" onclick="pdfprint()"> PDF</button>
+    <br>
+    <br>
+    <div class="col-md-12">
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">User Details</h4>
+                <p class="card-category">Student details</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">First Name</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{userdata.first_name}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Last Name</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{userdata.last_name}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Visa Student</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                        {% if ecfdata_info.ukvisa == 0 %}
+                            <p class="form-control-static">No</p>
+                        {% elif ecfdata_info.ukvisa == 1 %}
+                            <p class="form-control-static">Yes</p>
+                        {%endif%}
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Programme of study</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.coursename}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Level of study</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.studyyear}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Number of units</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.numberofunits}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Date Submitted</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.uploaded_at}}</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Circumstance Details</h4>
+                <p class="card-category">Details of your circumstance</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Circumstance Start Date</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.durationstartdate}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Circumstance End Date</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.durationenddate}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Circumstance</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                        {% if ecfdata_info.circumstance == "1" %}
+                            <p class="form-control-static">Serious short term illness/accident/hospitalization resulting in absence for more than 7 calendar days/affecting assessment.</p>
+                        {% elif ecfdata_info.circumstance == "2" %}
+                            <p class="form-control-static">A deterioration or fluctuation of a disability/long term health condition, resulting in absence of more than 7 calendar days and/or affecting assessment.</p>
+                        {% elif ecfdata_info.circumstance == "3" %}
+                            <p class="form-control-static">Bereavement</p>
+                        {% elif ecfdata_info.circumstance == "4" %}
+                            <p class="form-control-static">Significant adverse personal/family circumstances</p>
+                        {% elif ecfdata_info.circumstance == "5" %}
+                            <p class="form-control-static">Other significant exceptional factors (including non-medical circumstances)</p>
+                        {% elif ecfdata_info.circumstance == "6" %}
+                            <p class="form-control-static">Frequent absence of less than 7 calendar days where no assessment is involved</p>
+                        {%endif%}
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <label class="col-sm-2 col-form-label">Description of circumstance</label>
+                  <div class="col-sm-10">
+                    <div class="form-group">
+                      <p class="form-control-static">{{ecfdata_info.detailecf}}</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Module Details</h4>
+                <p class="card-category">Each module will be approved individually!</p>
+              </div>
+            </div>
+
+            <div class="card-body table-responsive">
+            <table class="table table-hover">
+                <thead class="text-info">
+                <th>Unitcode</th>
+                <th>Assessment Type</th>
+                <th>Affected Start Date</th>
+                <th>Affected End Date</th>
+                <th>Action</th>
+                <th>Status</th>
+                </thead>
+                <tbody>
+                    {% for item in moduledata_info %}
+                  <tr>
+                    <td>{{item.unitcode}}</td>
+                    <td>{{item.type}}</td>
+                    <td>{{item.startdate}}</td>
+                    <td>{{item.enddate}}</td>
+                    {%if item.action == "na"%}
+                        <td>Not Assessed(Another attempt permitted)</td>
+                    {%elif item.action == "np"%}
+                        <td>No Penalty(Late Submission)</td>
+                    {%elif item.action == "dex"%}
+                        <td>Deadline Extension</td>
+                    {%elif item.action == "au"%}
+                        <td>Authorised Absense</td>
+                    {%endif%}
+                    {%if item.approved == 0 %}
+                        <td class="pendingspan">Pending</td>
+                    {%elif item.approved == 1 %}
+                        <td class="approvedspan">Approved</td>
+                    {%elif item.approved == 2 %}
+                        <td class="rejectedspan">Rejected</td>
+                    {%endif%}
+                  </tr>
+                  {%endfor%}
+                </tbody>
+            </table>
+            {% if finalmod == 1 %}
+                <p> Your final approval status is: <span class="approvedspan"> Entirely Approved</span></p>
+            {% elif finalmod == 0 %}
+                <p> Your final approval status is: <span class="pendingspan"> Entirely Pending</span></p>
+            {% elif finalmod == 2 %}
+                <p> Your final approval status is: <span class="rejectedspan"> Entirely Rejected</span></p>
+            {% elif finalmod == 3 %}
+                <p> Your final approval status is: <span class="mixedapprovalspan"> Partially Approved</span></p>
+            {% elif finalmod == 4 %}
+                <p> Your final approval status is: <span class="mixedpendingspan"> Partially Pending</span></p>
+            {%endif%}
+            </div>
+        </div>
+        <br>
+
+        <div class="card ">
+            <div class="card-header card-header-info card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Uploaded Files</h4>
+                <p class="card-category">You can download the files you uploaded</p>
+              </div>
+            </div>
+
+            <div class="card-body table-responsive">
+            <table class="table table-hover">
+                <thead class="text-info">
+                <th>Upload ID</th>
+                <th>File Name</th>
+                <th>Upload Date</th>
+                <th>Download</th>
+                </thead>
+                <tbody>
+                    {% for item in fileupload_data %}
+                  <tr>
+                    <td>{{item.id}}</td>
+                    <td>{{item.filename}}</td>
+                    <td>{{item.uploaded_at}}</td>
+                    <td><a href="{{item.document.url}}">Download</td>
+                  </tr>
+                  {%endfor%}
+                </tbody>
+            </table>
+            </div>
+        </div>
+
+        <br>
+        <div class="card ">
+            <div class="card-header card-header-warning card-header-text">
+              <div class="card-text">
+                <h4 class="card-title">Your current public extenuating details</h4>
+                <p class="card-category">This is the public version of your ECF which is available to staff members</p>
+
+              </div>
+            </div>
+            <div class="card-body ">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="form-group bmd-form-group">
+                      <textarea disabled="" rows= "10" class="form-control" placeholder="Nothing available yet!">{{publicecf.publicecf}}</textarea>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+</div>
+    {%include 'base/footer.html'%}
+</div>
+</html>
+
+<script>
+
+const uploadButton = document.querySelector('.btn-outline-danger');
+const fileInfo = document.querySelector('.file-info');
+const realInput = document.getElementById('real-input');
+
+uploadButton.addEventListener('click', (e) => {
+  realInput.click();
+});
+
+realInput.addEventListener('change', () => {
+  const name = realInput.value.split(/\\|\//).pop();
+  // const truncated = name.length > 20
+  //   ? name.substr(name.length - 20)
+  //   : name;
+
+  fileInfo.innerHTML = name;
+});
+
+</script>
