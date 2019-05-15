@@ -1,10 +1,10 @@
 \contentsline {chapter}{Title Page}{i}{Doc-Start}
-\contentsline {chapter}{Declaration}{ii}{chapter*.1}
-\contentsline {chapter}{Abstract}{iii}{chapter*.2}
-\contentsline {chapter}{Acknowledgements}{iv}{chapter*.3}
-\contentsline {chapter}{Table of Contents}{vi}{chapter*.4}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.5}
-\contentsline {chapter}{List of Tables}{viii}{chapter*.6}
+\contentsline {chapter}{Declaration}{ii}{figure.caption.2}
+\contentsline {chapter}{Abstract}{iii}{chapter*.3}
+\contentsline {chapter}{Acknowledgements}{iv}{chapter*.4}
+\contentsline {chapter}{Table of Contents}{vi}{chapter*.5}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.6}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem}{1}{section.1.2}
@@ -30,10 +30,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Secretary Panel}{11}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Scrutiny Panel}{11}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Testing}{12}{section.3.4}
-\contentsline {subsubsection}{SQL Queries}{12}{subsubsection*.13}
-\contentsline {subsubsection}{Cross Site Scripting}{12}{subsubsection*.14}
-\contentsline {subsubsection}{Automated Testing}{12}{subsubsection*.15}
-\contentsline {subsubsection}{User Testing}{12}{subsubsection*.16}
+\contentsline {subsubsection}{SQL Queries}{12}{subsubsection*.14}
+\contentsline {subsubsection}{Cross Site Scripting}{12}{subsubsection*.15}
+\contentsline {subsubsection}{Automated Testing}{12}{subsubsection*.16}
+\contentsline {subsubsection}{User Testing}{12}{subsubsection*.17}
 \contentsline {section}{\numberline {3.5}Summary}{12}{section.3.5}
 \contentsline {chapter}{\numberline {4}Design}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}
@@ -48,29 +48,29 @@
 \contentsline {subsection}{\numberline {5.2.1}HTML}{17}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}JavaScript}{19}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Django}{19}{subsection.5.2.3}
-\contentsline {subsubsection}{Authentication \& Database}{20}{subsubsection*.20}
-\contentsline {subsubsection}{New Form}{21}{subsubsection*.23}
-\contentsline {subsubsection}{Dashboard}{22}{subsubsection*.26}
-\contentsline {subsubsection}{View Form}{24}{subsubsection*.29}
-\contentsline {subsubsection}{Profile Page}{26}{subsubsection*.32}
-\contentsline {subsubsection}{Student Record}{27}{subsubsection*.34}
-\contentsline {subsubsection}{Email Notifications}{27}{subsubsection*.36}
+\contentsline {subsubsection}{Authentication \& Database}{20}{subsubsection*.21}
+\contentsline {subsubsection}{New Form}{21}{subsubsection*.24}
+\contentsline {subsubsection}{Dashboard}{22}{subsubsection*.27}
+\contentsline {subsubsection}{View Form}{24}{subsubsection*.30}
+\contentsline {subsubsection}{Profile Page}{26}{subsubsection*.33}
+\contentsline {subsubsection}{Student Record}{27}{subsubsection*.35}
+\contentsline {subsubsection}{Email Notifications}{27}{subsubsection*.37}
 \contentsline {section}{\numberline {5.3}Complications}{28}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Student Panel}{28}{subsection.5.3.1}
-\contentsline {subsubsection}{Dashboard}{28}{subsubsection*.37}
-\contentsline {subsubsection}{New Form}{28}{subsubsection*.38}
-\contentsline {subsubsection}{View Form}{28}{subsubsection*.39}
+\contentsline {subsubsection}{Dashboard}{28}{subsubsection*.38}
+\contentsline {subsubsection}{New Form}{28}{subsubsection*.39}
+\contentsline {subsubsection}{View Form}{28}{subsubsection*.40}
 \contentsline {subsection}{\numberline {5.3.2}Secretary Panel}{28}{subsection.5.3.2}
-\contentsline {subsubsection}{Dashboard}{28}{subsubsection*.40}
-\contentsline {subsubsection}{View Form}{29}{subsubsection*.41}
+\contentsline {subsubsection}{Dashboard}{28}{subsubsection*.41}
+\contentsline {subsubsection}{View Form}{29}{subsubsection*.42}
 \contentsline {section}{\numberline {5.4}Testing}{29}{section.5.4}
 \contentsline {section}{\numberline {5.5}Summary}{30}{section.5.5}
 \contentsline {chapter}{\numberline {6}Evaluation}{31}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{31}{section.6.1}
 \contentsline {section}{\numberline {6.2}Results}{31}{section.6.2}
-\contentsline {subsubsection}{Email Notifications (Additional Feature)}{37}{subsubsection*.49}
+\contentsline {subsubsection}{Email Notifications (Additional Feature)}{37}{subsubsection*.50}
 \contentsline {section}{\numberline {6.3}Discussion}{37}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{38}{section.6.4}
 \contentsline {section}{\numberline {6.5}Summary}{40}{section.6.5}
 \contentsline {chapter}{\numberline {7}Conclusion}{41}{chapter.7}
-\contentsline {chapter}{Bibliography}{44}{chapter*.52}
+\contentsline {chapter}{Bibliography}{44}{chapter*.53}
